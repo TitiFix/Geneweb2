@@ -56,23 +56,6 @@ value encode s =
       if Mutil.utf_8_db.val then s else Mutil.utf_8_of_iso_8859_1 s ]
 ;
 
-value br = "<br>";
-value find_br s ini_i =
-  let ini = "<br" in
-  loop 0 ini_i where rec loop i j =
-    if i = String.length ini then
-      (* Trouvé, maintenant, on regarde comment se ferme la balise. *)
-      loop2 j where rec loop2 j =
-        if j = String.length s then br
-        else if s.[j] = '>' then String.sub s ini_i (j - ini_i + 1)
-        else loop2 (j + 1)
-    else if j = String.length s then br
-    else if String.unsafe_get ini i = String.unsafe_get s j then
-      loop (i + 1) (j + 1)
-    else br
-;
-
-
 value max_len = 78;
 
 value br = "<br>";
