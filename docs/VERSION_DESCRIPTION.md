@@ -19,7 +19,7 @@ These branch is temporary for GEDCOM import/export update/improvement
 The official documentation : http://geneweb.tuxfamily.org/
 
 Additional documentation for import / export GEDCOM :
-* current [WIKI](../wiki)
+* current [WIKI](/geneweb/wiki)
 * Gedcom structure [LINEAGE LINKED FORM](ged/Ged.LINEAGE_LINKED_STRUCTURE.md)
 
 GEDCOM reference documentation : https://www.familysearch.org/developers/docs/gedcom/
@@ -29,12 +29,12 @@ The GEDCOM specifications 5.5 and draft 5.5.1 are provided only as a reference)
 ## ISSUES SOLVED IN THIS VERSION :
 see all issues on https://github.com/geneweb/geneweb/issues
 
-	> #164 - export Gedcom UTF8 
-	> #576 - Converting failure of a text file (from utf8 to unicode) 
-	> #611 - Do not split line in the middle of a multi-byte utf-8 char 
-	> #627 - Import/Export GEDCOM : Incorrect charset name used 
-	> #631 - PR #630 : Export GEDCOM : The text of the notes is no longer cut to a fixed length 
-	> #634 - PR #635 : Some command line syntax errors for ged2gwb etc ... not processed. 
+	#164 - export Gedcom UTF8 
+	#576 - Converting failure of a text file (from utf8 to unicode) 
+	#611 - Do not split line in the middle of a multi-byte utf-8 char 
+	#627 - Import/Export GEDCOM : Incorrect charset name used 
+	#631 - PR #630 : Export GEDCOM : The text of the notes is no longer cut to a fixed length 
+	#634 - PR #635 : Some command line syntax errors for ged2gwb etc ... not processed. 
 
 ## KNOWN BUGS/ERRORS, ENHANCEMENT :
 see all issues on https://github.com/geneweb/geneweb/issues
