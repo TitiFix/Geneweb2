@@ -1,13 +1,13 @@
 # VERSION DESCRIPTION DOCUMENT
-********************************************************
 ## Version Informations and Overview
 
-### Version Informations : 
+### General informations : 
 	GeneWeb Version 7.00.exp
-	cf https://github.com/geneweb/geneweb
+	see https://github.com/geneweb/geneweb
 	Licence GNU GENERAL PUBLIC LICENSE V2 - cf [LICENSE](../LICENSE) file 
 
 	Current Fork/branch
+		https://github.com/TitiFix/geneweb
 		Fork TitiFix\GeneWeb
 		Branch gedImprovements
 
@@ -19,8 +19,8 @@ These branch is temporary for GEDCOM import/export update/improvement
 The official documentation : http://geneweb.tuxfamily.org/
 
 Additional documentation for import / export GEDCOM :
-* current [WIKI](/geneweb/wiki)
-* Gedcom structure [LINEAGE LINKED FORM](ged/Ged.LINEAGE_LINKED_STRUCTURE.md)
+* Current [WIKI](../../../wiki)
+* Gedcom [LINEAGE LINKED FORM](ged/Ged.LINEAGE_LINKED_STRUCTURE.md) and Geneweb behavior (is not a full gedcom documentation)
 
 GEDCOM reference documentation : https://www.familysearch.org/developers/docs/gedcom/
 (GEDCOM is no longer maintained by Family Search. 
@@ -29,7 +29,8 @@ The GEDCOM specifications 5.5 and draft 5.5.1 are provided only as a reference)
 ## ISSUES SOLVED IN THIS VERSION :
 see all issues on https://github.com/geneweb/geneweb/issues
 
-	#164 - export Gedcom UTF8 
+#164 - export Gedcom UTF8 
+
 	#576 - Converting failure of a text file (from utf8 to unicode) 
 	#611 - Do not split line in the middle of a multi-byte utf-8 char 
 	#627 - Import/Export GEDCOM : Incorrect charset name used 
