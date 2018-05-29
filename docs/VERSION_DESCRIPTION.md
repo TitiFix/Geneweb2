@@ -12,24 +12,22 @@
 		Branch gedImprovements
 
 ### Overview :
-These branch is temporary for GEDCOM import/export update/improvement
+These branch is temporary for GEDCOM import/export update/improvement.
+
+The present documentation list GEDCOM issues from https://github.com/geneweb/geneweb/issues (in relation with the GEDCOM import / export from Geneweb)
 
 ## Documentation
-
 The official documentation : http://geneweb.tuxfamily.org/
 
 Additional documentation for import / export GEDCOM :
 * Current [WIKI](../../../wiki)
-* Gedcom [LINEAGE LINKED FORM](ged/Ged.LINEAGE_LINKED_STRUCTURE.md) and Geneweb behavior (It is not a full gedcom documentation or reference/official documentation )
+* Gedcom [LINEAGE LINKED FORM](ged/Ged.LINEAGE_LINKED_STRUCTURE.md) (5.5, 5.5.1 and commons usages mixed) and Geneweb behavior (It is not a full gedcom documentation or reference/official documentation )
 
 GEDCOM reference documentation : https://www.familysearch.org/developers/docs/gedcom/
 (GEDCOM is no longer maintained by Family Search. 
 The GEDCOM specifications 5.5 and draft 5.5.1 are provided only as a reference)
 
 ## ISSUES SOLVED IN THIS VERSION :
-see all issues on https://github.com/geneweb/geneweb/issues
-https://github.com/geneweb/geneweb/issues/634
-
 [#164](https://github.com/geneweb/geneweb/issues/164) - export Gedcom UTF8<br />
 [#576](https://github.com/geneweb/geneweb/issues/576) - Converting failure of a text file (from utf8 to unicode)<br />
 [#611](https://github.com/geneweb/geneweb/issues/611) - Do not split line in the middle of a multi-byte utf-8 char <br />
@@ -38,8 +36,6 @@ https://github.com/geneweb/geneweb/issues/634
 [#634](https://github.com/geneweb/geneweb/issues/634) - PR #635 : Some command line syntax errors for ged2gwb etc ... not processed. <br />
 
 ## KNOWN BUGS/ERRORS, ENHANCEMENTS REQUESTS :
-see all issues on https://github.com/geneweb/geneweb/issues
-
 [#137](https://github.com/geneweb/geneweb/issues/137) - PACS<br />
 [#143](https://github.com/geneweb/geneweb/issues/143) - gwb2ged : identité <br />
 [#172](https://github.com/geneweb/geneweb/issues/172) - Import GEDCOM et "level+1 CONC blabla"<br />
@@ -59,4 +55,4 @@ see all issues on https://github.com/geneweb/geneweb/issues
 see [README.md](../README.md) and [INSTALL](../INSTALL) files
 
 ## Release Notes
-:warning: Under construction (no due date)
+:warning: To be defined
