@@ -1,0 +1,25 @@
+﻿# Abstract
+
+# GEDCOM Syntax (extension included)
+Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
+
+**CHILD_TO_FAMILY_LINK**:=
+<pre>
+<b>n FAMC @&lt;<a href=Ged.XREF_FAM>XREF:FAM</a>&gt;@{1:1}</b>
+  +1 PEDI &lt;<a href=Ged.PEDIGREE_LINKAGE_TYPE>PEDIGREE_LINKAGE_TYPE</a>&gt;{0:1}
+  +1 STAT &lt;<a href=Ged.CHILD_LINKAGE_STATUS>CHILD_LINKAGE_STATUS</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+</pre>
+Used in <a href=Ged.INDIVIDUAL_RECORD>INDIVIDUAL_RECORD</a><br />
+
+# Geneweb behavior
+
+level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+---------- | ------------- | :---------------: | :-----------------:| -----------
+nFAMC @ | XREF:FAM | | |
++1 PEDI | PEDIGREE_LINKAGE_TYPE | | |
++1 STAT | CHILD_LINKAGE_STATUS | | |
++1 | NOTE_STRUCTURE | | |
+
+:warning: to be continued/checked
+

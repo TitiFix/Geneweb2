@@ -1,0 +1,32 @@
+﻿# Abstract
+
+# GEDCOM Syntax (extension included)
+Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
+
+**PERSONAL_NAME_PIECES**:=
+<pre>
+n NPFX &lt;<a href=Ged.NAME_PIECE_PREFIX>NAME_PIECE_PREFIX</a>&gt; {0:1}
+n GIVN &lt;<a href=Ged.NAME_PIECE_GIVEN>NAME_PIECE_GIVEN</a>&gt; {0:1}
+n NICK &lt;<a href=Ged.NAME_PIECE_NICKNAME>NAME_PIECE_NICKNAME</a>&gt; {0:1}
+n SPFX &lt;NAME_PIECE_SURNAME_PREFIX {0:1}
+n SURN &lt;<a href=Ged.NAME_PIECE_SURNAME>NAME_PIECE_SURNAME</a>&gt; {0:1}
+n NSFX &lt;<a href=Ged.NAME_PIECE_SUFFIX>NAME_PIECE_SUFFIX</a>&gt; {0:1}
+n &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt; {0:M}
+n &lt;&lt;<a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a>&gt;&gt; {0:M}
+</pre>
+Used in <a href=Ged.PERSONAL_NAME_STRUCTURE>PERSONAL_NAME_STRUCTURE</a><br />
+
+# Geneweb behavior
+
+level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+---------- | ------------- | :---------------: | :-----------------:| -----------
+n NPFX | NAME_PIECE_PREFIX | | |
+n GIVN | NAME_PIECE_GIVEN | | |
+n NICK | NAME_PIECE_NICKNAME | | |
+n SPFX | NAME_PIECE_SURNAME_PREFIX | | |
+n NSFX | NAME_PIECE_SUFFIX | | |
+n | NOTE_STRUCTURE | | |
+n | SOURCE_CITATION | | |
+
+:warning: to be continued/checked
+
