@@ -1,4 +1,7 @@
 ﻿# Abstract
+An identifier that represents the version level assigned to the associated product. It is defined and
+changed by the creators of the product.
+
 
 # GEDCOM Syntax (extension included)
 

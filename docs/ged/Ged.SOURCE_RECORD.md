@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -31,32 +32,30 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
+
+NOTE : Source records are used to provide a bibliographic description of the source cited. (See the
+<<SOURCE_CITATION>> structure, which contains the pointer to this source record.)
 # Geneweb behavior
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-n@ | XREF:SOUR | | |
++0  | XREF:SOUR | | |
 +2 EVEN | EVENTS_RECORDED | | |
 +3 DATE | DATE_PERIOD | | |
 +3 PLAC | SOURCE_JURISDICTION_PLACE | | |
 +2 AGNC | RESPONSIBLE_AGENCY | | |
-+2 | NOTE_STRUCTURE | | |
++2  | NOTE_STRUCTURE | | |
 +1 AUTH | SOURCE_ORIGINATOR | | |
-+2 CONC/CONT | SOURCE_ORIGINATOR | | |
 +1 TITL | SOURCE_DESCRIPTIVE_TITLE | | |
-+2 CONC/CONT | SOURCE_DESCRIPTIVE_TITLE | | |
 +1 ABBR | SOURCE_FILED_BY_ENTRY | | |
 +1 PUBL | SOURCE_PUBLICATION_FACTS | | |
-+2 CONC/CONT | SOURCE_PUBLICATION_FACTS | | |
 +1 TEXT | TEXT_FROM_SOURCE | | |
-+2 CONC/CONT | TEXT_FROM_SOURCE | | |
-+1 | SOURCE_REPOSITORY_CITATION | | |
++1  | SOURCE_REPOSITORY_CITATION | | |
 +1 REFN | USER_REFERENCE_NUMBER | | |
 +2 TYPE | USER_REFERENCE_TYPE | | |
 +1 RIN | AUTOMATED_RECORD_ID | | |
-+1 | CHANGE_STRUCTURE | | |
-+1 | NOTE_STRUCTURE | | |
-+1 | MULTIMEDIA_LINK | | |
++1  | CHANGE_STRUCTURE | | |
++1  | MULTIMEDIA_LINK | | |
 
 :warning: to be continued/checked
 

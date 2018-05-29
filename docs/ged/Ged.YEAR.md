@@ -1,4 +1,6 @@
 ﻿# Abstract
+A numeric representation of the calendar year in which an event occurred.
+
 
 # GEDCOM Syntax (extension included)
 

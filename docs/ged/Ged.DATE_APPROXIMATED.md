@@ -1,4 +1,9 @@
 ﻿# Abstract
+Where:
+ABT=About, meaning the date is not exact.
+CAL=Calculated mathematically, for example, from an event date and age.
+EST=Estimated based on an algorithm using some other event date.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -13,9 +18,7 @@ Used in <a href=Ged.DATE_VALUE.md>DATE_VALUE</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-[ ABT | DATE | | |
-[ ABT | <DATE> | | |
-[ ABT | <DATE> | | |
+  |  | | |
 
 :warning: to be continued/checked
 

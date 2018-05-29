@@ -1,4 +1,7 @@
 ﻿# Abstract
+The first line of the address used for indexing.  This is the value of the line corresponding to the
+ADDR tag line in the address structure.
+
 
 # GEDCOM Syntax (extension included)
 

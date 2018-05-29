@@ -1,4 +1,8 @@
 ﻿# Abstract
+The human language in which the data in the transmission is normally read or written.  It is used
+primarily by programs to select language-specific sorting sequences and phonetic name matching
+algorithms.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

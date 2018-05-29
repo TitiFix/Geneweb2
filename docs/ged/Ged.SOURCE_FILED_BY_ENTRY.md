@@ -1,4 +1,6 @@
 ﻿# Abstract
+This entry is to provide a short title used for sorting, filing, and retrieving source records.
+
 
 # GEDCOM Syntax (extension included)
 

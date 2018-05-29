@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -20,14 +21,14 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-n@ | XREF:REPO | | |
++0  | XREF:REPO | | |
 +1 NAME | NAME_OF_REPOSITORY | | |
-+1 | ADDRESS_STRUCTURE | | |
-+1 | NOTE_STRUCTURE | | |
++1  | ADDRESS_STRUCTURE | | |
++1  | NOTE_STRUCTURE | | |
 +1 REFN | USER_REFERENCE_NUMBER | | |
 +2 TYPE | USER_REFERENCE_TYPE | | |
 +1 RIN | AUTOMATED_RECORD_ID | | |
-+1 | CHANGE_STRUCTURE | | |
++1  | CHANGE_STRUCTURE | | |
 
 :warning: to be continued/checked
 

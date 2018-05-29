@@ -1,4 +1,18 @@
 ﻿# Abstract
+Where:
+JAN=January
+FEB=February
+MAR=March
+APR=April
+MAY=May
+JUN=June
+JUL=July
+AUG=August
+SEP=September
+OCT=October
+NOV=November
+DEC=December
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

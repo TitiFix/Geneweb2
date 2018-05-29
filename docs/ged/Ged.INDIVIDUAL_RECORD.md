@@ -1,4 +1,26 @@
 ﻿# Abstract
+The individual record is a compilation of facts, known or discovered, about an individual.  Sometimes
+these facts are from different sources.  This form allows documentation of the source where each of
+the facts were discovered.
+The normal lineage links are shown through the use of pointers from the individual to a family
+through either the FAMC tag or the FAMS tag.  The FAMC tag provides a pointer to a family where
+this person is a child.  The FAMS tag provides a pointer to a family where this person is a spouse or
+parent.  The <&lt;<a href=Ged.CHILD_TO_FAMILY_LINK.md>CHILD_TO_FAMILY_LINK</a>&gt;> (see page 31) structure contains a FAMC pointer
+which is required to show any child to parent linkage for pedigree navigation.  The
+<&lt;<a href=Ged.CHILD_TO_FAMILY_LINK.md>CHILD_TO_FAMILY_LINK</a>&gt;> structure also indicates whether the pedigree link represents a
+birth lineage, an adoption lineage, or a sealing lineage.
+Linkage between a child and the family they belonged to at the time of an event can also be shown
+by a FAMC pointer subordinate to the appropriate event.  For example, a FAMC pointer subordinate
+to an adoption event indicates a relationship to family by adoption. Biological parents can be shown
+by a FAMC pointer subordinate to the birth event(optional).
+Other associations or relationships are represented by the ASSOciation tag.  The person's relation
+or association is the person being pointed to. The association or relationship is stated by the value
+on the subordinate RELA line.   For example:
+0 @I1@ INDI
+1 NAME Fred/Jones/
+1 ASSO @I2@
+2 RELA Godfather
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -36,27 +58,25 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +1 RESN | RESTRICTION_NOTICE | | |
-+1 | PERSONAL_NAME_STRUCTURE | | |
++1  | PERSONAL_NAME_STRUCTURE | | |
 +1 SEX | SEX_VALUE | | |
-+1 | INDIVIDUAL_EVENT_STRUCTURE | | |
-+1 | INDIVIDUAL_ATTRIBUTE_STRUCTURE | | |
-+1 | LDS_INDIVIDUAL_ORDINANCE | | |
-+1 | CHILD_TO_FAMILY_LINK | | |
-+1 | SPOUSE_TO_FAMILY_LINK | | |
-+1 SUBM | @ | | |
-+1 | ASSOCIATION_STRUCTURE | | |
-+1 ALIA | @ | | |
-+1 ANCI | @ | | |
-+1 DESI | @ | | |
++1  | INDIVIDUAL_EVENT_STRUCTURE | | |
++1  | INDIVIDUAL_ATTRIBUTE_STRUCTURE | | |
++1  | LDS_INDIVIDUAL_ORDINANCE | | |
++1  | CHILD_TO_FAMILY_LINK | | |
++1  | SPOUSE_TO_FAMILY_LINK | | |
++1 SUBM | XREF:SUBM | | |
++1  | ASSOCIATION_STRUCTURE | | |
++1 ALIA | XREF:INDI | | |
 +1 RFN | PERMANENT_RECORD_FILE_NUMBER | | |
 +1 AFN | ANCESTRAL_FILE_NUMBER | | |
 +1 REFN | USER_REFERENCE_NUMBER | | |
 +2 TYPE | USER_REFERENCE_TYPE | | |
 +1 RIN | AUTOMATED_RECORD_ID | | |
-+1 | CHANGE_STRUCTURE | | |
-+1 | NOTE_STRUCTURE | | |
-+1 | SOURCE_CITATION | | |
-+1 | MULTIMEDIA_LINK | | |
++1  | CHANGE_STRUCTURE | | |
++1  | NOTE_STRUCTURE | | |
++1  | SOURCE_CITATION | | |
++1  | MULTIMEDIA_LINK | | |
 
 :warning: to be continued/checked
 

@@ -1,4 +1,7 @@
 ﻿# Abstract
+A code used to indicate the type of family event.  The definition is the same as the corresponding
+event tag defined in Appendix.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

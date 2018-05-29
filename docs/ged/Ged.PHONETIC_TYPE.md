@@ -1,4 +1,10 @@
 ﻿# Abstract
+Indicates the method used in transforming the text to the phonetic variation.
+<user define> record method used to arrive at the phonetic variation of the name.
+hangulPhonetic method for sounding Korean glifs.
+kanaHiragana and/or Katakana characters were used in sounding the Kanji character used by
+japanese
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

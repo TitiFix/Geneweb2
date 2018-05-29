@@ -1,4 +1,7 @@
 ﻿# Abstract
+A convention that indicates the absence of any 8-bit ASCII character in the value including the null
+character (0x00) which is prohibited.
+
 
 # GEDCOM Syntax (extension included)
 

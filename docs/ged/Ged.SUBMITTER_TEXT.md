@@ -1,4 +1,6 @@
 ﻿# Abstract
+Comments or opinions from the submitter.
+
 
 # GEDCOM Syntax (extension included)
 

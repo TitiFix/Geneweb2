@@ -1,4 +1,7 @@
 ﻿# Abstract
+The name of the GEDCOM transmission file. If the file name includes a file extension it must be
+shown in the form (filename.ext).
+
 
 # GEDCOM Syntax (extension included)
 

@@ -1,4 +1,6 @@
 ﻿# Abstract
+The name of the city used in the address. Isolated for sorting or indexing.
+
 
 # GEDCOM Syntax (extension included)
 

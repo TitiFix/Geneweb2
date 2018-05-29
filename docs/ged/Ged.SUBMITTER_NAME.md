@@ -1,4 +1,6 @@
 ﻿# Abstract
+The name of the submitter formatted for display and address generation.
+
 
 # GEDCOM Syntax (extension included)
 

@@ -1,4 +1,8 @@
 ﻿# Abstract
+A copyright statement required by the owner of data from which this information was down- loaded.
+For example, when a GEDCOM down-load is requested from the Ancestral File, this would be the
+copyright statement to indicate that the data came from a copyrighted source.
+
 
 # GEDCOM Syntax (extension included)
 

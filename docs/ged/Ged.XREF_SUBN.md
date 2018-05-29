@@ -1,4 +1,6 @@
 ﻿# Abstract
+A pointer to, or a cross-reference identifier of, a SUBmissioN record.
+
 
 # GEDCOM Syntax (extension included)
 

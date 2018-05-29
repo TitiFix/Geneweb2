@@ -1,4 +1,7 @@
 ﻿# Abstract
+The number of generations of ancestors included in this transmission. This value is usually provided
+when FamilySearch programs build a GEDCOM file for a patron requesting a download of ancestors.
+
 
 # GEDCOM Syntax (extension included)
 

@@ -1,4 +1,6 @@
 ﻿# Abstract
+A number assigned to a person in the United States for identification purposes.
+
 
 # GEDCOM Syntax (extension included)
 

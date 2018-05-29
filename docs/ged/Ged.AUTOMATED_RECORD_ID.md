@@ -1,4 +1,8 @@
 ﻿# Abstract
+A unique record identification number assigned to the record by the source system.  This number is
+intended to serve as a more sure means of identification of a record for reconciling differences in data
+between two interfacing systems.
+
 
 # GEDCOM Syntax (extension included)
 

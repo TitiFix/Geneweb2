@@ -1,4 +1,6 @@
 ﻿# Abstract
+A pointer to, or a cross-reference identifier of, a multimedia object.
+
 
 # GEDCOM Syntax (extension included)
 

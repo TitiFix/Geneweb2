@@ -1,4 +1,11 @@
 ﻿# Abstract
+The sending system uses a submission record to send instructions and information to the receiving
+system. TempleReady processes submission records to determine which temple the cleared records
+should be directed to. The submission record is also used for communication between Ancestral File
+download requests and TempleReady. Each GEDCOM transmission file should have only one
+submission record. Multiple submissions are handled by creating separate GEDCOM transmission
+files.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -22,15 +29,15 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-n@ | XREF:SUBN | | |
++0  | XREF:SUBN | | |
 +1 FAMF | NAME_OF_FAMILY_FILE | | |
 +1 TEMP | TEMPLE_CODE | | |
 +1 ANCE | GENERATIONS_OF_ANCESTORS | | |
 +1 DESC | GENERATIONS_OF_DESCENDANTS | | |
 +1 ORDI | ORDINANCE_PROCESS_FLAG | | |
 +1 RIN | AUTOMATED_RECORD_ID | | |
-+1 | NOTE_STRUCTURE | | |
-+1 | CHANGE_STRUCTURE | | |
++1  | NOTE_STRUCTURE | | |
++1  | CHANGE_STRUCTURE | | |
 
 :warning: to be continued/checked
 

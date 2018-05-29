@@ -1,4 +1,6 @@
 ﻿# Abstract
+The kind of activity that an individual does for a job, profession, or principal activity.
+
 
 # GEDCOM Syntax (extension included)
 

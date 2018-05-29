@@ -1,4 +1,8 @@
 ﻿# Abstract
+The change date is intended to only record the last change to a record.  Some systems may want to
+manage the change process with more detail, but it is sufficient for GEDCOM purposes to indicate
+the last time that a record was modified.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -18,7 +22,7 @@ level+tag  | + Attribut type or value | Import behavior | Export behavior  | Com
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +1 DATE | CHANGE_DATE | | |
 +2 TIME | TIME_VALUE | | |
-+1 | NOTE_STRUCTURE | | |
++1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked
 

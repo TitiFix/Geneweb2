@@ -1,4 +1,19 @@
 ﻿# Abstract
+Where:
+>=greater than indicated age
+<=less than indicated age
+y=a label indicating years
+m=a label indicating months
+d=a label indicating days
+YY=number of full years
+MM=number of months
+DDD=number of days
+CHILD=age < 8 years
+INFANT=age < 1 year
+STILLBORN=died just prior, at, or near birth, 0 years
+A number that indicates the age in years, months, and days that the principal was at the time of the
+associated event. Any labels must come after their corresponding number, for example; 4y 8m 10d.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -14,8 +29,8 @@ Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-[  | | | | |
-[ < | | | | |
+  |  | | |
+  |  | | |
 
 :warning: to be continued/checked
 

@@ -1,4 +1,10 @@
 ﻿# Abstract
+The time of a specific event, usually a computer-timed event, where:
+hh=hours on a 24-hour clock
+mm=minutes
+ss=seconds (optional)
+fs=decimal fraction of a second (optional)
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

@@ -1,4 +1,8 @@
 ﻿# Abstract
+Indicates the format of the multimedia data associated with the specific GEDCOM context. This
+allows processors to determine whether they can process the data object. Any linked files should
+contain the data required, in the indicated format, to process the file data.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

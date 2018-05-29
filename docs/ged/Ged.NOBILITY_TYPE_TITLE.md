@@ -1,4 +1,6 @@
 ﻿# Abstract
+The title given to or used by a person, especially of royalty or other noble class within a locality.
+
 
 # GEDCOM Syntax (extension included)
 

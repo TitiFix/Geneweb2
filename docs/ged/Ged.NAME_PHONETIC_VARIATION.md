@@ -1,4 +1,9 @@
 ﻿# Abstract
+The phonetic variation of the name is written in the same form as the was the name used in the
+superior &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt; primitive, but phonetically written using the method indicated by the
+subordinate &lt;<a href=Ged.PHONETIC_TYPE.md>PHONETIC_TYPE</a>&gt; value, for example if hiragana was used to provide a reading of a
+n ame written in kanji, then the &lt;<a href=Ged.PHONETIC_TYPE.md>PHONETIC_TYPE</a>&gt; value would indicate ‘kana’. See page 57.
+
 
 # GEDCOM Syntax (extension included)
 

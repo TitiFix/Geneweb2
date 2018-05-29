@@ -1,4 +1,10 @@
 ﻿# Abstract
+The FAMily record is used to record marriages, common law marriages, and family unions caused by
+two people becoming the parents of a child. There can be no more than one HUSB/father and one
+WIFE/mother listed in each FAM_RECORD. If, for example, a man participated in more than one
+family union, then he would appear in more than one FAM_RECORD. The family record structure
+assumes that the HUSB/father is male and WIFE/mother is female.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -25,28 +31,26 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 
-* NOTE :
+NOTE :
 The preferred order of the CHILdren pointers within a FAMily structure is chronological by birth.
 # Geneweb behavior
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-n @ | XREF:FAM | | |
++0  | XREF:FAM | | |
 +1 RESN | RESTRICTION_NOTICE | | |
-+1 | FAMILY_EVENT_STRUCTURE | | |
-+1 HUSB | @ | | |
-+1 WIFE | @ | | |
-+1 CHIL | @ | | |
++1  | FAMILY_EVENT_STRUCTURE | | |
++1 HUSB | XREF:INDI | | |
 +1 NCHI | COUNT_OF_CHILDREN | | |
-+1 SUBM | @ | | |
-+1 | LDS_SPOUSE_SEALING | | |
++1 SUBM | XREF:SUBM | | |
++1  | LDS_SPOUSE_SEALING | | |
 +1 REFN | USER_REFERENCE_NUMBER | | |
 +2 TYPE | USER_REFERENCE_TYPE | | |
 +1 RIN | AUTOMATED_RECORD_ID | | |
-+1 | CHANGE_STRUCTURE | | |
-+1 | NOTE_STRUCTURE | | |
-+1 | SOURCE_CITATION | | |
-+1 | MULTIMEDIA_LINK | | |
++1  | CHANGE_STRUCTURE | | |
++1  | NOTE_STRUCTURE | | |
++1  | SOURCE_CITATION | | |
++1  | MULTIMEDIA_LINK | | |
 
 :warning: to be continued/checked
 

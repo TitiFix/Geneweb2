@@ -1,4 +1,7 @@
 ﻿# Abstract
+An identification or reference description used to file and retrieve items from the holdings of a
+repository.
+
 
 # GEDCOM Syntax (extension included)
 

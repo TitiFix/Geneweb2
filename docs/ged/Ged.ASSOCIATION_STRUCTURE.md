@@ -1,4 +1,6 @@
 ﻿# Abstract
+The association pointer only associates INDIvidual records to INDIvidual records.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -16,10 +18,10 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nASSO @ | XREF:INDI | | |
++0 ASSO | XREF:INDI | | |
 +1 RELA | RELATION_IS_DESCRIPTOR | | |
-+1 | SOURCE_CITATION | | |
-+1 | NOTE_STRUCTURE | | |
++1  | SOURCE_CITATION | | |
++1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked
 

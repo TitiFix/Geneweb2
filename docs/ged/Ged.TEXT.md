@@ -1,4 +1,6 @@
 ﻿# Abstract
+A string composed of any valid character from the GEDCOM character set.
+
 
 # GEDCOM Syntax (extension included)
 

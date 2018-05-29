@@ -1,4 +1,8 @@
 ﻿# Abstract
+A word or phrase that identifies a person's role in an event being described. This should be the same
+word or phrase, and in the same language, that the recorder used to define the role in the actual
+record.
+
 
 # GEDCOM Syntax (extension included)
 

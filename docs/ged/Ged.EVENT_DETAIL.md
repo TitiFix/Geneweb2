@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -23,12 +24,12 @@ Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nTYPE | EVENT_OR_FACT_CLASSIFICATION | | |
-nDATE | DATE_VALUE | | |
-nAGNC | RESPONSIBLE_AGENCY | | |
-nRELI | RELIGIOUS_AFFILIATION | | |
-nCAUS | CAUSE_OF_EVENT | | |
-nRESN | RESTRICTION_NOTICE | | |
++0 TYPE | EVENT_OR_FACT_CLASSIFICATION | | |
++0 DATE | DATE_VALUE | | |
++0 AGNC | RESPONSIBLE_AGENCY | | |
++0 RELI | RELIGIOUS_AFFILIATION | | |
++0 CAUS | CAUSE_OF_EVENT | | |
++0 RESN | RESTRICTION_NOTICE | | |
 
 :warning: to be continued/checked
 

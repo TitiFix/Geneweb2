@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -20,13 +21,14 @@ Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-n NPFX | NAME_PIECE_PREFIX | | |
-n GIVN | NAME_PIECE_GIVEN | | |
-n NICK | NAME_PIECE_NICKNAME | | |
-n SPFX | NAME_PIECE_SURNAME_PREFIX | | |
-n NSFX | NAME_PIECE_SUFFIX | | |
-n | NOTE_STRUCTURE | | |
-n | SOURCE_CITATION | | |
++0 NPFX | NAME_PIECE_PREFIX | | |
++0 GIVN | NAME_PIECE_GIVEN | | |
++0 NICK | NAME_PIECE_NICKNAME | | |
++0 SPFX | NAME_PIECE_SURNAME_PREFIX {0:1}
+n SURN <NAME_PIECE_SURNAME | | |
++0 NSFX | NAME_PIECE_SUFFIX | | |
++0  | NOTE_STRUCTURE | | |
++0  | SOURCE_CITATION | | |
 
 :warning: to be continued/checked
 

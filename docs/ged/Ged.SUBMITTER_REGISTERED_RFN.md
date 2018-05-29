@@ -1,4 +1,7 @@
 ﻿# Abstract
+A registered number of a submitter of Ancestral File data.  This number is used in subsequent
+submissions or inquiries by the submitter for identification purposes.
+
 
 # GEDCOM Syntax (extension included)
 

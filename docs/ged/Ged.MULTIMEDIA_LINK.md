@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -21,20 +22,17 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>, <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
 
-* NOTE : some systems may have output the following 5.5 structure. The new context above was
+NOTE : some systems may have output the following 5.5 structure. The new context above was
 introduced in order to allow a grouping of related multimedia files to a particular context.
 # Geneweb behavior
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nOBJE @ | XREF:OBJE | | |
++0 OBJE | XREF:OBJE | | |
 +1 FILE | MULTIMEDIA_FILE_REFN | | |
 +2 FORM | MULTIMEDIA_FORMAT | | |
 +3 MEDI | SOURCE_MEDIA_TYPE | | |
 +1 TITL | DESCRIPTIVE_TITLE | | |
-+1 FILE | MULTIMEDIA_FILE_REFN | | |
-+1 FORM | MULTIMEDIA_FORMAT | | |
-+2 MEDI | SOURCE_MEDIA_TYPE | | |
 
 :warning: to be continued/checked
 

@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -16,10 +17,10 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nFAMC @ | XREF:FAM | | |
++0 FAMC | XREF:FAM | | |
 +1 PEDI | PEDIGREE_LINKAGE_TYPE | | |
 +1 STAT | CHILD_LINKAGE_STATUS | | |
-+1 | NOTE_STRUCTURE | | |
++1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked
 

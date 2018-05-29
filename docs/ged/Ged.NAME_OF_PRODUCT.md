@@ -1,4 +1,6 @@
 ﻿# Abstract
+The name of the software product that produced this transmission.
+
 
 # GEDCOM Syntax (extension included)
 

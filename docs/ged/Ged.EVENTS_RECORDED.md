@@ -1,4 +1,8 @@
 ﻿# Abstract
+An enumeration of the different kinds of events that were recorded in a particular source. Each
+enumeration is separated by a comma. Such as a parish register of births, deaths, and marriages would
+be BIRT, DEAT, MARR.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -13,8 +17,8 @@ Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-[<EVENT_ATTRIBUTE_TYPE> | | EVENTS_RECORDED | | |
-[<EVENT_ATTRIBUTE_TYPE> | |  | | |
+  |  | | |
+  |  | | |
 
 :warning: to be continued/checked
 

@@ -1,4 +1,10 @@
 ﻿# Abstract
+An unstructured list of the attributes that describe the physical characteristics of a person, place, or
+object. Commas separate each attribute.
+Example:
+1 DSCR Hair Brown, Eyes Brown, Height 5 ft 8 in
+2 DATE 23 JUL 1935
+
 
 # GEDCOM Syntax (extension included)
 

@@ -1,4 +1,7 @@
 ﻿# Abstract
+An attribute which may have caused name, addresses, phone numbers, family listings to be recorded.
+Its application is in helping to classify sources used for information.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

@@ -1,4 +1,10 @@
 ﻿# Abstract
+The name of the system expected to process the GEDCOM-compatible transmission. The registered
+RECEIVING_SYSTEM_NAME for all GEDCOM submissions to the Family History Department
+must be one of the following names:
+!"ANSTFILE" when submitting to Ancestral File.
+!"TempleReady" when submitting for temple ordinance clearance.
+
 
 # GEDCOM Syntax (extension included)
 

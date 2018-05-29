@@ -1,4 +1,7 @@
 ﻿# Abstract
+The ZIP or postal code used by the various localities in handling of mail.  Isolated for sorting or
+indexing.
+
 
 # GEDCOM Syntax (extension included)
 

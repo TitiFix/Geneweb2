@@ -1,4 +1,8 @@
 ﻿# Abstract
+The name of the electronic data source that was used to obtain the data in this transmission. For
+example, the data may have been obtained from a CD-ROM disc that was named "U.S. 1880
+CENSUS CD-ROM vol. 13."
+
 
 # GEDCOM Syntax (extension included)
 

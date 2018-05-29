@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -31,15 +32,9 @@ Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+1 | FAMILY_EVENT_DETAIL | | |
-+1 | FAMILY_EVENT_DETAIL | | |
-n MARR |  | | |
-+1 | FAMILY_EVENT_DETAIL | | |
-+1 | FAMILY_EVENT_DETAIL | | |
-+1 | FAMILY_EVENT_DETAIL | | |
-nEVEN [ | EVENT_DESCRIPTOR | | |
-nEVEN [<EVENT_DESCRIPTOR> | | | | |
-+1 | FAMILY_EVENT_DETAIL | | |
++1  | FAMILY_EVENT_DETAIL | | |
++0 MARR  [Y| | NULL | | |
++0 EVEN [ | EVENT_DESCRIPTOR | | |
 
 :warning: to be continued/checked
 

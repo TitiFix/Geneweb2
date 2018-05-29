@@ -1,4 +1,6 @@
 ﻿# Abstract
+The title of a work, record, item, or object.
+
 
 # GEDCOM Syntax (extension included)
 

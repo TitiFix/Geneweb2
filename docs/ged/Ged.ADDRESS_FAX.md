@@ -1,4 +1,6 @@
 ﻿# Abstract
+A FAX telephone number appropriate for sending data facsimiles.
+
 
 # GEDCOM Syntax (extension included)
 

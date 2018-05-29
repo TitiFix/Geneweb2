@@ -1,4 +1,7 @@
 ﻿# Abstract
+The name of the country that pertains to the associated address. Isolated by some systems for sorting
+or indexing. Used in most cases to facilitate automatic sorting of mail.
+
 
 # GEDCOM Syntax (extension included)
 

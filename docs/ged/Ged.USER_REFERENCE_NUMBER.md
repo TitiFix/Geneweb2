@@ -1,4 +1,8 @@
 ﻿# Abstract
+A user-defined number or text that the submitter uses to identify this record. For instance, it may be a
+record number within the submitter's automated or manual system, or it may be a page and position
+n umber on a pedigree chart.
+
 
 # GEDCOM Syntax (extension included)
 

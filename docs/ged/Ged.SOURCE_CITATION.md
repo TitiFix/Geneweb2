@@ -1,4 +1,28 @@
 ﻿# Abstract
+The data provided in the <&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;> structure is source-related information specific
+to the data being cited. Systems that do not use a (SOURCE_RECORD)  must use the non-preferred second SOURce citation structure option.  When systems that support the zero level source record format encounters a source citation that does not
+contain pointers to source records, then that system needs to create a SOURCE_RECORD format
+and store the source description information found in the non-structured source citation in the title
+area for the new source record.
+The information intended to be placed in the citation structure includes:
+!The pointer to the SOURCE_RECORD, which contains a more general description of the source
+used for the fact being cited.
+!Information, such as a page number, to help the user find the cited data within the referenced
+source. This is stored in the “.SOUR.PAGE” tag context.
+!Actual text from the source that was used in making assertions, for example a date phrase as
+actually recorded in the source, or significant notes written by the recorder, or an applicable
+sentence from a letter. This is stored in the “.SOUR.DATA.TEXT” tag context.
+!Data that allows an assessment of the relative value of one source over another for making the
+recorded assertions (primary or secondary source, etc.).  Data needed for this assessment is data
+that would help determine  how much time from the date of the asserted fact and when the source
+was actually recorded, what type of event was cited, and what type of role did this person have in
+the cited source.
+-Date when the entry was recorded in source document is stored in the
+".SOUR.DATA.DATE" tag context.
+-The type of event that initiated the recording is stored in the “SOUR.EVEN” tag context. The
+value used is the event code taken from the table of choices shown in the EVENT_TYPE_CITED_FROM primitive
+-The role of this person in the event is stored in the ".SOUR.EVEN.ROLE" context.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -33,23 +57,16 @@ Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nSOUR @ | XREF:SOUR | | |
++0 SOUR | XREF:SOUR | | |
 +1 PAGE | WHERE_WITHIN_SOURCE | | |
 +1 EVEN | EVENT_TYPE_CITED_FROM | | |
 +2 ROLE | ROLE_IN_EVENT | | |
 +2 DATE | ENTRY_RECORDING_DATE | | |
 +2 TEXT | TEXT_FROM_SOURCE | | |
-+3 CONC/CONT | TEXT_FROM_SOURCE | | |
-+1 | MULTIMEDIA_LINK | | |
-+1 | NOTE_STRUCTURE | | |
++1  | MULTIMEDIA_LINK | | |
++1  | NOTE_STRUCTURE | | |
 +1 QUAY | CERTAINTY_ASSESSMENT | | |
-nSOUR | SOURCE_DESCRIPTION | | |
-+1 CONC/CONT | SOURCE_DESCRIPTION | | |
-+1 TEXT | TEXT_FROM_SOURCE | | |
-+2 CONC/CONT | TEXT_FROM_SOURCE | | |
-+1 | MULTIMEDIA_LINK | | |
-+1 | NOTE_STRUCTURE | | |
-+1 QUAY | CERTAINTY_ASSESSMENT | | |
++0 SOUR | SOURCE_DESCRIPTION | | |
 
 :warning: to be continued/checked
 

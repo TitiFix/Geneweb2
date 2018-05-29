@@ -1,4 +1,7 @@
 ﻿# Abstract
+Surname prefix or article used in a family name. Different surname articles are separated by a comma,
+for example in the name "de la Cruz", this value would be "de, la".
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -11,9 +14,8 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE.md</a><br 
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-[ | NAME_PIECE | | |
-[ <NAME_PIECE> | | | | |
-[ <NAME_PIECE> | | | | |
+  |  | | |
+  |  | | |
 
 :warning: to be continued/checked
 

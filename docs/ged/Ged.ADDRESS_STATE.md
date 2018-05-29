@@ -1,4 +1,6 @@
 ﻿# Abstract
+The name of the state used in the address. Isolated for sorting or indexing.
+
 
 # GEDCOM Syntax (extension included)
 

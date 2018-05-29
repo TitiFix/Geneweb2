@@ -1,4 +1,6 @@
 ﻿# Abstract
+A user-defined definition of the USER_REFERENCE_NUMBER.
+
 
 # GEDCOM Syntax (extension included)
 

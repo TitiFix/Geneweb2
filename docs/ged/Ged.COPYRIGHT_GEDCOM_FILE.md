@@ -1,4 +1,6 @@
 ﻿# Abstract
+A copyright statement needed to protect the copyrights of the submitter of this GEDCOM file.
+
 
 # GEDCOM Syntax (extension included)
 

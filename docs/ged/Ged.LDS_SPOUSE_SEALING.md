@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -25,8 +26,8 @@ level+tag  | + Attribut type or value | Import behavior | Export behavior  | Com
 +1 PLAC | PLACE_LIVING_ORDINANCE | | |
 +1 STAT | LDS_SPOUSE_SEALING_DATE_STATUS | | |
 +2 DATE | CHANGE_DATE | | |
-+1 | NOTE_STRUCTURE | | |
-+1 | SOURCE_CITATION | | |
++1  | NOTE_STRUCTURE | | |
++1  | SOURCE_CITATION | | |
 
 :warning: to be continued/checked
 

@@ -1,4 +1,6 @@
 ﻿# Abstract
+The date that this event data was entered into the original source document.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

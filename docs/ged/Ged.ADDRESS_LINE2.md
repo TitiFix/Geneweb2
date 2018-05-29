@@ -1,4 +1,7 @@
 ﻿# Abstract
+The second line of the address used for indexing.  This is the value of the first CONT line subordinate
+to the ADDR tag in the address structure.
+
 
 # GEDCOM Syntax (extension included)
 

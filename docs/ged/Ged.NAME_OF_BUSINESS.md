@@ -1,4 +1,6 @@
 ﻿# Abstract
+Name of the business, corporation, or person that produced or commissioned the product.
+
 
 # GEDCOM Syntax (extension included)
 

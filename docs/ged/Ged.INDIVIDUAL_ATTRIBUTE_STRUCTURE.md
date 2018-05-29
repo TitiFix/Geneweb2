@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -53,41 +54,27 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 
-* NOTE : The usage of IDNO or the FACT tag require that a subordinate TYPE tag be used to define
+NOTE : The usage of IDNO or the FACT tag require that a subordinate TYPE tag be used to define
 what kind of identification number or fact classification is being defined.  The TYPE tag can be used
 with each of the above tags used in this structure.
 # Geneweb behavior
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nCAST | CASTE_NAME | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nDSCR | PHYSICAL_DESCRIPTION | | |
-+1 [CONC | | | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nEDUC | SCHOLASTIC_ACHIEVEMENT | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nIDNO | NATIONAL_ID_NUMBER | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nNATI | NATIONAL_OR_TRIBAL_ORIGIN | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nNCHI | COUNT_OF_CHILDREN | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nNMR | COUNT_OF_MARRIAGES | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nOCCU | OCCUPATION | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nPROP | POSSESSIONS | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nRELI | RELIGIOUS_AFFILIATION | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nSSN | SOCIAL_SECURITY_NUMBER | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nTITL | NOBILITY_TYPE_TITLE | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
-nFACT | ATTRIBUTE_DESCRIPTOR | | |
-+1 | INDIVIDUAL_EVENT_DETAIL | | |
++0 CAST | CASTE_NAME | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0 DSCR | PHYSICAL_DESCRIPTION | | |
++0 EDUC | SCHOLASTIC_ACHIEVEMENT | | |
++0 IDNO | NATIONAL_ID_NUMBER | | |
++0 NATI | NATIONAL_OR_TRIBAL_ORIGIN | | |
++0 NCHI | COUNT_OF_CHILDREN | | |
++0 NMR | COUNT_OF_MARRIAGES | | |
++0 OCCU | OCCUPATION | | |
++0 PROP | POSSESSIONS | | |
++0 RELI | RELIGIOUS_AFFILIATION | | |
++0 SSN | SOCIAL_SECURITY_NUMBER | | |
++0 TITL | NOBILITY_TYPE_TITLE | | |
++0 FACT | ATTRIBUTE_DESCRIPTOR | | |
 
 :warning: to be continued/checked
 

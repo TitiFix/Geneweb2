@@ -1,4 +1,6 @@
 ﻿# Abstract
+A description of a scholastic or educational achievement or pursuit.
+
 
 # GEDCOM Syntax (extension included)
 

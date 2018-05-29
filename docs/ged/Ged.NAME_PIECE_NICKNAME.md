@@ -1,4 +1,6 @@
 ﻿# Abstract
+A descriptive or familiar name used in connection with one's proper name.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -13,9 +15,8 @@ Used in <a href=Ged.PERSONAL_NAME_PIECES.md>PERSONAL_NAME_PIECES</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-[ | NAME_PIECE | | |
-[ <NAME_PIECE> | | | | |
-[ <NAME_PIECE> | | | | |
+  |  | | |
+  |  | | |
 
 :warning: to be continued/checked
 

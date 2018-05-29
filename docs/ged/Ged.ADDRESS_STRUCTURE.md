@@ -1,4 +1,10 @@
 ﻿# Abstract
+The address structure should be formed as it would appear on a mailing label using the ADDR and
+the CONT lines to form the address structure.  The ADDR and CONT lines are required for any
+address. The additional subordinate address tags such as STAE and CTRY are provided to be used
+by systems that have structured their addresses for indexing and sorting. For backward compatibility
+these lines are not to be used in lieu of the required ADDR.and CONT line structure.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -25,8 +31,7 @@ Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.REPOSITORY_R
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nADDR | ADDRESS_LINE | | |
-+1 CONT | ADDRESS_LINE | | |
++0 ADDR | ADDRESS_LINE | | |
 +1 ADR1 | ADDRESS_LINE1 | | |
 +1 ADR2 | ADDRESS_LINE2 | | |
 +1 ADR3 | ADDRESS_LINE3 | | |
@@ -34,10 +39,10 @@ nADDR | ADDRESS_LINE | | |
 +1 STAE | ADDRESS_STATE | | |
 +1 POST | ADDRESS_POSTAL_CODE | | |
 +1 CTRY | ADDRESS_COUNTRY | | |
-nPHON | PHONE_NUMBER | | |
-nEMAIL | ADDRESS_EMAIL | | |
-nFAX | ADDRESS_FAX | | |
-nWWW | ADDRESS_WEB_PAGE | | |
++0 PHON | PHONE_NUMBER | | |
++0 EMAIL | ADDRESS_EMAIL | | |
++0 FAX | ADDRESS_FAX | | |
++0 WWW | ADDRESS_WEB_PAGE | | |
 
 :warning: to be continued/checked
 

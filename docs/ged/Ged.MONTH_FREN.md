@@ -1,4 +1,19 @@
 ﻿# Abstract
+Where:
+VEND=VENDEMIAIRE
+BRUM=BRUMAIRE
+FRIM=FRIMAIRE
+NIVO=NIVOSE
+PLUV=PLUVIOSE
+VENT=VENTOSE
+GERM=GERMINAL
+FLOR=FLOREAL
+PRAI=PRAIRIAL
+MESS=MESSIDOR
+THER=THERMIDOR
+FRUC=FRUCTIDOR
+COMP=JOUR_COMPLEMENTAIRS
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

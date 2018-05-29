@@ -1,4 +1,8 @@
 ﻿# Abstract
+A note that a user enters to describe the contents of the lineage-linked file in terms of "ancestors or
+descendants of" so that the person receiving the data knows what genealogical information the
+transmission contains.
+
 
 # GEDCOM Syntax (extension included)
 

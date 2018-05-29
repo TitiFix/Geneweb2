@@ -1,4 +1,13 @@
 ﻿# Abstract
+Primitive Elements of the Lineage-Linked Form
+The field sizes show the minimum recommended field length within a database that is constrained to fixed
+length fields. The field sizes are in addition to the GEDCOM level and tag overhead. GEDCOM lines are
+limited to 255 characters. However, the CONCatenation or CONTinuation tags can be used to expand a
+field beyond this limit. CONT line implies that a new line should appear to preserve formatting.  CONC
+implies concatenation to the previous line without a new line.  This is used so that a text note or
+description can be processed (word wrapped) in a text window without fixed carriage returns.  The
+CONT and CONC tags are being used to extend specified textual values.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -14,8 +23,8 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nFAMS @ | XREF:FAM | | |
-+1 | NOTE_STRUCTURE | | |
++0 FAMS | XREF:FAM | | |
++1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked
 

@@ -1,4 +1,6 @@
 ﻿# Abstract
+A list of possessions (real estate or other property) belonging to this individual.
+
 
 # GEDCOM Syntax (extension included)
 

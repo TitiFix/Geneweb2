@@ -1,4 +1,7 @@
 ﻿# Abstract
+The piece of the name pertaining to the name part of interest. The surname part, the given name part,
+the name prefix part, or the name suffix part.
+
 
 # GEDCOM Syntax (extension included)
 

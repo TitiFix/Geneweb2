@@ -1,4 +1,7 @@
 ﻿# Abstract
+An abbreviation of the temple in which LDS temple ordinances were performed. see
+https://www.lds.org/temples/list and https://ldschurchtemples.org/
+
 
 # GEDCOM Syntax (extension included)
 

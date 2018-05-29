@@ -1,4 +1,6 @@
 ﻿# Abstract
+Name under which family names for ordinances are stored in the temple's family file.
+
 
 # GEDCOM Syntax (extension included)
 

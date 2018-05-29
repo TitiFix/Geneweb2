@@ -1,4 +1,6 @@
 ﻿# Abstract
+See &lt;<a href=Ged.YEAR_GREG.md>YEAR_GREG</a>&gt; page 65.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -13,12 +15,9 @@ Used in <a href=Ged.DATE_CALENDAR.md>DATE_CALENDAR</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-[ | YEAR_GREG | | |
-[ <YEAR_GREG>[B.C.] | | | | |
-[ <YEAR_GREG>[B.C.] | | | | |
-[ <YEAR_GREG>[B.C.] | | | | |
-[ <YEAR_GREG>[B.C.] | | | | |
-[ <YEAR_GREG>[B.C.] | | | | |
+  |  | | |
+  |  | | |
+  |  | | |
 
 :warning: to be continued/checked
 

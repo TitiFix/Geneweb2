@@ -1,5 +1,6 @@
 ﻿# Abstract
 
+
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
@@ -22,7 +23,7 @@ Used in <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-nPLAC | PLACE_NAME | | |
++0 PLAC | PLACE_NAME | | |
 +1 FORM | PLACE_HIERARCHY | | |
 +1 FONE | PLACE_PHONETIC_VARIATION | | |
 +2 TYPE | PHONETIC_TYPE | | |
@@ -30,7 +31,7 @@ nPLAC | PLACE_NAME | | |
 +2 TYPE | ROMANIZED_TYPE | | |
 +2 LATI | PLACE_LATITUDE | | |
 +2 LONG | PLACE_LONGITUDE | | |
-+1 | NOTE_STRUCTURE | | |
++1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked
 

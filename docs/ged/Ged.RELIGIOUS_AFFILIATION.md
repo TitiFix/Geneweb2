@@ -1,4 +1,6 @@
 ﻿# Abstract
+A name of the religion with which this person, event, or record was affiliated.
+
 
 # GEDCOM Syntax (extension included)
 

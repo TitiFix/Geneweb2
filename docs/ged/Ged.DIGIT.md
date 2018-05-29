@@ -1,4 +1,6 @@
 ﻿# Abstract
+A single digit (0-9).
+
 
 # GEDCOM Syntax (extension included)
 

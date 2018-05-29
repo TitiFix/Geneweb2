@@ -1,4 +1,7 @@
 ﻿# Abstract
+A unique permanent record number of an individual record contained in the Family History
+Department's Ancestral File.
+
 
 # GEDCOM Syntax (extension included)
 

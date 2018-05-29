@@ -1,4 +1,8 @@
 ﻿# Abstract
+A code that classifies the principal event or happening that caused the source record entry to be
+created.  If the event or attribute doesn't translate to one of these tag codes, then a user supplied value
+is expected and will be generally classified in the category of other.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
@@ -13,9 +17,9 @@ Used in <a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>, <a href=
 
 level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-[ | EVENT_TYPE_INDIVIDUAL | | |
-[ <EVENT_TYPE_INDIVIDUAL> | | | | |
-[ <EVENT_TYPE_INDIVIDUAL> | | | | |
+  |  | | |
+  |  | | |
+  |  | | |
 
 :warning: to be continued/checked
 

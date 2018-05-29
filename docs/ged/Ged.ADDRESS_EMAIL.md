@@ -1,4 +1,6 @@
 ﻿# Abstract
+An electronic address that can be used for contact such as an email address.
+
 
 # GEDCOM Syntax (extension included)
 

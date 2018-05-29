@@ -1,4 +1,8 @@
 ﻿# Abstract
+The organization, institution, corporation, person, or other entity that has responsibility for the
+associated context. For example, an employer of a person of an associated occupation, or a church
+that administered rites or events, or an organization responsible for creating and/or archiving records.
+
 
 # GEDCOM Syntax (extension included)
 

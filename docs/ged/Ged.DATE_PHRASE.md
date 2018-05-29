@@ -1,4 +1,7 @@
 ﻿# Abstract
+Any statement offered as a date when the year is not recognizable to a date parser, but which gives
+information about when an event occurred.
+
 
 # GEDCOM Syntax (extension included)
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />

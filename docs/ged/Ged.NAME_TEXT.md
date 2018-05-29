@@ -1,4 +1,6 @@
 ﻿# Abstract
+&lt;<a href=Ged.TEXT.md>TEXT</a>&gt; excluding commas, numbers, special characters not considered diacritics.
+
 
 # GEDCOM Syntax (extension included)
 
