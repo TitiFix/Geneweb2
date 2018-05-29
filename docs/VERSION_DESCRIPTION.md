@@ -1,11 +1,11 @@
-VERSION DESCRIPTION DOCUMENT
+# VERSION DESCRIPTION DOCUMENT
 ********************************************************
 ## Version Informations and Overview
 
 ### Version Informations : 
 	GeneWeb Version 7.00.exp
 	cf https://github.com/geneweb/geneweb
-	Licence GNU GENERAL PUBLIC LICENSE V2 - cf LICENSE file 
+	Licence GNU GENERAL PUBLIC LICENSE V2 - cf [LICENSE](../LICENSE) file 
 
 	Current Fork/branch
 		Fork TitiFix\GeneWeb
@@ -18,23 +18,27 @@ These branch is temporary for GEDCOM import/export update/improvement
 
 The official documentation : http://geneweb.tuxfamily.org/
 
-Additional documentation for import / export GEDCOM : https://github.com/TitiFix/geneweb/wiki
+Additional documentation for import / export GEDCOM :
+* current [WIKI](../wiki)
+* Gedcom structure [LINEAGE LINKED FORM](ged/Ged.LINEAGE_LINKED_STRUCTURE.md)
 
 GEDCOM reference documentation : https://www.familysearch.org/developers/docs/gedcom/
 (GEDCOM is no longer maintained by Family Search. 
 The GEDCOM specifications 5.5 and draft 5.5.1 are provided only as a reference)
 
 ## ISSUES SOLVED IN THIS VERSION :
-cf all issues on https://github.com/geneweb/geneweb/issues
-	#164 - export Gedcom UTF8 
-	#576 - Converting failure of a text file (from utf8 to unicode) 
-	#611 - Do not split line in the middle of a multi-byte utf-8 char 
-	#627 - Import/Export GEDCOM : Incorrect charset name used 
-	#631 - PR #630 : Export GEDCOM : The text of the notes is no longer cut to a fixed length 
-	#634 - PR #635 : Some command line syntax errors for ged2gwb etc ... not processed. 
+see all issues on https://github.com/geneweb/geneweb/issues
+
+	> #164 - export Gedcom UTF8 
+	> #576 - Converting failure of a text file (from utf8 to unicode) 
+	> #611 - Do not split line in the middle of a multi-byte utf-8 char 
+	> #627 - Import/Export GEDCOM : Incorrect charset name used 
+	> #631 - PR #630 : Export GEDCOM : The text of the notes is no longer cut to a fixed length 
+	> #634 - PR #635 : Some command line syntax errors for ged2gwb etc ... not processed. 
 
 ## KNOWN BUGS/ERRORS, ENHANCEMENT :
-cf all issues on https://github.com/geneweb/geneweb/issues
+see all issues on https://github.com/geneweb/geneweb/issues
+
 	#137 - PACS
 	#143 - gwb2ged : identité 
 	#172 - Import GEDCOM et "level+1 CONC blabla"
@@ -51,6 +55,7 @@ cf all issues on https://github.com/geneweb/geneweb/issues
 	#620 - Import GEDCOM : "EVEN + TYPE nomen" import don't work without informations added
 
 ## Installation Instructions
-see  README.md and INSTALL files
+see [README.md](../README.md) and [INSTALL](../INSTALL) files
 
 ## Release Notes
+:warning: Under construction (no due date)
