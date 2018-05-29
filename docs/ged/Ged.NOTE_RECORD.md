@@ -5,15 +5,15 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **NOTE_RECORD**:=
 <pre>
-<b>n @&lt;<a href=Ged.XREF_NOTE>XREF:NOTE</a>&gt;@ NOTE &lt;<a href=Ged.SUBMITTER_TEXT>SUBMITTER_TEXT</a>&gt;{1:1}</b>
-  +1 [CONC|CONT] &lt;<a href=Ged.SUBMITTER_TEXT>SUBMITTER_TEXT</a>&gt;{0:M}
-  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER>USER_REFERENCE_NUMBER</a>&gt;{0:M}
-    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE>USER_REFERENCE_TYPE</a>&gt;{0:1}
-  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID>AUTOMATED_RECORD_ID</a>&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
+<b>n @&lt;<a href=Ged.XREF_NOTE.md>XREF:NOTE</a>&gt;@ NOTE &lt;<a href=Ged.SUBMITTER_TEXT.md>SUBMITTER_TEXT</a>&gt;{1:1}</b>
+  +1 [CONC|CONT] &lt;<a href=Ged.SUBMITTER_TEXT.md>SUBMITTER_TEXT</a>&gt;{0:M}
+  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER.md>USER_REFERENCE_NUMBER</a>&gt;{0:M}
+    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE.md>USER_REFERENCE_TYPE</a>&gt;{0:1}
+  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID.md>AUTOMATED_RECORD_ID</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 # Geneweb behavior
 

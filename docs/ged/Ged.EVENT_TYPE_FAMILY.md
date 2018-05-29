@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ ANUL | CENS | DIV | DIVF | ENGA | MARR | MARB | MARC | MARL | MARS | EVEN ]
 </pre>
-Used in <a href=Ged.EVENT_ATTRIBUTE_TYPE>EVENT_ATTRIBUTE_TYPE</a><br />
+Used in <a href=Ged.EVENT_ATTRIBUTE_TYPE.md>EVENT_ATTRIBUTE_TYPE</a><br />
 
 # Geneweb behavior
 

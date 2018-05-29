@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **ENTRY_RECORDING_DATE**:=
 <pre>
-&lt;<a href=Ged.DATE_VALUE>DATE_VALUE</a>&gt;
+&lt;<a href=Ged.DATE_VALUE.md>DATE_VALUE</a>&gt;
 </pre>
-Used in <a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a><br />
+Used in <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
 # Geneweb behavior
 

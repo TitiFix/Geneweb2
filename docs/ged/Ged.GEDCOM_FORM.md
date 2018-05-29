@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ LINEAGE-LINKED ]
 </pre>
-Used in <a href=Ged.HEADER_RECORD>HEADER_RECORD</a><br />
+Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a><br />
 
 # Geneweb behavior
 

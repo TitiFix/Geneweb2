@@ -5,16 +5,16 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **REPOSITORY_RECORD**:=
 <pre>
-<b>n @&lt;<a href=Ged.XREF_REPO>XREF:REPO</a>&gt;@ REPO{1:1}</b>
-<b>  +1 NAME &lt;<a href=Ged.NAME_OF_REPOSITORY>NAME_OF_REPOSITORY</a>&gt; {1:1}</b>
-  +1 &lt;&lt;<a href=Ged.ADDRESS_STRUCTURE>ADDRESS_STRUCTURE</a>&gt;&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER>USER_REFERENCE_NUMBER</a>&gt;{0:M}
-    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE>USER_REFERENCE_TYPE</a>&gt;{0:1}
-  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID>AUTOMATED_RECORD_ID</a>&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
+<b>n @&lt;<a href=Ged.XREF_REPO.md>XREF:REPO</a>&gt;@ REPO{1:1}</b>
+<b>  +1 NAME &lt;<a href=Ged.NAME_OF_REPOSITORY.md>NAME_OF_REPOSITORY</a>&gt; {1:1}</b>
+  +1 &lt;&lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER.md>USER_REFERENCE_NUMBER</a>&gt;{0:M}
+    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE.md>USER_REFERENCE_TYPE</a>&gt;{0:1}
+  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID.md>AUTOMATED_RECORD_ID</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 # Geneweb behavior
 

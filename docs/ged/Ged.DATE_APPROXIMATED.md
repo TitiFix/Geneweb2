@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **DATE_APPROXIMATED**:=
 <pre>
-[ ABT &lt;<a href=Ged.DATE>DATE</a>&gt; | CAL &lt;<a href=Ged.DATE>DATE</a>&gt; | EST &lt;<a href=Ged.DATE>DATE</a>&gt; ]
+[ ABT &lt;<a href=Ged.DATE.md>DATE</a>&gt; | CAL &lt;<a href=Ged.DATE.md>DATE</a>&gt; | EST &lt;<a href=Ged.DATE.md>DATE</a>&gt; ]
 </pre>
-Used in <a href=Ged.DATE_VALUE>DATE_VALUE</a><br />
+Used in <a href=Ged.DATE_VALUE.md>DATE_VALUE</a><br />
 
 # Geneweb behavior
 

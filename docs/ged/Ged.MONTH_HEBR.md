@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ TSH | CSH | KSL | TVT | SHV | ADR | ADS | NSN | IYR | SVN | TMZ | AAV | ELL ]
 </pre>
-Used in <a href=Ged.DATE_HEBR>DATE_HEBR</a><br />
+Used in <a href=Ged.DATE_HEBR.md>DATE_HEBR</a><br />
 
 # Geneweb behavior
 

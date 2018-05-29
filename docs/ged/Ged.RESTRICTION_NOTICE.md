@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [confidential | locked | privacy ]
 </pre>
-Used in <a href=Ged.FAM_RECORD>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD>INDIVIDUAL_RECORD</a>, <a href=Ged.EVENT_DETAIL>EVENT_DETAIL</a><br />
+Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
 
 # Geneweb behavior
 

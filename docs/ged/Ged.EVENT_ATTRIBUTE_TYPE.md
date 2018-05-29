@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **EVENT_ATTRIBUTE_TYPE**:={Size=1:15}
 <pre>
-[ &lt;<a href=Ged.EVENT_TYPE_INDIVIDUAL>EVENT_TYPE_INDIVIDUAL</a>&gt; | &lt;<a href=Ged.EVENT_TYPE_FAMILY>EVENT_TYPE_FAMILY</a>&gt; | &lt;<a href=Ged.ATTRIBUTE_TYPE>ATTRIBUTE_TYPE</a>&gt; ]
+[ &lt;<a href=Ged.EVENT_TYPE_INDIVIDUAL.md>EVENT_TYPE_INDIVIDUAL</a>&gt; | &lt;<a href=Ged.EVENT_TYPE_FAMILY.md>EVENT_TYPE_FAMILY</a>&gt; | &lt;<a href=Ged.ATTRIBUTE_TYPE.md>ATTRIBUTE_TYPE</a>&gt; ]
 </pre>
-Used in <a href=Ged.EVENT_TYPE_CITED_FROM>EVENT_TYPE_CITED_FROM</a>, <a href=Ged.EVENTS_RECORDED>EVENTS_RECORDED</a><br />
+Used in <a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>, <a href=Ged.EVENTS_RECORDED.md>EVENTS_RECORDED</a><br />
 
 # Geneweb behavior
 

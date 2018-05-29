@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **CHANGE_DATE**:=
 <pre>
-&lt;<a href=Ged.DATE_EXACT>DATE_EXACT</a>&gt;
+&lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt;
 </pre>
-Used in <a href=Ged.CHANGE_STRUCTURE>CHANGE_STRUCTURE</a>, <a href=Ged.LDS_INDIVIDUAL_ORDINANCE>LDS_INDIVIDUAL_ORDINANCE</a>, <a href=Ged.LDS_SPOUSE_SEALING>LDS_SPOUSE_SEALING</a><br />
+Used in <a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>, <a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a>, <a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a><br />
 
 # Geneweb behavior
 

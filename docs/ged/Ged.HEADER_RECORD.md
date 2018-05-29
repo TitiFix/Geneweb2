@@ -6,34 +6,34 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 **HEADER_RECORD**:=
 <pre>
 <b>n HEAD{1:1}</b>
-<b>  +1 SOUR &lt;<a href=Ged.APPROVED_SYSTEM_ID>APPROVED_SYSTEM_ID</a>&gt;{1:1}</b>
-    +2 VERS &lt;<a href=Ged.VERSION_NUMBER>VERSION_NUMBER</a>&gt;{0:1}
-    +2 NAME &lt;<a href=Ged.NAME_OF_PRODUCT>NAME_OF_PRODUCT</a>&gt;{0:1}
-    +2 CORP &lt;<a href=Ged.NAME_OF_BUSINESS>NAME_OF_BUSINESS</a>&gt;{0:1}
-      +3 &lt;&lt;<a href=Ged.ADDRESS_STRUCTURE>ADDRESS_STRUCTURE</a>&gt;&gt;{0:1}
-    +2 DATA &lt;<a href=Ged.NAME_OF_SOURCE_DATA>NAME_OF_SOURCE_DATA</a>&gt;{0:1}
-      +3 DATE &lt;<a href=Ged.PUBLICATION_DATE>PUBLICATION_DATE</a>&gt;{0:1}
-      +3 COPR &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA>COPYRIGHT_SOURCE_DATA</a>&gt;{0:1}
-        +4 [CONT|CONC] &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA>COPYRIGHT_SOURCE_DATA</a>&gt;{0:M}
-  +1 DEST &lt;<a href=Ged.RECEIVING_SYSTEM_NAME>RECEIVING_SYSTEM_NAME</a>&gt;{0:1} *
-  +1 DATE &lt;<a href=Ged.TRANSMISSION_DATE>TRANSMISSION_DATE</a>&gt;{0:1}
-    +2 TIME &lt;<a href=Ged.TIME_VALUE>TIME_VALUE</a>&gt;{0:1}
-<b>  +1 SUBM @&lt;<a href=Ged.XREF_SUBM>XREF:SUBM</a>&gt;@{1:1}</b>
-  +1 SUBN @&lt;<a href=Ged.XREF_SUBN>XREF:SUBN</a>&gt;@{0:1}
-  +1 FILE &lt;<a href=Ged.FILE_NAME>FILE_NAME</a>&gt;{0:1}
-  +1 COPR &lt;<a href=Ged.COPYRIGHT_GEDCOM_FILE>COPYRIGHT_GEDCOM_FILE</a>&gt;{0:1}
+<b>  +1 SOUR &lt;<a href=Ged.APPROVED_SYSTEM_ID.md>APPROVED_SYSTEM_ID</a>&gt;{1:1}</b>
+    +2 VERS &lt;<a href=Ged.VERSION_NUMBER.md>VERSION_NUMBER</a>&gt;{0:1}
+    +2 NAME &lt;<a href=Ged.NAME_OF_PRODUCT.md>NAME_OF_PRODUCT</a>&gt;{0:1}
+    +2 CORP &lt;<a href=Ged.NAME_OF_BUSINESS.md>NAME_OF_BUSINESS</a>&gt;{0:1}
+      +3 &lt;&lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt;&gt;{0:1}
+    +2 DATA &lt;<a href=Ged.NAME_OF_SOURCE_DATA.md>NAME_OF_SOURCE_DATA</a>&gt;{0:1}
+      +3 DATE &lt;<a href=Ged.PUBLICATION_DATE.md>PUBLICATION_DATE</a>&gt;{0:1}
+      +3 COPR &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA.md>COPYRIGHT_SOURCE_DATA</a>&gt;{0:1}
+        +4 [CONT|CONC] &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA.md>COPYRIGHT_SOURCE_DATA</a>&gt;{0:M}
+  +1 DEST &lt;<a href=Ged.RECEIVING_SYSTEM_NAME.md>RECEIVING_SYSTEM_NAME</a>&gt;{0:1} *
+  +1 DATE &lt;<a href=Ged.TRANSMISSION_DATE.md>TRANSMISSION_DATE</a>&gt;{0:1}
+    +2 TIME &lt;<a href=Ged.TIME_VALUE.md>TIME_VALUE</a>&gt;{0:1}
+<b>  +1 SUBM @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{1:1}</b>
+  +1 SUBN @&lt;<a href=Ged.XREF_SUBN.md>XREF:SUBN</a>&gt;@{0:1}
+  +1 FILE &lt;<a href=Ged.FILE_NAME.md>FILE_NAME</a>&gt;{0:1}
+  +1 COPR &lt;<a href=Ged.COPYRIGHT_GEDCOM_FILE.md>COPYRIGHT_GEDCOM_FILE</a>&gt;{0:1}
 <b>  +1 GEDC{1:1}</b>
-<b>    +2 VERS &lt;<a href=Ged.VERSION_NUMBER>VERSION_NUMBER</a>&gt;{1:1}</b>
-<b>    +2 FORM &lt;<a href=Ged.GEDCOM_FORM>GEDCOM_FORM</a>&gt;{1:1}</b>
-<b>  +1 CHAR &lt;<a href=Ged.CHARACTER_SET>CHARACTER_SET</a>&gt;{1:1}</b>
-    +2 VERS &lt;<a href=Ged.VERSION_NUMBER>VERSION_NUMBER</a>&gt;{0:1}
-  +1 LANG &lt;<a href=Ged.LANGUAGE_OF_TEXT>LANGUAGE_OF_TEXT</a>&gt;{0:1}
+<b>    +2 VERS &lt;<a href=Ged.VERSION_NUMBER.md>VERSION_NUMBER</a>&gt;{1:1}</b>
+<b>    +2 FORM &lt;<a href=Ged.GEDCOM_FORM.md>GEDCOM_FORM</a>&gt;{1:1}</b>
+<b>  +1 CHAR &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt;{1:1}</b>
+    +2 VERS &lt;<a href=Ged.VERSION_NUMBER.md>VERSION_NUMBER</a>&gt;{0:1}
+  +1 LANG &lt;<a href=Ged.LANGUAGE_OF_TEXT.md>LANGUAGE_OF_TEXT</a>&gt;{0:1}
   +1 PLAC{0:1}
-<b>    +2 FORM &lt;<a href=Ged.PLACE_HIERARCHY>PLACE_HIERARCHY</a>&gt;{1:1}</b>
-  +1 NOTE &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION>GEDCOM_CONTENT_DESCRIPTION</a>&gt;{0:1}
-    +2 [CONC|CONT] &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION>GEDCOM_CONTENT_DESCRIPTION</a>&gt;{0:M}
+<b>    +2 FORM &lt;<a href=Ged.PLACE_HIERARCHY.md>PLACE_HIERARCHY</a>&gt;{1:1}</b>
+  +1 NOTE &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION.md>GEDCOM_CONTENT_DESCRIPTION</a>&gt;{0:1}
+    +2 [CONC|CONT] &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION.md>GEDCOM_CONTENT_DESCRIPTION</a>&gt;{0:M}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 
 * NOTE:

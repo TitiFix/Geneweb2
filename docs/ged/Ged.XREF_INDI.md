@@ -5,7 +5,7 @@
 **XREF:INDI**:={Size=1:22}
 <pre>
 </pre>
-Used in <a href=Ged.FAM_RECORD>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD>INDIVIDUAL_RECORD</a>, <a href=Ged.ASSOCIATION_STRUCTURE>ASSOCIATION_STRUCTURE</a><br />
+Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a><br />
 
 # Geneweb behavior
 

@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **DATE_PERIOD**:={Size=7:35}
 <pre>
-[FROM &lt;<a href=Ged.DATE>DATE</a>&gt; | TO &lt;<a href=Ged.DATE>DATE</a>&gt; | FROM &lt;<a href=Ged.DATE>DATE</a>&gt; TO &lt;<a href=Ged.DATE>DATE</a>&gt; ]
+[FROM &lt;<a href=Ged.DATE.md>DATE</a>&gt; | TO &lt;<a href=Ged.DATE.md>DATE</a>&gt; | FROM &lt;<a href=Ged.DATE.md>DATE</a>&gt; TO &lt;<a href=Ged.DATE.md>DATE</a>&gt; ]
 </pre>
-Used in <a href=Ged.SOURCE_RECORD>SOURCE_RECORD</a>, <a href=Ged.DATE_VALUE>DATE_VALUE</a><br />
+Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.DATE_VALUE.md>DATE_VALUE</a><br />
 
 # Geneweb behavior
 

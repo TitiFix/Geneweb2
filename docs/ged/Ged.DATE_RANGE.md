@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **DATE_RANGE**:={Size=8:35}
 <pre>
-[ BEF &lt;<a href=Ged.DATE>DATE</a>&gt; | AFT &lt;<a href=Ged.DATE>DATE</a>&gt; | BET &lt;<a href=Ged.DATE>DATE</a>&gt; AND &lt;<a href=Ged.DATE>DATE</a>&gt; ]
+[ BEF &lt;<a href=Ged.DATE.md>DATE</a>&gt; | AFT &lt;<a href=Ged.DATE.md>DATE</a>&gt; | BET &lt;<a href=Ged.DATE.md>DATE</a>&gt; AND &lt;<a href=Ged.DATE.md>DATE</a>&gt; ]
 </pre>
-Used in <a href=Ged.DATE_VALUE>DATE_VALUE</a><br />
+Used in <a href=Ged.DATE_VALUE.md>DATE_VALUE</a><br />
 
 # Geneweb behavior
 

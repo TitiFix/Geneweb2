@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **DATE_EXACT**:=
 <pre>
-&lt;<a href=Ged.DAY>DAY</a>&gt; &lt;<a href=Ged.MONTH>MONTH</a>&gt; &lt;<a href=Ged.YEAR_GREG>YEAR_GREG</a>&gt;
+&lt;<a href=Ged.DAY.md>DAY</a>&gt; &lt;<a href=Ged.MONTH.md>MONTH</a>&gt; &lt;<a href=Ged.YEAR_GREG.md>YEAR_GREG</a>&gt;
 </pre>
-Used in <a href=Ged.CHANGE_DATE>CHANGE_DATE</a>, <a href=Ged.PUBLICATION_DATE>PUBLICATION_DATE</a>, <a href=Ged.TRANSMISSION_DATE>TRANSMISSION_DATE</a><br />
+Used in <a href=Ged.CHANGE_DATE.md>CHANGE_DATE</a>, <a href=Ged.PUBLICATION_DATE.md>PUBLICATION_DATE</a>, <a href=Ged.TRANSMISSION_DATE.md>TRANSMISSION_DATE</a><br />
 
 # Geneweb behavior
 

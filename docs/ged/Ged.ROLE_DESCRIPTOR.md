@@ -5,7 +5,7 @@
 **ROLE_DESCRIPTOR**:={Size=1:25}
 <pre>
 </pre>
-Used in <a href=Ged.ROLE_IN_EVENT>ROLE_IN_EVENT</a><br />
+Used in <a href=Ged.ROLE_IN_EVENT.md>ROLE_IN_EVENT</a><br />
 
 # Geneweb behavior
 

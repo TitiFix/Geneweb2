@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [challenged | disproven | proven]
 </pre>
-Used in <a href=Ged.CHILD_TO_FAMILY_LINK>CHILD_TO_FAMILY_LINK</a><br />
+Used in <a href=Ged.CHILD_TO_FAMILY_LINK.md>CHILD_TO_FAMILY_LINK</a><br />
 
 # Geneweb behavior
 

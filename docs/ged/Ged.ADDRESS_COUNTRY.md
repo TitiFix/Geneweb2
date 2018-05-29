@@ -5,7 +5,7 @@
 **ADDRESS_COUNTRY**:={Size=1:60}
 <pre>
 </pre>
-Used in <a href=Ged.ADDRESS_STRUCTURE>ADDRESS_STRUCTURE</a><br />
+Used in <a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a><br />
 
 # Geneweb behavior
 

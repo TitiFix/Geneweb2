@@ -5,10 +5,10 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **AGE_AT_EVENT**:={Size=1:12}
 <pre>
-[ &lt;<a href=Ged. | > | </a>&gt; | &lt;<a href=Ged.NULL>NULL</a>&gt;]
+[ &lt;<a href=Ged. | .md> | </a>&gt; | &lt;<a href=Ged.NULL.md>NULL</a>&gt;]
 [ YYy MMm DDDd | YYy | MMm | DDDd | YYy MMm | YYy DDDd | MMm DDDd | CHILD | INFANT | STILLBORN ]
 </pre>
-Used in <a href=Ged.FAMILY_EVENT_DETAIL>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL>INDIVIDUAL_EVENT_DETAIL</a><br />
+Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
 
 # Geneweb behavior
 

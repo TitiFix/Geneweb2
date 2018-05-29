@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **ROMANIZED_TYPE**:={Size=5:30}
 <pre>
-[&lt;<a href=Ged.user defined>user defined</a>&gt; | pinyin | romaji | wadegiles]
+[&lt;<a href=Ged.user defined.md>user defined</a>&gt; | pinyin | romaji | wadegiles]
 </pre>
-Used in <a href=Ged.PERSONAL_NAME_STRUCTURE>PERSONAL_NAME_STRUCTURE</a>, <a href=Ged.PLACE_STRUCTURE>PLACE_STRUCTURE</a><br />
+Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a>, <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
 
 # Geneweb behavior
 

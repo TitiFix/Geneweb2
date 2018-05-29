@@ -5,20 +5,20 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **MULTIMEDIA_LINK**:=
 <pre>
-<b>n OBJE @&lt;<a href=Ged.XREF_OBJE>XREF:OBJE</a>&gt;@ {1:1}</b>
+<b>n OBJE @&lt;<a href=Ged.XREF_OBJE.md>XREF:OBJE</a>&gt;@ {1:1}</b>
 | /* new 5.5.1 structure */
 <b>n OBJE {1:1}</b>
-<b>  +1 FILE &lt;<a href=Ged.MULTIMEDIA_FILE_REFN>MULTIMEDIA_FILE_REFN</a>&gt; {1:M}</b>
-<b>    +2 FORM &lt;<a href=Ged.MULTIMEDIA_FORMAT>MULTIMEDIA_FORMAT</a>&gt; {1:1}</b>
-      +3 MEDI &lt;<a href=Ged.SOURCE_MEDIA_TYPE>SOURCE_MEDIA_TYPE</a>&gt; {0:1}
-  +1 TITL &lt;<a href=Ged.DESCRIPTIVE_TITLE>DESCRIPTIVE_TITLE</a>&gt; {0:1}
+<b>  +1 FILE &lt;<a href=Ged.MULTIMEDIA_FILE_REFN.md>MULTIMEDIA_FILE_REFN</a>&gt; {1:M}</b>
+<b>    +2 FORM &lt;<a href=Ged.MULTIMEDIA_FORMAT.md>MULTIMEDIA_FORMAT</a>&gt; {1:1}</b>
+      +3 MEDI &lt;<a href=Ged.SOURCE_MEDIA_TYPE.md>SOURCE_MEDIA_TYPE</a>&gt; {0:1}
+  +1 TITL &lt;<a href=Ged.DESCRIPTIVE_TITLE.md>DESCRIPTIVE_TITLE</a>&gt; {0:1}
 | /* 5.5 structure */
 <b>n OBJE {1:1}</b>
-<b>  +1 FILE &lt;<a href=Ged.MULTIMEDIA_FILE_REFN>MULTIMEDIA_FILE_REFN</a>&gt; {1:M}</b>
-<b>  +1 FORM &lt;<a href=Ged.MULTIMEDIA_FORMAT>MULTIMEDIA_FORMAT</a>&gt; {1:1}</b>
-    +2 MEDI&lt;<a href=Ged.SOURCE_MEDIA_TYPE>SOURCE_MEDIA_TYPE</a>&gt; {0:1}
+<b>  +1 FILE &lt;<a href=Ged.MULTIMEDIA_FILE_REFN.md>MULTIMEDIA_FILE_REFN</a>&gt; {1:M}</b>
+<b>  +1 FORM &lt;<a href=Ged.MULTIMEDIA_FORMAT.md>MULTIMEDIA_FORMAT</a>&gt; {1:1}</b>
+    +2 MEDI&lt;<a href=Ged.SOURCE_MEDIA_TYPE.md>SOURCE_MEDIA_TYPE</a>&gt; {0:1}
 </pre>
-Used in <a href=Ged.FAM_RECORD>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD>INDIVIDUAL_RECORD</a>, <a href=Ged.SOURCE_RECORD>SOURCE_RECORD</a>, <a href=Ged.SUBMITTER_RECORD>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL>EVENT_DETAIL</a>, <a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a><br />
+Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>, <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
 
 * NOTE : some systems may have output the following 5.5 structure. The new context above was

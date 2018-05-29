@@ -5,7 +5,7 @@
 **PLACE_LONGITUDE**:={Size=5:8}
 <pre>
 </pre>
-Used in <a href=Ged.PLACE_STRUCTURE>PLACE_STRUCTURE</a><br />
+Used in <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
 
 # Geneweb behavior
 

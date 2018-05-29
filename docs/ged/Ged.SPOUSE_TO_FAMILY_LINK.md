@@ -5,10 +5,10 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **SPOUSE_TO_FAMILY_LINK**:=
 <pre>
-<b>n FAMS @&lt;<a href=Ged.XREF_FAM>XREF:FAM</a>&gt;@{1:1}</b>
-  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+<b>n FAMS @&lt;<a href=Ged.XREF_FAM.md>XREF:FAM</a>&gt;@{1:1}</b>
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 # Geneweb behavior
 

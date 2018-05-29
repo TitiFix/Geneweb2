@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **NUMBER**:=
 <pre>
-[&lt;<a href=Ged.DIGIT>DIGIT</a>&gt; | &lt;<a href=Ged.NUMBER>NUMBER</a>&gt;+&lt;<a href=Ged.DIGIT>DIGIT</a>&gt;]
+[&lt;<a href=Ged.DIGIT.md>DIGIT</a>&gt; | &lt;<a href=Ged.NUMBER.md>NUMBER</a>&gt;+&lt;<a href=Ged.DIGIT.md>DIGIT</a>&gt;]
 </pre>
-Used in <a href=Ged.YEAR_GREG>YEAR_GREG</a><br />
+Used in <a href=Ged.YEAR_GREG.md>YEAR_GREG</a><br />
 
 # Geneweb behavior
 

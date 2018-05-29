@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ @#DHEBREW@ | @#DROMAN@ | @#DFRENCH R@ | @#DGREGORIAN@ | @#DJULIAN@ | @#DUNKNOWN@ ]
 </pre>
-Used in <a href=Ged.DATE>DATE</a><br />
+Used in <a href=Ged.DATE.md>DATE</a><br />
 
 # Geneweb behavior
 

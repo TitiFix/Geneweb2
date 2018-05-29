@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ CANCELED | COMPLETED | DNS | EXCLUDED | DNS/CAN | PRE-1970 | SUBMITTED | UNCLEARED ]
 </pre>
-Used in <a href=Ged.LDS_SPOUSE_SEALING>LDS_SPOUSE_SEALING</a><br />
+Used in <a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a><br />
 
 # Geneweb behavior
 

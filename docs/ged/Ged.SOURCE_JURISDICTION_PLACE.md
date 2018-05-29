@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **SOURCE_JURISDICTION_PLACE**:={Size=1:120}
 <pre>
-&lt;<a href=Ged.PLACE_NAME>PLACE_NAME</a>&gt;
+&lt;<a href=Ged.PLACE_NAME.md>PLACE_NAME</a>&gt;
 </pre>
-Used in <a href=Ged.SOURCE_RECORD>SOURCE_RECORD</a><br />
+Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
 # Geneweb behavior
 

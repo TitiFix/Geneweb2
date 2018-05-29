@@ -5,12 +5,12 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **ASSOCIATION_STRUCTURE**:=
 <pre>
-<b>n ASSO @&lt;<a href=Ged.XREF_INDI>XREF:INDI</a>&gt;@{1:1}</b>
-<b>  +1 RELA &lt;<a href=Ged.RELATION_IS_DESCRIPTOR>RELATION_IS_DESCRIPTOR</a>&gt;{1:1}</b>
-  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+<b>n ASSO @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{1:1}</b>
+<b>  +1 RELA &lt;<a href=Ged.RELATION_IS_DESCRIPTOR.md>RELATION_IS_DESCRIPTOR</a>&gt;{1:1}</b>
+  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 # Geneweb behavior
 

@@ -5,7 +5,7 @@
 **NAME_OF_FAMILY_FILE**:={Size=1:120}
 <pre>
 </pre>
-Used in <a href=Ged.SUBMISSION_RECORD>SUBMISSION_RECORD</a><br />
+Used in <a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a><br />
 
 # Geneweb behavior
 

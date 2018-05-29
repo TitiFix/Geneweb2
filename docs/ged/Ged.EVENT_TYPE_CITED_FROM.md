@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **EVENT_TYPE_CITED_FROM**:={Size=1:15}
 <pre>
-[ &lt;<a href=Ged.EVENT_ATTRIBUTE_TYPE>EVENT_ATTRIBUTE_TYPE</a>&gt; ]
+[ &lt;<a href=Ged.EVENT_ATTRIBUTE_TYPE.md>EVENT_ATTRIBUTE_TYPE</a>&gt; ]
 </pre>
-Used in <a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a><br />
+Used in <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
 # Geneweb behavior
 

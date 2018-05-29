@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ bmp | gif | jpg | ole | pcx | tif | wav ]
 </pre>
-Used in <a href=Ged.MULTIMEDIA_RECORD>MULTIMEDIA_RECORD</a>, <a href=Ged.MULTIMEDIA_LINK>MULTIMEDIA_LINK</a><br />
+Used in <a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>, <a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a><br />
 
 # Geneweb behavior
 

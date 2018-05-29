@@ -5,24 +5,24 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **FAM_RECORD**:=
 <pre>
-<b>n @&lt;<a href=Ged.XREF_FAM>XREF:FAM</a>&gt;@ FAM{1:1}</b>
-  +1 RESN &lt;<a href=Ged.RESTRICTION_NOTICE>RESTRICTION_NOTICE</a>&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_STRUCTURE>FAMILY_EVENT_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 HUSB @&lt;<a href=Ged.XREF_INDI>XREF:INDI</a>&gt;@{0:1}
-  +1 WIFE @&lt;<a href=Ged.XREF_INDI>XREF:INDI</a>&gt;@{0:1}
-  +1 CHIL @&lt;<a href=Ged.XREF_INDI>XREF:INDI</a>&gt;@{0:M} *
-  +1 NCHI &lt;<a href=Ged.COUNT_OF_CHILDREN>COUNT_OF_CHILDREN</a>&gt;{0:1}
-  +1 SUBM @&lt;<a href=Ged.XREF_SUBM>XREF:SUBM</a>&gt;@{0:M}
-  +1 &lt;&lt;<a href=Ged.LDS_SPOUSE_SEALING>LDS_SPOUSE_SEALING</a>&gt;&gt;{0:M}
-  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER>USER_REFERENCE_NUMBER</a>&gt;{0:M}
-    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE>USER_REFERENCE_TYPE</a>&gt;{0:1}
-  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID>AUTOMATED_RECORD_ID</a>&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
+<b>n @&lt;<a href=Ged.XREF_FAM.md>XREF:FAM</a>&gt;@ FAM{1:1}</b>
+  +1 RESN &lt;<a href=Ged.RESTRICTION_NOTICE.md>RESTRICTION_NOTICE</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_STRUCTURE.md>FAMILY_EVENT_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 HUSB @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:1}
+  +1 WIFE @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:1}
+  +1 CHIL @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:M} *
+  +1 NCHI &lt;<a href=Ged.COUNT_OF_CHILDREN.md>COUNT_OF_CHILDREN</a>&gt;{0:1}
+  +1 SUBM @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{0:M}
+  +1 &lt;&lt;<a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a>&gt;&gt;{0:M}
+  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER.md>USER_REFERENCE_NUMBER</a>&gt;{0:M}
+    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE.md>USER_REFERENCE_TYPE</a>&gt;{0:1}
+  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID.md>AUTOMATED_RECORD_ID</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 
 * NOTE :

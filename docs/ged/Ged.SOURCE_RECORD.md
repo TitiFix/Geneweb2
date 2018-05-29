@@ -5,31 +5,31 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **SOURCE_RECORD**:=
 <pre>
-<b>n @&lt;<a href=Ged.XREF_SOUR>XREF:SOUR</a>&gt;@ SOUR{1:1}</b>
+<b>n @&lt;<a href=Ged.XREF_SOUR.md>XREF:SOUR</a>&gt;@ SOUR{1:1}</b>
   +1 DATA{0:1}
-    +2 EVEN &lt;<a href=Ged.EVENTS_RECORDED>EVENTS_RECORDED</a>&gt;{0:M}
-      +3 DATE &lt;<a href=Ged.DATE_PERIOD>DATE_PERIOD</a>&gt;{0:1}
-      +3 PLAC &lt;<a href=Ged.SOURCE_JURISDICTION_PLACE>SOURCE_JURISDICTION_PLACE</a>&gt;{0:1}
-    +2 AGNC &lt;<a href=Ged.RESPONSIBLE_AGENCY>RESPONSIBLE_AGENCY</a>&gt;{0:1}
-    +2 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 AUTH &lt;<a href=Ged.SOURCE_ORIGINATOR>SOURCE_ORIGINATOR</a>&gt;{0:1}
-    +2 [CONC|CONT] &lt;<a href=Ged.SOURCE_ORIGINATOR>SOURCE_ORIGINATOR</a>&gt;{0:M}
-  +1 TITL &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE>SOURCE_DESCRIPTIVE_TITLE</a>&gt;{0:1}
-    +2 [CONC|CONT] &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE>SOURCE_DESCRIPTIVE_TITLE</a>&gt;{0:M}
-  +1 ABBR &lt;<a href=Ged.SOURCE_FILED_BY_ENTRY>SOURCE_FILED_BY_ENTRY</a>&gt;{0:1}
-  +1 PUBL &lt;<a href=Ged.SOURCE_PUBLICATION_FACTS>SOURCE_PUBLICATION_FACTS</a>&gt;{0:1}
-    +2 [CONC|CONT] &lt;<a href=Ged.SOURCE_PUBLICATION_FACTS>SOURCE_PUBLICATION_FACTS</a>&gt;{0:M}
-  +1 TEXT &lt;<a href=Ged.TEXT_FROM_SOURCE>TEXT_FROM_SOURCE</a>&gt;{0:1}
-    +2 [CONC|CONT] &lt;<a href=Ged.TEXT_FROM_SOURCE>TEXT_FROM_SOURCE</a>&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.SOURCE_REPOSITORY_CITATION>SOURCE_REPOSITORY_CITATION</a>&gt;&gt;{0:M}
-  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER>USER_REFERENCE_NUMBER</a>&gt;{0:M}
-    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE>USER_REFERENCE_TYPE</a>&gt;{0:1}
-  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID>AUTOMATED_RECORD_ID</a>&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
+    +2 EVEN &lt;<a href=Ged.EVENTS_RECORDED.md>EVENTS_RECORDED</a>&gt;{0:M}
+      +3 DATE &lt;<a href=Ged.DATE_PERIOD.md>DATE_PERIOD</a>&gt;{0:1}
+      +3 PLAC &lt;<a href=Ged.SOURCE_JURISDICTION_PLACE.md>SOURCE_JURISDICTION_PLACE</a>&gt;{0:1}
+    +2 AGNC &lt;<a href=Ged.RESPONSIBLE_AGENCY.md>RESPONSIBLE_AGENCY</a>&gt;{0:1}
+    +2 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 AUTH &lt;<a href=Ged.SOURCE_ORIGINATOR.md>SOURCE_ORIGINATOR</a>&gt;{0:1}
+    +2 [CONC|CONT] &lt;<a href=Ged.SOURCE_ORIGINATOR.md>SOURCE_ORIGINATOR</a>&gt;{0:M}
+  +1 TITL &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE.md>SOURCE_DESCRIPTIVE_TITLE</a>&gt;{0:1}
+    +2 [CONC|CONT] &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE.md>SOURCE_DESCRIPTIVE_TITLE</a>&gt;{0:M}
+  +1 ABBR &lt;<a href=Ged.SOURCE_FILED_BY_ENTRY.md>SOURCE_FILED_BY_ENTRY</a>&gt;{0:1}
+  +1 PUBL &lt;<a href=Ged.SOURCE_PUBLICATION_FACTS.md>SOURCE_PUBLICATION_FACTS</a>&gt;{0:1}
+    +2 [CONC|CONT] &lt;<a href=Ged.SOURCE_PUBLICATION_FACTS.md>SOURCE_PUBLICATION_FACTS</a>&gt;{0:M}
+  +1 TEXT &lt;<a href=Ged.TEXT_FROM_SOURCE.md>TEXT_FROM_SOURCE</a>&gt;{0:1}
+    +2 [CONC|CONT] &lt;<a href=Ged.TEXT_FROM_SOURCE.md>TEXT_FROM_SOURCE</a>&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.SOURCE_REPOSITORY_CITATION.md>SOURCE_REPOSITORY_CITATION</a>&gt;&gt;{0:M}
+  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER.md>USER_REFERENCE_NUMBER</a>&gt;{0:M}
+    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE.md>USER_REFERENCE_TYPE</a>&gt;{0:1}
+  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID.md>AUTOMATED_RECORD_ID</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 # Geneweb behavior
 

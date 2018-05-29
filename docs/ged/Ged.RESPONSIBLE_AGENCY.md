@@ -5,7 +5,7 @@
 **RESPONSIBLE_AGENCY**:={Size=1:120}
 <pre>
 </pre>
-Used in <a href=Ged.SOURCE_RECORD>SOURCE_RECORD</a>, <a href=Ged.EVENT_DETAIL>EVENT_DETAIL</a><br />
+Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
 
 # Geneweb behavior
 

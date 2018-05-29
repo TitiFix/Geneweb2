@@ -6,30 +6,30 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 **INDIVIDUAL_RECORD**:=
 <pre>
 <b>n @XREF:INDI@ INDI{1:1}</b>
-  +1 RESN &lt;<a href=Ged.RESTRICTION_NOTICE>RESTRICTION_NOTICE</a>&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.PERSONAL_NAME_STRUCTURE>PERSONAL_NAME_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 SEX &lt;<a href=Ged.SEX_VALUE>SEX_VALUE</a>&gt; {0:1}
-  +1 &lt;&lt;<a href=Ged.INDIVIDUAL_EVENT_STRUCTURE>INDIVIDUAL_EVENT_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.LDS_INDIVIDUAL_ORDINANCE>LDS_INDIVIDUAL_ORDINANCE</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.CHILD_TO_FAMILY_LINK>CHILD_TO_FAMILY_LINK</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.SPOUSE_TO_FAMILY_LINK>SPOUSE_TO_FAMILY_LINK</a>&gt;&gt;{0:M}
-  +1 SUBM @&lt;<a href=Ged.XREF_SUBM>XREF:SUBM</a>&gt;@{0:M}
-  +1 &lt;&lt;<a href=Ged.ASSOCIATION_STRUCTURE>ASSOCIATION_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 ALIA @&lt;<a href=Ged.XREF_INDI>XREF:INDI</a>&gt;@{0:M}
-  +1 ANCI @&lt;<a href=Ged.XREF_SUBM>XREF:SUBM</a>&gt;@{0:M}
-  +1 DESI @&lt;<a href=Ged.XREF_SUBM>XREF:SUBM</a>&gt;@{0:M}
-  +1 RFN &lt;<a href=Ged.PERMANENT_RECORD_FILE_NUMBER>PERMANENT_RECORD_FILE_NUMBER</a>&gt;{0:1}
-  +1 AFN &lt;<a href=Ged.ANCESTRAL_FILE_NUMBER>ANCESTRAL_FILE_NUMBER</a>&gt;{0:1}
-  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER>USER_REFERENCE_NUMBER</a>&gt;{0:M}
-    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE>USER_REFERENCE_TYPE</a>&gt;{0:1}
-  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID>AUTOMATED_RECORD_ID</a>&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
-  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION>SOURCE_CITATION</a>&gt;&gt;{0:M}
-  +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
+  +1 RESN &lt;<a href=Ged.RESTRICTION_NOTICE.md>RESTRICTION_NOTICE</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 SEX &lt;<a href=Ged.SEX_VALUE.md>SEX_VALUE</a>&gt; {0:1}
+  +1 &lt;&lt;<a href=Ged.INDIVIDUAL_EVENT_STRUCTURE.md>INDIVIDUAL_EVENT_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.CHILD_TO_FAMILY_LINK.md>CHILD_TO_FAMILY_LINK</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.SPOUSE_TO_FAMILY_LINK.md>SPOUSE_TO_FAMILY_LINK</a>&gt;&gt;{0:M}
+  +1 SUBM @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{0:M}
+  +1 &lt;&lt;<a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 ALIA @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:M}
+  +1 ANCI @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{0:M}
+  +1 DESI @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{0:M}
+  +1 RFN &lt;<a href=Ged.PERMANENT_RECORD_FILE_NUMBER.md>PERMANENT_RECORD_FILE_NUMBER</a>&gt;{0:1}
+  +1 AFN &lt;<a href=Ged.ANCESTRAL_FILE_NUMBER.md>ANCESTRAL_FILE_NUMBER</a>&gt;{0:1}
+  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER.md>USER_REFERENCE_NUMBER</a>&gt;{0:M}
+    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE.md>USER_REFERENCE_TYPE</a>&gt;{0:1}
+  +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID.md>AUTOMATED_RECORD_ID</a>&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;{0:M}
+  +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 # Geneweb behavior
 

@@ -5,12 +5,12 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **SOURCE_REPOSITORY_CITATION**:=
 <pre>
-<b>n REPO [ @XREF:REPO@ | &lt;<a href=Ged.NULL>NULL</a>&gt;]{1:1}</b>
-  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
-  +1 CALN &lt;<a href=Ged.SOURCE_CALL_NUMBER>SOURCE_CALL_NUMBER</a>&gt;{0:M}
-    +2 MEDI &lt;<a href=Ged.SOURCE_MEDIA_TYPE>SOURCE_MEDIA_TYPE</a>&gt;{0:1}
+<b>n REPO [ @XREF:REPO@ | &lt;<a href=Ged.NULL.md>NULL</a>&gt;]{1:1}</b>
+  +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
+  +1 CALN &lt;<a href=Ged.SOURCE_CALL_NUMBER.md>SOURCE_CALL_NUMBER</a>&gt;{0:M}
+    +2 MEDI &lt;<a href=Ged.SOURCE_MEDIA_TYPE.md>SOURCE_MEDIA_TYPE</a>&gt;{0:1}
 </pre>
-Used in <a href=Ged.SOURCE_RECORD>SOURCE_RECORD</a><br />
+Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
 # Geneweb behavior
 

@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ audio | book | card | electronic | fiche | film | magazine |
 </pre>
-Used in <a href=Ged.MULTIMEDIA_RECORD>MULTIMEDIA_RECORD</a>, <a href=Ged.MULTIMEDIA_LINK>MULTIMEDIA_LINK</a>, <a href=Ged.SOURCE_REPOSITORY_CITATION>SOURCE_REPOSITORY_CITATION</a><br />
+Used in <a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>, <a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>, <a href=Ged.SOURCE_REPOSITORY_CITATION.md>SOURCE_REPOSITORY_CITATION</a><br />
 
 # Geneweb behavior
 

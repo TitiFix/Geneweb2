@@ -5,15 +5,15 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **LINEAGE_LINKED_STRUCTURE**:=
 <pre>
-<b>0 &lt;&lt;<a href=Ged.HEADER_RECORD>HEADER_RECORD</a>&gt;&gt;{1:1}</b>
-0 &lt;&lt;<a href=Ged.SUBMISSION_RECORD>SUBMISSION_RECORD</a>&gt;&gt;{0:1}
-<b>0 &lt;&lt;<a href=Ged.SUBMITTER_RECORD>SUBMITTER_RECORD</a>&gt;&gt;{1:1}</b>
-0 &lt;&lt;<a href=Ged.INDIVIDUAL_RECORD>INDIVIDUAL_RECORD</a>&gt;&gt;{0:M}
-0 &lt;&lt;<a href=Ged.FAM_RECORD>FAM_RECORD</a>&gt;&gt;{0:M}
-0 &lt;&lt;<a href=Ged.MULTIMEDIA_RECORD>MULTIMEDIA_RECORD</a>&gt;&gt;{0:M}
-0 &lt;&lt;<a href=Ged.NOTE_RECORD>NOTE_RECORD</a>&gt;&gt;{0:M}
-0 &lt;&lt;<a href=Ged.REPOSITORY_RECORD>REPOSITORY_RECORD</a>&gt;&gt;{0:M}
-0 &lt;&lt;<a href=Ged.SOURCE_RECORD>SOURCE_RECORD</a>&gt;&gt;{0:M}
+<b>0 &lt;&lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;&gt;{1:1}</b>
+0 &lt;&lt;<a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a>&gt;&gt;{0:1}
+<b>0 &lt;&lt;<a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>&gt;&gt;{1:1}</b>
+0 &lt;&lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;&gt;{0:M}
+0 &lt;&lt;<a href=Ged.FAM_RECORD.md>FAM_RECORD</a>&gt;&gt;{0:M}
+0 &lt;&lt;<a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>&gt;&gt;{0:M}
+0 &lt;&lt;<a href=Ged.NOTE_RECORD.md>NOTE_RECORD</a>&gt;&gt;{0:M}
+0 &lt;&lt;<a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>&gt;&gt;{0:M}
+0 &lt;&lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;&gt;{0:M}
 <b>0 TRLR{1:1}</b>
 </pre>
 # Geneweb behavior

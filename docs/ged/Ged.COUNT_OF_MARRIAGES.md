@@ -5,7 +5,7 @@
 **COUNT_OF_MARRIAGES**:={Size=1:3}
 <pre>
 </pre>
-Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
+Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
 
 # Geneweb behavior
 

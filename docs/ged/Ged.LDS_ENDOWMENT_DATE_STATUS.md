@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ CHILD | COMPLETED | EXCLUDED | PRE-1970 |  STILLBORN | SUBMITTED | UNCLEARED ]
 </pre>
-Used in <a href=Ged.LDS_INDIVIDUAL_ORDINANCE>LDS_INDIVIDUAL_ORDINANCE</a><br />
+Used in <a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a><br />
 
 # Geneweb behavior
 

@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ yes | no ]
 </pre>
-Used in <a href=Ged.SUBMISSION_RECORD>SUBMISSION_RECORD</a><br />
+Used in <a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a><br />
 
 # Geneweb behavior
 

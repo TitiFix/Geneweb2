@@ -16,7 +16,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 | Rajasthani | Russian | Sanskrit | Serb | Tagalog | Tamil | Telugu | Thai | Tibetan | Ukrainian | Urdu
 | Vietnamese | Yiddish ]
 </pre>
-Used in <a href=Ged.LANGUAGE_OF_TEXT>LANGUAGE_OF_TEXT</a>, <a href=Ged.LANGUAGE_PREFERENCE>LANGUAGE_PREFERENCE</a><br />
+Used in <a href=Ged.LANGUAGE_OF_TEXT.md>LANGUAGE_OF_TEXT</a>, <a href=Ged.LANGUAGE_PREFERENCE.md>LANGUAGE_PREFERENCE</a><br />
 
 # Geneweb behavior
 

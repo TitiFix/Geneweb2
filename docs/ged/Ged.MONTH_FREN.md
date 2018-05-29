@@ -7,7 +7,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [ VEND | BRUM | FRIM | NIVO | PLUV | VENT | GERM | FLOR | PRAI | MESS | THER | FRUC | COMP ]
 </pre>
-Used in <a href=Ged.DATE_FREN>DATE_FREN</a><br />
+Used in <a href=Ged.DATE_FREN.md>DATE_FREN</a><br />
 
 # Geneweb behavior
 

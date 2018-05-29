@@ -7,25 +7,25 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <pre>
 [
 <b>n [ ANUL | CENS | DIV | DIVF ] {1:1}</b>
-  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
 |
 <b>n [ ENGA | MARB | MARC ]{1:1}</b>
-  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
 |
-<b>n MARR  [Y|&lt;<a href=Ged.NULL>NULL</a>&gt;]{1:1}</b>
-  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
+<b>n MARR  [Y|&lt;<a href=Ged.NULL.md>NULL</a>&gt;]{1:1}</b>
+  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
 |
 <b>n [ MARL | MARS ]{1:1}</b>
-  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
 |
 n RESI {0:1}
-  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
+  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
 |
-<b>n EVEN [&lt;<a href=Ged.EVENT_DESCRIPTOR>EVENT_DESCRIPTOR</a>&gt; | &lt;<a href=Ged.NULL>NULL</a>&gt;] {1:1}</b>
-  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
+<b>n EVEN [&lt;<a href=Ged.EVENT_DESCRIPTOR.md>EVENT_DESCRIPTOR</a>&gt; | &lt;<a href=Ged.NULL.md>NULL</a>&gt;] {1:1}</b>
+  +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;&gt;{0:1}
 ]
 </pre>
-Used in <a href=Ged.FAM_RECORD>FAM_RECORD</a><br />
+Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a><br />
 
 # Geneweb behavior
 

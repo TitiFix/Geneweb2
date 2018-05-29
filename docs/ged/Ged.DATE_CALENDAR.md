@@ -5,9 +5,9 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 
 **DATE_CALENDAR**:={Size=4:35}
 <pre>
-[ &lt;<a href=Ged.DATE_GREG>DATE_GREG</a>&gt; | &lt;<a href=Ged.DATE_JULN>DATE_JULN</a>&gt; | &lt;<a href=Ged.DATE_HEBR>DATE_HEBR</a>&gt; | &lt;<a href=Ged.DATE_FREN>DATE_FREN</a>&gt; | &lt;<a href=Ged.DATE_FUTURE>DATE_FUTURE</a>&gt; ]
+[ &lt;<a href=Ged.DATE_GREG.md>DATE_GREG</a>&gt; | &lt;<a href=Ged.DATE_JULN.md>DATE_JULN</a>&gt; | &lt;<a href=Ged.DATE_HEBR.md>DATE_HEBR</a>&gt; | &lt;<a href=Ged.DATE_FREN.md>DATE_FREN</a>&gt; | &lt;<a href=Ged.DATE_FUTURE.md>DATE_FUTURE</a>&gt; ]
 </pre>
-Used in <a href=Ged.DATE>DATE</a><br />
+Used in <a href=Ged.DATE.md>DATE</a><br />
 
 # Geneweb behavior
 

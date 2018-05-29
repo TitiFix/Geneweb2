@@ -5,7 +5,7 @@
 **SUBMITTER_REGISTERED_RFN**:={Size=1:30}
 <pre>
 </pre>
-Used in <a href=Ged.SUBMITTER_RECORD>SUBMITTER_RECORD</a><br />
+Used in <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a><br />
 
 # Geneweb behavior
 
