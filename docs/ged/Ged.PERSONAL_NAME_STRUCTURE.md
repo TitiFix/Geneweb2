@@ -34,14 +34,14 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#NAME>NAME</a> | NAME_PERSONAL | | |
-+1 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | NAME_TYPE | | |
++0 <a href=Ged.GLOSSARY.md#name>NAME</a> | NAME_PERSONAL | | |
++1 <a href=Ged.GLOSSARY.md#type>TYPE</a> | NAME_TYPE | | |
 +1  | PERSONAL_NAME_PIECES | | |
-+1 <a href=Ged.GLOSSARY.md#FONE>FONE</a> | NAME_PHONETIC_VARIATION | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | PHONETIC_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#fone>FONE</a> | NAME_PHONETIC_VARIATION | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | PHONETIC_TYPE | | |
 +2  | PERSONAL_NAME_PIECES | | |
-+1 <a href=Ged.GLOSSARY.md#ROMN>ROMN</a> | NAME_ROMANIZED_VARIATION | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | ROMANIZED_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#romn>ROMN</a> | NAME_ROMANIZED_VARIATION | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | ROMANIZED_TYPE | | |
 +2  | PERSONAL_NAME_PIECES | | |
 
 :warning: to be continued/checked

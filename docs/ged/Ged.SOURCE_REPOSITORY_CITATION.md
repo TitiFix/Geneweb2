@@ -25,10 +25,10 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#REPO>REPO</a> | [ | | |
++0 <a href=Ged.GLOSSARY.md#repo>REPO</a> | [ | | |
 +1  | NOTE_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#CALN>CALN</a> | SOURCE_CALL_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#MEDI>MEDI</a> | SOURCE_MEDIA_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#caln>CALN</a> | SOURCE_CALL_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> | SOURCE_MEDIA_TYPE | | |
 
 :warning: to be continued/checked
 

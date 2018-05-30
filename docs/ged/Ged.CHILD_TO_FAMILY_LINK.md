@@ -16,9 +16,9 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#FAMC>FAMC</a> | @XREF:FAM@ | | |
-+1 <a href=Ged.GLOSSARY.md#PEDI>PEDI</a> | PEDIGREE_LINKAGE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#STAT>STAT</a> | CHILD_LINKAGE_STATUS | | |
++0 <a href=Ged.GLOSSARY.md#famc>FAMC</a> | @XREF:FAM@ | | |
++1 <a href=Ged.GLOSSARY.md#pedi>PEDI</a> | PEDIGREE_LINKAGE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#stat>STAT</a> | CHILD_LINKAGE_STATUS | | |
 +1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked

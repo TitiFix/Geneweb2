@@ -22,15 +22,15 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> | PLACE_NAME | | |
-+1 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | PLACE_HIERARCHY | | |
-+1 <a href=Ged.GLOSSARY.md#FONE>FONE</a> | PLACE_PHONETIC_VARIATION | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | PHONETIC_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#ROMN>ROMN</a> | PLACE_ROMANIZED_VARIATION | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | ROMANIZED_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#MAP>MAP</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#LATI>LATI</a> | PLACE_LATITUDE | | |
-+2 <a href=Ged.GLOSSARY.md#LONG>LONG</a> | PLACE_LONGITUDE | | |
++0 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | PLACE_NAME | | |
++1 <a href=Ged.GLOSSARY.md#form>FORM</a> | PLACE_HIERARCHY | | |
++1 <a href=Ged.GLOSSARY.md#fone>FONE</a> | PLACE_PHONETIC_VARIATION | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | PHONETIC_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#romn>ROMN</a> | PLACE_ROMANIZED_VARIATION | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | ROMANIZED_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#map>MAP</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#lati>LATI</a> | PLACE_LATITUDE | | |
++2 <a href=Ged.GLOSSARY.md#long>LONG</a> | PLACE_LONGITUDE | | |
 +1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked

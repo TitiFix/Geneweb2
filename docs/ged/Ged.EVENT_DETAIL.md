@@ -23,14 +23,14 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | EVENT_OR_FACT_CLASSIFICATION | | |
-+0 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | DATE_VALUE | | |
++0 <a href=Ged.GLOSSARY.md#type>TYPE</a> | EVENT_OR_FACT_CLASSIFICATION | | |
++0 <a href=Ged.GLOSSARY.md#date>DATE</a> | DATE_VALUE | | |
 +0  | PLACE_STRUCTURE | | |
 +0  | ADDRESS_STRUCTURE | | |
-+0 <a href=Ged.GLOSSARY.md#AGNC>AGNC</a> | RESPONSIBLE_AGENCY | | |
-+0 <a href=Ged.GLOSSARY.md#RELI>RELI</a> | RELIGIOUS_AFFILIATION | | |
-+0 <a href=Ged.GLOSSARY.md#CAUS>CAUS</a> | CAUSE_OF_EVENT | | |
-+0 <a href=Ged.GLOSSARY.md#RESN>RESN</a> | RESTRICTION_NOTICE | | |
++0 <a href=Ged.GLOSSARY.md#agnc>AGNC</a> | RESPONSIBLE_AGENCY | | |
++0 <a href=Ged.GLOSSARY.md#reli>RELI</a> | RELIGIOUS_AFFILIATION | | |
++0 <a href=Ged.GLOSSARY.md#caus>CAUS</a> | CAUSE_OF_EVENT | | |
++0 <a href=Ged.GLOSSARY.md#resn>RESN</a> | RESTRICTION_NOTICE | | |
 +0  | NOTE_STRUCTURE | | |
 +0  | SOURCE_CITATION | | |
 +0  | MULTIMEDIA_LINK | | |

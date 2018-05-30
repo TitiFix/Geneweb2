@@ -35,13 +35,13 @@ level tag  | + Attribut type or value | Import behavior | Export behavior  | Com
 +1  | FAMILY_EVENT_DETAIL | | |
 +0  | ENGA | | |
 +1  | FAMILY_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#MARR>MARR</a> | [Y|NULL] | | |
++0 <a href=Ged.GLOSSARY.md#marr>MARR</a> | [Y|NULL] | | |
 +1  | FAMILY_EVENT_DETAIL | | |
 +0  | MARL | | |
 +1  | FAMILY_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#RESI>RESI</a> |  | | |
++0 <a href=Ged.GLOSSARY.md#resi>RESI</a> |  | | |
 +1  | FAMILY_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#EVEN>EVEN</a> | [EVENT_DESCRIPTOR | | |
++0 <a href=Ged.GLOSSARY.md#even>EVEN</a> | [EVENT_DESCRIPTOR | | |
 +1  | FAMILY_EVENT_DETAIL | | |
 
 :warning: to be continued/checked

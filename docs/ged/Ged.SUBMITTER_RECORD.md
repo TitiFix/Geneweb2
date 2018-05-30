@@ -27,13 +27,13 @@ NOTE: submissions to the ancestral file require the name and address of the subm
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#SUBM>SUBM</a> | @XREF:SUBM@ | | |
-+1 <a href=Ged.GLOSSARY.md#NAME>NAME</a> | SUBMITTER_NAME | | |
++0 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#name>NAME</a> | SUBMITTER_NAME | | |
 +1  | ADDRESS_STRUCTURE | | |
 +1  | MULTIMEDIA_LINK | | |
-+1 <a href=Ged.GLOSSARY.md#LANG>LANG</a> | LANGUAGE_PREFERENCE | | |
-+1 <a href=Ged.GLOSSARY.md#RFN>RFN</a> | SUBMITTER_REGISTERED_RFN | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | LANGUAGE_PREFERENCE | | |
++1 <a href=Ged.GLOSSARY.md#rfn>RFN</a> | SUBMITTER_REGISTERED_RFN | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | CHANGE_STRUCTURE | | |
 

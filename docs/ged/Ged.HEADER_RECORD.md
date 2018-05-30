@@ -47,33 +47,33 @@ DESTination of ANSTFILE or TempleReady, respectively.
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#HEAD>HEAD</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#SOUR>SOUR</a> | APPROVED_SYSTEM_ID | | |
-+2 <a href=Ged.GLOSSARY.md#VERS>VERS</a> | VERSION_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#NAME>NAME</a> | NAME_OF_PRODUCT | | |
-+2 <a href=Ged.GLOSSARY.md#CORP>CORP</a> | NAME_OF_BUSINESS | | |
++0 <a href=Ged.GLOSSARY.md#head>HEAD</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | APPROVED_SYSTEM_ID | | |
++2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | VERSION_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#name>NAME</a> | NAME_OF_PRODUCT | | |
++2 <a href=Ged.GLOSSARY.md#corp>CORP</a> | NAME_OF_BUSINESS | | |
 +3  | ADDRESS_STRUCTURE | | |
-+2 <a href=Ged.GLOSSARY.md#DATA>DATA</a> | NAME_OF_SOURCE_DATA | | |
-+3 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | PUBLICATION_DATE | | |
-+3 <a href=Ged.GLOSSARY.md#COPR>COPR</a> | COPYRIGHT_SOURCE_DATA | | |
-+4 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | COPYRIGHT_SOURCE_DATA | | |
-+1 <a href=Ged.GLOSSARY.md#DEST>DEST</a> | RECEIVING_SYSTEM_NAME | | |
-+1 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | TRANSMISSION_DATE | | |
-+2 <a href=Ged.GLOSSARY.md#TIME>TIME</a> | TIME_VALUE | | |
-+1 <a href=Ged.GLOSSARY.md#SUBM>SUBM</a> | @XREF:SUBM@ | | |
-+1 <a href=Ged.GLOSSARY.md#SUBN>SUBN</a> | @XREF:SUBN@ | | |
-+1 <a href=Ged.GLOSSARY.md#FILE>FILE</a> | FILE_NAME | | |
-+1 <a href=Ged.GLOSSARY.md#COPR>COPR</a> | COPYRIGHT_GEDCOM_FILE | | |
-+1 <a href=Ged.GLOSSARY.md#GEDC>GEDC</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#VERS>VERS</a> | VERSION_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | GEDCOM_FORM | | |
-+1 <a href=Ged.GLOSSARY.md#CHAR>CHAR</a> | CHARACTER_SET | | |
-+2 <a href=Ged.GLOSSARY.md#VERS>VERS</a> | VERSION_NUMBER | | |
-+1 <a href=Ged.GLOSSARY.md#LANG>LANG</a> | LANGUAGE_OF_TEXT | | |
-+1 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | PLACE_HIERARCHY | | |
-+1 <a href=Ged.GLOSSARY.md#NOTE>NOTE</a> | GEDCOM_CONTENT_DESCRIPTION | | |
-+2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | GEDCOM_CONTENT_DESCRIPTION | | |
++2 <a href=Ged.GLOSSARY.md#data>DATA</a> | NAME_OF_SOURCE_DATA | | |
++3 <a href=Ged.GLOSSARY.md#date>DATE</a> | PUBLICATION_DATE | | |
++3 <a href=Ged.GLOSSARY.md#copr>COPR</a> | COPYRIGHT_SOURCE_DATA | | |
++4 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | COPYRIGHT_SOURCE_DATA | | |
++1 <a href=Ged.GLOSSARY.md#dest>DEST</a> | RECEIVING_SYSTEM_NAME | | |
++1 <a href=Ged.GLOSSARY.md#date>DATE</a> | TRANSMISSION_DATE | | |
++2 <a href=Ged.GLOSSARY.md#time>TIME</a> | TIME_VALUE | | |
++1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF:SUBN@ | | |
++1 <a href=Ged.GLOSSARY.md#file>FILE</a> | FILE_NAME | | |
++1 <a href=Ged.GLOSSARY.md#copr>COPR</a> | COPYRIGHT_GEDCOM_FILE | | |
++1 <a href=Ged.GLOSSARY.md#gedc>GEDC</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | VERSION_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> | GEDCOM_FORM | | |
++1 <a href=Ged.GLOSSARY.md#char>CHAR</a> | CHARACTER_SET | | |
++2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | VERSION_NUMBER | | |
++1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | LANGUAGE_OF_TEXT | | |
++1 <a href=Ged.GLOSSARY.md#plac>PLAC</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> | PLACE_HIERARCHY | | |
++1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | GEDCOM_CONTENT_DESCRIPTION | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | GEDCOM_CONTENT_DESCRIPTION | | |
 
 :warning: to be continued/checked
 

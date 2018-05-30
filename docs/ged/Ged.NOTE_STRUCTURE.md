@@ -25,9 +25,9 @@ reconstitution of the note.
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#NOTE>NOTE</a> | @XREF:NOTE@ | | |
-+0 <a href=Ged.GLOSSARY.md#NOTE>NOTE</a> | [SUBMITTER_TEXT | | |
-+1 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SUBMITTER_TEXT | | |
++0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF:NOTE@ | | |
++0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | [SUBMITTER_TEXT | | |
++1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SUBMITTER_TEXT | | |
 
 :warning: to be continued/checked
 

@@ -17,10 +17,10 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#HUSB>HUSB</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#AGE>AGE</a> | AGE_AT_EVENT | | |
-+0 <a href=Ged.GLOSSARY.md#WIFE>WIFE</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#AGE>AGE</a> | AGE_AT_EVENT | | |
++0 <a href=Ged.GLOSSARY.md#husb>HUSB</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#age>AGE</a> | AGE_AT_EVENT | | |
++0 <a href=Ged.GLOSSARY.md#wife>WIFE</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#age>AGE</a> | AGE_AT_EVENT | | |
 +0  | EVENT_DETAIL | | |
 
 :warning: to be continued/checked

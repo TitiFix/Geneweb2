@@ -58,25 +58,25 @@ NOTE: For example:
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#INDI>INDI</a> | @XREF:INDI@ | | |
-+1 <a href=Ged.GLOSSARY.md#RESN>RESN</a> | RESTRICTION_NOTICE | | |
++0 <a href=Ged.GLOSSARY.md#indi>INDI</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#resn>RESN</a> | RESTRICTION_NOTICE | | |
 +1  | PERSONAL_NAME_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#SEX>SEX</a> | SEX_VALUE | | |
++1 <a href=Ged.GLOSSARY.md#sex>SEX</a> | SEX_VALUE | | |
 +1  | INDIVIDUAL_EVENT_STRUCTURE | | |
 +1  | INDIVIDUAL_ATTRIBUTE_STRUCTURE | | |
 +1  | LDS_INDIVIDUAL_ORDINANCE | | |
 +1  | CHILD_TO_FAMILY_LINK | | |
 +1  | SPOUSE_TO_FAMILY_LINK | | |
-+1 <a href=Ged.GLOSSARY.md#SUBM>SUBM</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF:SUBM@ | | |
 +1  | ASSOCIATION_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#ALIA>ALIA</a> | @XREF:INDI@ | | |
-+1 <a href=Ged.GLOSSARY.md#ANCI>ANCI</a> | @XREF:SUBM@ | | |
-+1 <a href=Ged.GLOSSARY.md#DESI>DESI</a> | @XREF:SUBM@ | | |
-+1 <a href=Ged.GLOSSARY.md#RFN>RFN</a> | PERMANENT_RECORD_FILE_NUMBER | | |
-+1 <a href=Ged.GLOSSARY.md#AFN>AFN</a> | ANCESTRAL_FILE_NUMBER | | |
-+1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++1 <a href=Ged.GLOSSARY.md#alia>ALIA</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#anci>ANCI</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#desi>DESI</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#rfn>RFN</a> | PERMANENT_RECORD_FILE_NUMBER | | |
++1 <a href=Ged.GLOSSARY.md#afn>AFN</a> | ANCESTRAL_FILE_NUMBER | | |
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | CHANGE_STRUCTURE | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | SOURCE_CITATION | | |

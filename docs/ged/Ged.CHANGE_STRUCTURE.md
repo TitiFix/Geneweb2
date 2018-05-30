@@ -19,9 +19,9 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#CHAN>CHAN</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | CHANGE_DATE | | |
-+2 <a href=Ged.GLOSSARY.md#TIME>TIME</a> | TIME_VALUE | | |
++0 <a href=Ged.GLOSSARY.md#chan>CHAN</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#date>DATE</a> | CHANGE_DATE | | |
++2 <a href=Ged.GLOSSARY.md#time>TIME</a> | TIME_VALUE | | |
 +1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked

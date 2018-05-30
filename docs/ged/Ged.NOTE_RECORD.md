@@ -19,11 +19,11 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#NOTE>NOTE</a> | @XREF:NOTE@ | | |
-+1 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SUBMITTER_TEXT | | |
-+1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF:NOTE@ | | |
++1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SUBMITTER_TEXT | | |
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | SOURCE_CITATION | | |
 +1  | CHANGE_STRUCTURE | | |
 

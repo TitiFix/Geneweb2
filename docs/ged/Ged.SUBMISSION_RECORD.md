@@ -30,14 +30,14 @@ NOTE: :wastebasket: Since the discontinuation of the GEDCOM standard by familyse
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#SUBN>SUBN</a> | @XREF:SUBN@ | | |
-+1 <a href=Ged.GLOSSARY.md#SUBM>SUBM</a> | @XREF:SUBM@ | | |
-+1 <a href=Ged.GLOSSARY.md#FAMF>FAMF</a> | NAME_OF_FAMILY_FILE | | |
-+1 <a href=Ged.GLOSSARY.md#TEMP>TEMP</a> | TEMPLE_CODE | | |
-+1 <a href=Ged.GLOSSARY.md#ANCE>ANCE</a> | GENERATIONS_OF_ANCESTORS | | |
-+1 <a href=Ged.GLOSSARY.md#DESC>DESC</a> | GENERATIONS_OF_DESCENDANTS | | |
-+1 <a href=Ged.GLOSSARY.md#ORDI>ORDI</a> | ORDINANCE_PROCESS_FLAG | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++0 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF:SUBN@ | | |
++1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#famf>FAMF</a> | NAME_OF_FAMILY_FILE | | |
++1 <a href=Ged.GLOSSARY.md#temp>TEMP</a> | TEMPLE_CODE | | |
++1 <a href=Ged.GLOSSARY.md#ance>ANCE</a> | GENERATIONS_OF_ANCESTORS | | |
++1 <a href=Ged.GLOSSARY.md#desc>DESC</a> | GENERATIONS_OF_DESCENDANTS | | |
++1 <a href=Ged.GLOSSARY.md#ordi>ORDI</a> | ORDINANCE_PROCESS_FLAG | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | CHANGE_STRUCTURE | | |
 

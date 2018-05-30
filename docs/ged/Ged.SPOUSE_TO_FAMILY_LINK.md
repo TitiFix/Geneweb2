@@ -22,7 +22,7 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#FAMS>FAMS</a> | @XREF:FAM@ | | |
++0 <a href=Ged.GLOSSARY.md#fams>FAMS</a> | @XREF:FAM@ | | |
 +1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked

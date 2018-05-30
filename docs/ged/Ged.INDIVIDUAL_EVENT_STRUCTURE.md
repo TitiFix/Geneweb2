@@ -82,15 +82,15 @@ level tag  | + Attribut type or value | Import behavior | Export behavior  | Com
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0  | BIRT | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+1 <a href=Ged.GLOSSARY.md#FAMC>FAMC</a> | @XREF:FAM@ | | |
-+0 <a href=Ged.GLOSSARY.md#DEAT>DEAT</a> | [Y|NULL] | | |
++1 <a href=Ged.GLOSSARY.md#famc>FAMC</a> | @XREF:FAM@ | | |
++0 <a href=Ged.GLOSSARY.md#deat>DEAT</a> | [Y|NULL] | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
 +0  | BURI | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#ADOP>ADOP</a> |  | | |
++0 <a href=Ged.GLOSSARY.md#adop>ADOP</a> |  | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+1 <a href=Ged.GLOSSARY.md#FAMC>FAMC</a> | @XREF:FAM@ | | |
-+2 <a href=Ged.GLOSSARY.md#ADOP>ADOP</a> | ADOPTED_BY_WHICH_PARENT | | |
++1 <a href=Ged.GLOSSARY.md#famc>FAMC</a> | @XREF:FAM@ | | |
++2 <a href=Ged.GLOSSARY.md#adop>ADOP</a> | ADOPTED_BY_WHICH_PARENT | | |
 +0  | BAPM | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
 +0  | CHRA | | |
@@ -101,7 +101,7 @@ level tag  | + Attribut type or value | Import behavior | Export behavior  | Com
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
 +0  | GRAD | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#EVEN>EVEN</a> | [EVENT_DESCRIPTOR | | |
++0 <a href=Ged.GLOSSARY.md#even>EVEN</a> | [EVENT_DESCRIPTOR | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
 
 :warning: to be continued/checked

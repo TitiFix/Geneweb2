@@ -15,7 +15,7 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0  | EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#AGE>AGE</a> | AGE_AT_EVENT | | |
++0 <a href=Ged.GLOSSARY.md#age>AGE</a> | AGE_AT_EVENT | | |
 
 :warning: to be continued/checked
 

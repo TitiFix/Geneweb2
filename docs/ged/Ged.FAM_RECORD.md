@@ -36,18 +36,18 @@ The preferred order of the CHILdren pointers within a FAMily structure is chrono
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#FAM>FAM</a> | @XREF:FAM@ | | |
-+1 <a href=Ged.GLOSSARY.md#RESN>RESN</a> | RESTRICTION_NOTICE | | |
++0 <a href=Ged.GLOSSARY.md#fam>FAM</a> | @XREF:FAM@ | | |
++1 <a href=Ged.GLOSSARY.md#resn>RESN</a> | RESTRICTION_NOTICE | | |
 +1  | FAMILY_EVENT_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#HUSB>HUSB</a> | @XREF:INDI@ | | |
-+1 <a href=Ged.GLOSSARY.md#WIFE>WIFE</a> | @XREF:INDI@ | | |
-+1 <a href=Ged.GLOSSARY.md#CHIL>CHIL</a> | @XREF:INDI@ | | |
-+1 <a href=Ged.GLOSSARY.md#NCHI>NCHI</a> | COUNT_OF_CHILDREN | | |
-+1 <a href=Ged.GLOSSARY.md#SUBM>SUBM</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#husb>HUSB</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#wife>WIFE</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#chil>CHIL</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#nchi>NCHI</a> | COUNT_OF_CHILDREN | | |
++1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF:SUBM@ | | |
 +1  | LDS_SPOUSE_SEALING | | |
-+1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | CHANGE_STRUCTURE | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | SOURCE_CITATION | | |

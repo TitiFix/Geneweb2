@@ -60,34 +60,34 @@ with each of the above tags used in this structure.
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#CAST>CAST</a> | CASTE_NAME | | |
++0 <a href=Ged.GLOSSARY.md#cast>CAST</a> | CASTE_NAME | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#DSCR>DSCR</a> | PHYSICAL_DESCRIPTION | | |
++0 <a href=Ged.GLOSSARY.md#dscr>DSCR</a> | PHYSICAL_DESCRIPTION | | |
 +1  | | | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#EDUC>EDUC</a> | SCHOLASTIC_ACHIEVEMENT | | |
++0 <a href=Ged.GLOSSARY.md#educ>EDUC</a> | SCHOLASTIC_ACHIEVEMENT | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#IDNO>IDNO</a> | NATIONAL_ID_NUMBER | | |
++0 <a href=Ged.GLOSSARY.md#idno>IDNO</a> | NATIONAL_ID_NUMBER | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#NATI>NATI</a> | NATIONAL_OR_TRIBAL_ORIGIN | | |
++0 <a href=Ged.GLOSSARY.md#nati>NATI</a> | NATIONAL_OR_TRIBAL_ORIGIN | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#NCHI>NCHI</a> | COUNT_OF_CHILDREN | | |
++0 <a href=Ged.GLOSSARY.md#nchi>NCHI</a> | COUNT_OF_CHILDREN | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#NMR>NMR</a> | COUNT_OF_MARRIAGES | | |
++0 <a href=Ged.GLOSSARY.md#nmr>NMR</a> | COUNT_OF_MARRIAGES | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#OCCU>OCCU</a> | OCCUPATION | | |
++0 <a href=Ged.GLOSSARY.md#occu>OCCU</a> | OCCUPATION | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#PROP>PROP</a> | POSSESSIONS | | |
++0 <a href=Ged.GLOSSARY.md#prop>PROP</a> | POSSESSIONS | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#RELI>RELI</a> | RELIGIOUS_AFFILIATION | | |
++0 <a href=Ged.GLOSSARY.md#reli>RELI</a> | RELIGIOUS_AFFILIATION | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#RESI>RESI</a> | (* | | |
++0 <a href=Ged.GLOSSARY.md#resi>RESI</a> | (* | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#SSN>SSN</a> | SOCIAL_SECURITY_NUMBER | | |
++0 <a href=Ged.GLOSSARY.md#ssn>SSN</a> | SOCIAL_SECURITY_NUMBER | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#TITL>TITL</a> | NOBILITY_TYPE_TITLE | | |
++0 <a href=Ged.GLOSSARY.md#titl>TITL</a> | NOBILITY_TYPE_TITLE | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+0 <a href=Ged.GLOSSARY.md#FACT>FACT</a> | ATTRIBUTE_DESCRIPTOR | | |
++0 <a href=Ged.GLOSSARY.md#fact>FACT</a> | ATTRIBUTE_DESCRIPTOR | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
 
 :warning: to be continued/checked

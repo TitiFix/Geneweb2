@@ -20,12 +20,12 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#NPFX>NPFX</a> | NAME_PIECE_PREFIX | | |
++0 <a href=Ged.GLOSSARY.md#npfx>NPFX</a> | NAME_PIECE_PREFIX | | |
 +0  | NAME_PIECE_GIVEN | | |
-+0 <a href=Ged.GLOSSARY.md#NICK>NICK</a> | NAME_PIECE_NICKNAME | | |
-+0 <a href=Ged.GLOSSARY.md#SPFX>SPFX</a> | NAME_PIECE_SURNAME_PREFIX | | |
-+0 <a href=Ged.GLOSSARY.md#SURN>SURN</a> | NAME_PIECE_SURNAME | | |
-+0 <a href=Ged.GLOSSARY.md#NSFX>NSFX</a> | NAME_PIECE_SUFFIX | | |
++0 <a href=Ged.GLOSSARY.md#nick>NICK</a> | NAME_PIECE_NICKNAME | | |
++0 <a href=Ged.GLOSSARY.md#spfx>SPFX</a> | NAME_PIECE_SURNAME_PREFIX | | |
++0 <a href=Ged.GLOSSARY.md#surn>SURN</a> | NAME_PIECE_SURNAME | | |
++0 <a href=Ged.GLOSSARY.md#nsfx>NSFX</a> | NAME_PIECE_SUFFIX | | |
 +0  | NOTE_STRUCTURE | | |
 +0  | SOURCE_CITATION | | |
 

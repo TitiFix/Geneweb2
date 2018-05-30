@@ -29,14 +29,14 @@ FORM tag subordinate to each file reference.
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#OBJE>OBJE</a> | @XREF:OBJE@ | | |
-+1 <a href=Ged.GLOSSARY.md#FILE>FILE</a> | MULTIMEDIA_FILE_REFN | | |
-+2 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | MULTIMEDIA_FORMAT | | |
-+3 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | SOURCE_MEDIA_TYPE | | |
-+2 <a href=Ged.GLOSSARY.md#TITL>TITL</a> | DESCRIPTIVE_TITLE | | |
-+1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> | @XREF:OBJE@ | | |
++1 <a href=Ged.GLOSSARY.md#file>FILE</a> | MULTIMEDIA_FILE_REFN | | |
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> | MULTIMEDIA_FORMAT | | |
++3 <a href=Ged.GLOSSARY.md#type>TYPE</a> | SOURCE_MEDIA_TYPE | | |
++2 <a href=Ged.GLOSSARY.md#titl>TITL</a> | DESCRIPTIVE_TITLE | | |
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | SOURCE_CITATION | | |
 +1  | CHANGE_STRUCTURE | | |

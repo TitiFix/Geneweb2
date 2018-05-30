@@ -56,24 +56,24 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#SOUR>SOUR</a> | @XREF:SOUR@ | | |
-+1 <a href=Ged.GLOSSARY.md#PAGE>PAGE</a> | WHERE_WITHIN_SOURCE | | |
-+1 <a href=Ged.GLOSSARY.md#EVEN>EVEN</a> | EVENT_TYPE_CITED_FROM | | |
-+2 <a href=Ged.GLOSSARY.md#ROLE>ROLE</a> | ROLE_IN_EVENT | | |
-+1 <a href=Ged.GLOSSARY.md#DATA>DATA</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | ENTRY_RECORDING_DATE | | |
-+2 <a href=Ged.GLOSSARY.md#TEXT>TEXT</a> | TEXT_FROM_SOURCE | | |
-+3 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | TEXT_FROM_SOURCE | | |
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF:SOUR@ | | |
++1 <a href=Ged.GLOSSARY.md#page>PAGE</a> | WHERE_WITHIN_SOURCE | | |
++1 <a href=Ged.GLOSSARY.md#even>EVEN</a> | EVENT_TYPE_CITED_FROM | | |
++2 <a href=Ged.GLOSSARY.md#role>ROLE</a> | ROLE_IN_EVENT | | |
++1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#date>DATE</a> | ENTRY_RECORDING_DATE | | |
++2 <a href=Ged.GLOSSARY.md#text>TEXT</a> | TEXT_FROM_SOURCE | | |
++3 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | TEXT_FROM_SOURCE | | |
 +1  | MULTIMEDIA_LINK | | |
 +1  | NOTE_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#QUAY>QUAY</a> | CERTAINTY_ASSESSMENT | | |
-+0 <a href=Ged.GLOSSARY.md#SOUR>SOUR</a> | SOURCE_DESCRIPTION | | |
-+1 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SOURCE_DESCRIPTION | | |
-+1 <a href=Ged.GLOSSARY.md#TEXT>TEXT</a> | TEXT_FROM_SOURCE | | |
-+2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | TEXT_FROM_SOURCE | | |
++1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> | CERTAINTY_ASSESSMENT | | |
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | SOURCE_DESCRIPTION | | |
++1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SOURCE_DESCRIPTION | | |
++1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | TEXT_FROM_SOURCE | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | TEXT_FROM_SOURCE | | |
 +1  | MULTIMEDIA_LINK | | |
 +1  | NOTE_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#QUAY>QUAY</a> | CERTAINTY_ASSESSMENT | | |
++1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> | CERTAINTY_ASSESSMENT | | |
 
 :warning: to be continued/checked
 

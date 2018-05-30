@@ -30,19 +30,19 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#ADDR>ADDR</a> | ADDRESS_LINE | | |
-+1 <a href=Ged.GLOSSARY.md#CONT>CONT</a> | ADDRESS_LINE | | |
-+1 <a href=Ged.GLOSSARY.md#ADR1>ADR1</a> | ADDRESS_LINE1 | | |
-+1 <a href=Ged.GLOSSARY.md#ADR2>ADR2</a> | ADDRESS_LINE2 | | |
-+1 <a href=Ged.GLOSSARY.md#ADR3>ADR3</a> | ADDRESS_LINE3 | | |
-+1 <a href=Ged.GLOSSARY.md#CITY>CITY</a> | ADDRESS_CITY | | |
-+1 <a href=Ged.GLOSSARY.md#STAE>STAE</a> | ADDRESS_STATE | | |
-+1 <a href=Ged.GLOSSARY.md#POST>POST</a> | ADDRESS_POSTAL_CODE | | |
-+1 <a href=Ged.GLOSSARY.md#CTRY>CTRY</a> | ADDRESS_COUNTRY | | |
-+0 <a href=Ged.GLOSSARY.md#PHON>PHON</a> | PHONE_NUMBER | | |
-+0 <a href=Ged.GLOSSARY.md#EMAIL>EMAIL</a> | ADDRESS_EMAIL | | |
-+0 <a href=Ged.GLOSSARY.md#FAX>FAX</a> | ADDRESS_FAX | | |
-+0 <a href=Ged.GLOSSARY.md#WWW>WWW</a> | ADDRESS_WEB_PAGE | | |
++0 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | ADDRESS_LINE | | |
++1 <a href=Ged.GLOSSARY.md#cont>CONT</a> | ADDRESS_LINE | | |
++1 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | ADDRESS_LINE1 | | |
++1 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | ADDRESS_LINE2 | | |
++1 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | ADDRESS_LINE3 | | |
++1 <a href=Ged.GLOSSARY.md#city>CITY</a> | ADDRESS_CITY | | |
++1 <a href=Ged.GLOSSARY.md#stae>STAE</a> | ADDRESS_STATE | | |
++1 <a href=Ged.GLOSSARY.md#post>POST</a> | ADDRESS_POSTAL_CODE | | |
++1 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | ADDRESS_COUNTRY | | |
++0 <a href=Ged.GLOSSARY.md#phon>PHON</a> | PHONE_NUMBER | | |
++0 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | ADDRESS_EMAIL | | |
++0 <a href=Ged.GLOSSARY.md#fax>FAX</a> | ADDRESS_FAX | | |
++0 <a href=Ged.GLOSSARY.md#www>WWW</a> | ADDRESS_WEB_PAGE | | |
 
 :warning: to be continued/checked
 

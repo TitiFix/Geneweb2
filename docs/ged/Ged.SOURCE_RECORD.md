@@ -38,26 +38,26 @@ NOTE: Source records are used to provide a bibliographic description of the sour
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#SOUR>SOUR</a> | @XREF:SOUR@ | | |
-+1 <a href=Ged.GLOSSARY.md#DATA>DATA</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#EVEN>EVEN</a> | EVENTS_RECORDED | | |
-+3 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | DATE_PERIOD | | |
-+3 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> | SOURCE_JURISDICTION_PLACE | | |
-+2 <a href=Ged.GLOSSARY.md#AGNC>AGNC</a> | RESPONSIBLE_AGENCY | | |
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF:SOUR@ | | |
++1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#even>EVEN</a> | EVENTS_RECORDED | | |
++3 <a href=Ged.GLOSSARY.md#date>DATE</a> | DATE_PERIOD | | |
++3 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | SOURCE_JURISDICTION_PLACE | | |
++2 <a href=Ged.GLOSSARY.md#agnc>AGNC</a> | RESPONSIBLE_AGENCY | | |
 +2  | NOTE_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#AUTH>AUTH</a> | SOURCE_ORIGINATOR | | |
-+2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SOURCE_ORIGINATOR | | |
-+1 <a href=Ged.GLOSSARY.md#TITL>TITL</a> | SOURCE_DESCRIPTIVE_TITLE | | |
-+2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SOURCE_DESCRIPTIVE_TITLE | | |
-+1 <a href=Ged.GLOSSARY.md#ABBR>ABBR</a> | SOURCE_FILED_BY_ENTRY | | |
-+1 <a href=Ged.GLOSSARY.md#PUBL>PUBL</a> | SOURCE_PUBLICATION_FACTS | | |
-+2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SOURCE_PUBLICATION_FACTS | | |
-+1 <a href=Ged.GLOSSARY.md#TEXT>TEXT</a> | TEXT_FROM_SOURCE | | |
-+2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | TEXT_FROM_SOURCE | | |
++1 <a href=Ged.GLOSSARY.md#auth>AUTH</a> | SOURCE_ORIGINATOR | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SOURCE_ORIGINATOR | | |
++1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | SOURCE_DESCRIPTIVE_TITLE | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SOURCE_DESCRIPTIVE_TITLE | | |
++1 <a href=Ged.GLOSSARY.md#abbr>ABBR</a> | SOURCE_FILED_BY_ENTRY | | |
++1 <a href=Ged.GLOSSARY.md#publ>PUBL</a> | SOURCE_PUBLICATION_FACTS | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SOURCE_PUBLICATION_FACTS | | |
++1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | TEXT_FROM_SOURCE | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | TEXT_FROM_SOURCE | | |
 +1  | SOURCE_REPOSITORY_CITATION | | |
-+1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | CHANGE_STRUCTURE | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | MULTIMEDIA_LINK | | |

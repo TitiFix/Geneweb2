@@ -20,13 +20,13 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#REPO>REPO</a> | @XREF:REPO@ | | |
-+1 <a href=Ged.GLOSSARY.md#NAME>NAME</a> | NAME_OF_REPOSITORY | | |
++0 <a href=Ged.GLOSSARY.md#repo>REPO</a> | @XREF:REPO@ | | |
++1 <a href=Ged.GLOSSARY.md#name>NAME</a> | NAME_OF_REPOSITORY | | |
 +1  | ADDRESS_STRUCTURE | | |
 +1  | NOTE_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | CHANGE_STRUCTURE | | |
 
 :warning: to be continued/checked

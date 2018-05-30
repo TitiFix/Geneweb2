@@ -27,16 +27,16 @@ introduced in order to allow a grouping of related multimedia files to a particu
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#OBJE>OBJE</a> | @XREF:OBJE@ | | |
-+0 <a href=Ged.GLOSSARY.md#OBJE>OBJE</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#FILE>FILE</a> | MULTIMEDIA_FILE_REFN | | |
-+2 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | MULTIMEDIA_FORMAT | | |
-+3 <a href=Ged.GLOSSARY.md#MEDI>MEDI</a> | SOURCE_MEDIA_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#TITL>TITL</a> | DESCRIPTIVE_TITLE | | |
-+0 <a href=Ged.GLOSSARY.md#OBJE>OBJE</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#FILE>FILE</a> | MULTIMEDIA_FILE_REFN | | |
-+1 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | MULTIMEDIA_FORMAT | | |
-+2 <a href=Ged.GLOSSARY.md#MEDI>MEDI</a> | SOURCE_MEDIA_TYPE | | |
++0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> | @XREF:OBJE@ | | |
++0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#file>FILE</a> | MULTIMEDIA_FILE_REFN | | |
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> | MULTIMEDIA_FORMAT | | |
++3 <a href=Ged.GLOSSARY.md#medi>MEDI</a> | SOURCE_MEDIA_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | DESCRIPTIVE_TITLE | | |
++0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#file>FILE</a> | MULTIMEDIA_FILE_REFN | | |
++1 <a href=Ged.GLOSSARY.md#form>FORM</a> | MULTIMEDIA_FORMAT | | |
++2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> | SOURCE_MEDIA_TYPE | | |
 
 :warning: to be continued/checked
 
