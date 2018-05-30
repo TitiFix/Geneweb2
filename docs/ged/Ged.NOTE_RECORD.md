@@ -1,7 +1,8 @@
-﻿# Abstract
+﻿# NOTE_RECORD
+## Abstract
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **NOTE_RECORD**:=
@@ -14,17 +15,15 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;{0:M}
   +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0  | XREF:NOTE | | |
-+0 @<XREF:NOTE>@ NOTE | SUBMITTER_TEXT | | |
-+1 REFN | USER_REFERENCE_NUMBER | | |
-+2 TYPE | USER_REFERENCE_TYPE | | |
-+1 RIN | AUTOMATED_RECORD_ID | | |
++0 <a href=Ged.GLOSSARY.md#NOTE>NOTE</a> | @XREF:NOTE@ | | |
++1 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SUBMITTER_TEXT | | |
++1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | SOURCE_CITATION | | |
 +1  | CHANGE_STRUCTURE | | |
 

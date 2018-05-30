@@ -1,7 +1,8 @@
-﻿# Abstract
+﻿# LDS_SPOUSE_SEALING
+## Abstract
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **LDS_SPOUSE_SEALING**:=
@@ -15,17 +16,16 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt; {0:M}
   +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt; {0:M}
 </pre>
-Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+1 DATE | DATE_LDS_ORD | | |
-+1 TEMP | TEMPLE_CODE | | |
-+1 PLAC | PLACE_LIVING_ORDINANCE | | |
-+1 STAT | LDS_SPOUSE_SEALING_DATE_STATUS | | |
-+2 DATE | CHANGE_DATE | | |
++0 <a href=Ged.GLOSSARY.md#SLGS>SLGS</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | DATE_LDS_ORD | | |
++1 <a href=Ged.GLOSSARY.md#TEMP>TEMP</a> | TEMPLE_CODE | | |
++1 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> | PLACE_LIVING_ORDINANCE | | |
++1 <a href=Ged.GLOSSARY.md#STAT>STAT</a> | LDS_SPOUSE_SEALING_DATE_STATUS | | |
++2 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | CHANGE_DATE | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | SOURCE_CITATION | | |
 

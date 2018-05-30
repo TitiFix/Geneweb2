@@ -1,16 +1,15 @@
-﻿# Abstract
+﻿# ADDRESS_LINE1
+## Abstract
 The first line of the address used for indexing.  This is the value of the line corresponding to the
 ADDR tag line in the address structure.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **ADDRESS_LINE1**:={Size=1:60}
 <pre>
 </pre>
-Used in <a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

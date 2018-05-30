@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# SOURCE_DESCRIPTIVE_TITLE
+## Abstract
 The title of the work, record, or item and, when appropriate, the title of the larger work or series of
 which it is a part.
 For a published work, a book for example, might have a title plus the title of the series of which the
@@ -12,14 +13,12 @@ physical description of the book.
 !A personal interview would cite the informant and interviewer.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **SOURCE_DESCRIPTIVE_TITLE**:={Size=1:248}
 <pre>
 </pre>
-Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

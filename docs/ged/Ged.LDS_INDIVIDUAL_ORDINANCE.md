@@ -1,7 +1,8 @@
-﻿# Abstract
+﻿# LDS_INDIVIDUAL_ORDINANCE
+## Abstract
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **LDS_INDIVIDUAL_ORDINANCE**:=
@@ -36,22 +37,35 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;{0:M}
 ]
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+1 DATE | DATE_LDS_ORD | | |
-+1 TEMP | TEMPLE_CODE | | |
-+1 PLAC | PLACE_LIVING_ORDINANCE | | |
-+1 STAT | LDS_BAPTISM_DATE_STATUS | | |
-+2 DATE | CHANGE_DATE | | |
++0  | BAPL | | |
++1 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | DATE_LDS_ORD | | |
++1 <a href=Ged.GLOSSARY.md#TEMP>TEMP</a> | TEMPLE_CODE | | |
++1 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> | PLACE_LIVING_ORDINANCE | | |
++1 <a href=Ged.GLOSSARY.md#STAT>STAT</a> | LDS_BAPTISM_DATE_STATUS | | |
++2 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | CHANGE_DATE | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | SOURCE_CITATION | | |
-+1 STAT | LDS_ENDOWMENT_DATE_STATUS | | |
-+1 FAMC | XREF:FAM | | |
-+1 STAT | LDS_CHILD_SEALING_DATE_STATUS | | |
++0 <a href=Ged.GLOSSARY.md#ENDL>ENDL</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | DATE_LDS_ORD | | |
++1 <a href=Ged.GLOSSARY.md#TEMP>TEMP</a> | TEMPLE_CODE | | |
++1 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> | PLACE_LIVING_ORDINANCE | | |
++1 <a href=Ged.GLOSSARY.md#STAT>STAT</a> | LDS_ENDOWMENT_DATE_STATUS | | |
++2 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | CHANGE_DATE | | |
++1  | NOTE_STRUCTURE | | |
++1  | SOURCE_CITATION | | |
++0 <a href=Ged.GLOSSARY.md#SLGC>SLGC</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | DATE_LDS_ORD | | |
++1 <a href=Ged.GLOSSARY.md#TEMP>TEMP</a> | TEMPLE_CODE | | |
++1 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> | PLACE_LIVING_ORDINANCE | | |
++1 <a href=Ged.GLOSSARY.md#FAMC>FAMC</a> | @XREF:FAM@ | | |
++1 <a href=Ged.GLOSSARY.md#STAT>STAT</a> | LDS_CHILD_SEALING_DATE_STATUS | | |
++2 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | CHANGE_DATE | | |
++1  | NOTE_STRUCTURE | | |
++1  | SOURCE_CITATION | | |
 
 :warning: to be continued/checked
 

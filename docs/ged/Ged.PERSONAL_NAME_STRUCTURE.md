@@ -1,6 +1,7 @@
-﻿# Abstract
+﻿# PERSONAL_NAME_STRUCTURE
+## Abstract
 The name value is formed in the manner the name is normally spoken, with the given name and family
-n ame (surname) separated by slashes (/). (See &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt;, page 54.) Based on the
+n ame (surname) separated by slashes (/). (See &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt;) Based on the
 dynamic nature or unknown compositions of naming conventions, it is difficult to provide more
 detailed name piece structure to handle every case. The NPFX, GIVN, NICK, SPFX, SURN, and
 NSFX tags are provided optionally for systems that cannot operate effectively with less structured
@@ -9,12 +10,12 @@ information.  For current future compatibility, all systems must construct their
 systems will process them, and most will not provide the name pieces.
 A &lt;<a href=Ged.NAME_TYPE.md>NAME_TYPE</a>&gt; is used to specify the particular variation that this name is.  For example; if the
 n ame type is subordinate to the &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt; it could indicate that this name is a name
-taken at immigration or that it could be an ‘also known as’ name (see  page 56.)
+taken at immigration or that it could be an ‘also known as’ name
 Future GEDCOM releases (6.0 or later) will likely apply a very different strategy to resolve this
 problem, possibly using a sophisticated parser and a name-knowledge database.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **PERSONAL_NAME_STRUCTURE**:=
@@ -29,19 +30,19 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <b>    +2 TYPE &lt;<a href=Ged.ROMANIZED_TYPE.md>ROMANIZED_TYPE</a>&gt; {1:1}</b>
     +2 &lt;&lt;<a href=Ged.PERSONAL_NAME_PIECES.md>PERSONAL_NAME_PIECES</a>&gt;&gt; {0:1}
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 NAME | NAME_PERSONAL | | |
-+1 TYPE | NAME_TYPE | | |
++0 <a href=Ged.GLOSSARY.md#NAME>NAME</a> | NAME_PERSONAL | | |
++1 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | NAME_TYPE | | |
 +1  | PERSONAL_NAME_PIECES | | |
-+1 FONE | NAME_PHONETIC_VARIATION | | |
-+2 TYPE | PHONETIC_TYPE | | |
-+1 ROMN | NAME_ROMANIZED_VARIATION | | |
-+2 TYPE | ROMANIZED_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#FONE>FONE</a> | NAME_PHONETIC_VARIATION | | |
++2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | PHONETIC_TYPE | | |
++2  | PERSONAL_NAME_PIECES | | |
++1 <a href=Ged.GLOSSARY.md#ROMN>ROMN</a> | NAME_ROMANIZED_VARIATION | | |
++2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | ROMANIZED_TYPE | | |
++2  | PERSONAL_NAME_PIECES | | |
 
 :warning: to be continued/checked
 

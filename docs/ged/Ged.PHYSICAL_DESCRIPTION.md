@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# PHYSICAL_DESCRIPTION
+## Abstract
 An unstructured list of the attributes that describe the physical characteristics of a person, place, or
 object. Commas separate each attribute.
 Example:
@@ -6,14 +7,12 @@ Example:
 2 DATE 23 JUL 1935
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **PHYSICAL_DESCRIPTION**:={Size=1:248}
 <pre>
 </pre>
-Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

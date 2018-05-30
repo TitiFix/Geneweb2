@@ -1,7 +1,8 @@
-﻿# Abstract
+﻿# REPOSITORY_RECORD
+## Abstract
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **REPOSITORY_RECORD**:=
@@ -15,19 +16,17 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID.md>AUTOMATED_RECORD_ID</a>&gt;{0:1}
   +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0  | XREF:REPO | | |
-+1 NAME | NAME_OF_REPOSITORY | | |
++0 <a href=Ged.GLOSSARY.md#REPO>REPO</a> | @XREF:REPO@ | | |
++1 <a href=Ged.GLOSSARY.md#NAME>NAME</a> | NAME_OF_REPOSITORY | | |
 +1  | ADDRESS_STRUCTURE | | |
 +1  | NOTE_STRUCTURE | | |
-+1 REFN | USER_REFERENCE_NUMBER | | |
-+2 TYPE | USER_REFERENCE_TYPE | | |
-+1 RIN | AUTOMATED_RECORD_ID | | |
++1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | CHANGE_STRUCTURE | | |
 
 :warning: to be continued/checked

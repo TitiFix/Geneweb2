@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# SPOUSE_TO_FAMILY_LINK
+## Abstract
 Primitive Elements of the Lineage-Linked Form
 The field sizes show the minimum recommended field length within a database that is constrained to fixed
 length fields. The field sizes are in addition to the GEDCOM level and tag overhead. GEDCOM lines are
@@ -9,7 +10,7 @@ description can be processed (word wrapped) in a text window without fixed carri
 CONT and CONC tags are being used to extend specified textual values.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **SPOUSE_TO_FAMILY_LINK**:=
@@ -17,13 +18,11 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <b>n FAMS @&lt;<a href=Ged.XREF_FAM.md>XREF:FAM</a>&gt;@{1:1}</b>
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 FAMS | XREF:FAM | | |
++0 <a href=Ged.GLOSSARY.md#FAMS>FAMS</a> | @XREF:FAM@ | | |
 +1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked

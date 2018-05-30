@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# SOURCE_REPOSITORY_CITATION
+## Abstract
 This structure is used within a source record to point to a name and address record of the holder of the
 source document.  Formal and informal repository name and addresses are stored in the
 REPOSITORY_RECORD.  Informal repositories include owner's of an unpublished work or of a rare
@@ -10,7 +11,7 @@ address record, should describe where the information cited is stored in the <&l
 of the REPOsitory source citation structure.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **SOURCE_REPOSITORY_CITATION**:=
@@ -20,16 +21,14 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 CALN &lt;<a href=Ged.SOURCE_CALL_NUMBER.md>SOURCE_CALL_NUMBER</a>&gt;{0:M}
     +2 MEDI &lt;<a href=Ged.SOURCE_MEDIA_TYPE.md>SOURCE_MEDIA_TYPE</a>&gt;{0:1}
 </pre>
-Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 REPO [ @XREF:REPO@ | | NULL | | |
++0 <a href=Ged.GLOSSARY.md#REPO>REPO</a> | [ | | |
 +1  | NOTE_STRUCTURE | | |
-+1 CALN | SOURCE_CALL_NUMBER | | |
-+2 MEDI | SOURCE_MEDIA_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#CALN>CALN</a> | SOURCE_CALL_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#MEDI>MEDI</a> | SOURCE_MEDIA_TYPE | | |
 
 :warning: to be continued/checked
 

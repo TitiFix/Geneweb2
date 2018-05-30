@@ -1,16 +1,15 @@
-﻿# Abstract
+﻿# ADDRESS_LINE2
+## Abstract
 The second line of the address used for indexing.  This is the value of the first CONT line subordinate
 to the ADDR tag in the address structure.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **ADDRESS_LINE2**:={Size=1:60}
 <pre>
 </pre>
-Used in <a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

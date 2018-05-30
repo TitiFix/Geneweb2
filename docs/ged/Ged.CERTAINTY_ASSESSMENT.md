@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# CERTAINTY_ASSESSMENT
+## Abstract
 The QUAY tag's value conveys the submitter's quantitative evaluation of the credibility of a piece of
 information, based upon its supporting evidence. Some systems use this feature to rank multiple
 conflicting opinions for display of most likely information first. It is not intended to eliminate the
@@ -10,16 +11,14 @@ for example, an autobiography)
 3=Direct and primary evidence used, or by dominance of the evidence
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **CERTAINTY_ASSESSMENT**:={Size=1:1}
 <pre>
 [ 0 | 1 | 2 | 3 ]
 </pre>
-Used in <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

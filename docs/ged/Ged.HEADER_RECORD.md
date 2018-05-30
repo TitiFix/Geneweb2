@@ -1,11 +1,12 @@
-﻿# Abstract
+﻿# HEADER_RECORD
+## Abstract
 The header structure provides information about the entire transmission. The SOURce system name
 identifies which system sent the data. The DESTination system name identifies the intended receiving
 system. The reading program must read the &lt;<a href=Ged.VERSION_NUMBER.md>VERSION_NUMBER</a>&gt; and the &lt;<a href=Ged.GEDCOM_FORM.md>GEDCOM_FORM</a>&gt; values to insure proper readability.
 The &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt; value is mandatory and must be read first to select the appropriate character set.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **HEADER_RECORD**:=
@@ -39,35 +40,40 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
     +2 [CONC|CONT] &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION.md>GEDCOM_CONTENT_DESCRIPTION</a>&gt;{0:M}
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
-
-
 NOTE:
 Submissions to the Family History Department for Ancestral File submission or for clearing temple ordinances  must use a
 DESTination of ANSTFILE or TempleReady, respectively.
-# Geneweb behavior
+## Geneweb behavior
 
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+1 SOUR | APPROVED_SYSTEM_ID | | |
-+2 VERS | VERSION_NUMBER | | |
-+2 NAME | NAME_OF_PRODUCT | | |
-+2 CORP | NAME_OF_BUSINESS | | |
++0 <a href=Ged.GLOSSARY.md#HEAD>HEAD</a> |  | | |
++1 <a href=Ged.GLOSSARY.md#SOUR>SOUR</a> | APPROVED_SYSTEM_ID | | |
++2 <a href=Ged.GLOSSARY.md#VERS>VERS</a> | VERSION_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#NAME>NAME</a> | NAME_OF_PRODUCT | | |
++2 <a href=Ged.GLOSSARY.md#CORP>CORP</a> | NAME_OF_BUSINESS | | |
 +3  | ADDRESS_STRUCTURE | | |
-+2 DATA | NAME_OF_SOURCE_DATA | | |
-+3 DATE | PUBLICATION_DATE | | |
-+3 COPR | COPYRIGHT_SOURCE_DATA | | |
-+1 DEST | RECEIVING_SYSTEM_NAME | | |
-+1 DATE | TRANSMISSION_DATE | | |
-+2 TIME | TIME_VALUE | | |
-+1 SUBM | XREF:SUBM | | |
-+1 SUBN | XREF:SUBN | | |
-+1 FILE | FILE_NAME | | |
-+1 COPR | COPYRIGHT_GEDCOM_FILE | | |
-+2 FORM | GEDCOM_FORM | | |
-+1 CHAR | CHARACTER_SET | | |
-+1 LANG | LANGUAGE_OF_TEXT | | |
-+2 FORM | PLACE_HIERARCHY | | |
-+1 NOTE | GEDCOM_CONTENT_DESCRIPTION | | |
++2 <a href=Ged.GLOSSARY.md#DATA>DATA</a> | NAME_OF_SOURCE_DATA | | |
++3 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | PUBLICATION_DATE | | |
++3 <a href=Ged.GLOSSARY.md#COPR>COPR</a> | COPYRIGHT_SOURCE_DATA | | |
++4 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | COPYRIGHT_SOURCE_DATA | | |
++1 <a href=Ged.GLOSSARY.md#DEST>DEST</a> | RECEIVING_SYSTEM_NAME | | |
++1 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | TRANSMISSION_DATE | | |
++2 <a href=Ged.GLOSSARY.md#TIME>TIME</a> | TIME_VALUE | | |
++1 <a href=Ged.GLOSSARY.md#SUBM>SUBM</a> | @XREF:SUBM@ | | |
++1 <a href=Ged.GLOSSARY.md#SUBN>SUBN</a> | @XREF:SUBN@ | | |
++1 <a href=Ged.GLOSSARY.md#FILE>FILE</a> | FILE_NAME | | |
++1 <a href=Ged.GLOSSARY.md#COPR>COPR</a> | COPYRIGHT_GEDCOM_FILE | | |
++1 <a href=Ged.GLOSSARY.md#GEDC>GEDC</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#VERS>VERS</a> | VERSION_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | GEDCOM_FORM | | |
++1 <a href=Ged.GLOSSARY.md#CHAR>CHAR</a> | CHARACTER_SET | | |
++2 <a href=Ged.GLOSSARY.md#VERS>VERS</a> | VERSION_NUMBER | | |
++1 <a href=Ged.GLOSSARY.md#LANG>LANG</a> | LANGUAGE_OF_TEXT | | |
++1 <a href=Ged.GLOSSARY.md#PLAC>PLAC</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#FORM>FORM</a> | PLACE_HIERARCHY | | |
++1 <a href=Ged.GLOSSARY.md#NOTE>NOTE</a> | GEDCOM_CONTENT_DESCRIPTION | | |
++2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | GEDCOM_CONTENT_DESCRIPTION | | |
 
 :warning: to be continued/checked
 

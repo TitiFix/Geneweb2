@@ -50,6 +50,7 @@ The GEDCOM specifications 5.5 and draft 5.5.1 are provided only as a reference)
 [#394](https://github.com/geneweb/geneweb/issues/394) - ged2gwb: separate multiple notes with a horizontal rule (&lt;hr&gt;)<br />
 [#605](https://github.com/geneweb/geneweb/issues/605) - support GEDCOM CHAN tag (change date) <br />
 [#620](https://github.com/geneweb/geneweb/issues/620) - Import GEDCOM : "EVEN + TYPE nomen" import don't work without informations added<br />
+[#637](https://github.com/geneweb/geneweb/issues/637) - Add BOM decode for UTF-8 encoding in gwc1/gwc2 (and reject other BOM)
 
 ## Installation Instructions
 see [README.md](../README.md) and [INSTALL](../INSTALL) files

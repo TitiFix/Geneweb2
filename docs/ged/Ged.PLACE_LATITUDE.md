@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# PLACE_LATITUDE
+## Abstract
 The value specifying the latitudinal coordinate of the place name. The latitude coordinate is the
 direction North or South from the equator in degrees and fraction of degrees carried out to give the
 desired accuracy. For example:  18 degrees, 9 minutes, and 3.4 seconds North would be formatted as
@@ -7,14 +8,12 @@ value by 3600 and adding the results together. This sum becomes the fractional p
 value.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **PLACE_LATITUDE**:={Size=5:8}
 <pre>
 </pre>
-Used in <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

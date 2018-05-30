@@ -1,8 +1,9 @@
-﻿# Abstract
+﻿# ASSOCIATION_STRUCTURE
+## Abstract
 The association pointer only associates INDIvidual records to INDIvidual records.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **ASSOCIATION_STRUCTURE**:=
@@ -12,14 +13,12 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;{0:M}
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 ASSO | XREF:INDI | | |
-+1 RELA | RELATION_IS_DESCRIPTOR | | |
++0 <a href=Ged.GLOSSARY.md#ASSO>ASSO</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#RELA>RELA</a> | RELATION_IS_DESCRIPTOR | | |
 +1  | SOURCE_CITATION | | |
 +1  | NOTE_STRUCTURE | | |
 

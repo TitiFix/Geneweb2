@@ -1,15 +1,16 @@
-﻿# Abstract
+﻿# TEXT
+## Abstract
 A string composed of any valid character from the GEDCOM character set.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **TEXT**:={Size=1:248}
 <pre>
 </pre>
-Used in <a href=Ged.DATE_PHRASE.md>DATE_PHRASE</a>, <a href=Ged.TEXT_FROM_SOURCE.md>TEXT_FROM_SOURCE</a><br />
+Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
-# Geneweb behavior
+## Geneweb behavior
 
 
 :warning: to be continued/checked

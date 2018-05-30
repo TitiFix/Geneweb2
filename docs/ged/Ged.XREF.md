@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# XREF
+## Abstract
 Either a pointer or an unique cross-reference identifier. If this element appears before the tag in a
 GEDCOM line, then it is a cross-reference identifier. If it appears after the tag in a GEDCOM line,
 then it is a pointer. The method of delimiting a pointer or cross-reference identifier is to enclose the
@@ -9,12 +10,12 @@ exclamation (!) is reserved for intra-record pointers. Uniqueness of the cross-r
 required within the transmission file.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **XREF**:={Size=1:22}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE>LINEAGE_LINKED_STRUCTURE.md</a><br /># Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# NAME_PERSONAL
+## Abstract
 The surname of an individual, if known, is enclosed between two slash (/) characters. The order of the
 n ame parts should be the order that the person would, by custom of their culture, have used when
 ®
@@ -16,7 +17,7 @@ William /Lee/ Parry (surname imbedded in the name string)
 William Lee /Pa.../
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **NAME_PERSONAL**:={Size=1:120}
@@ -27,13 +28,8 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 | /&lt;<a href=Ged.NAME_TEXT.md>NAME_TEXT</a>&gt;/ &lt;<a href=Ged.NAME_TEXT.md>NAME_TEXT</a>&gt;
 | &lt;<a href=Ged.NAME_TEXT.md>NAME_TEXT</a>&gt; /&lt;<a href=Ged.NAME_TEXT.md>NAME_TEXT</a>&gt;/ &lt;<a href=Ged.NAME_TEXT.md>NAME_TEXT</a>&gt; ]
 </pre>
-Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
----------- | ------------- | :---------------: | :-----------------:| -----------
-  |  | | |
 
 :warning: to be continued/checked
 

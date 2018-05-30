@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# FAM_RECORD
+## Abstract
 The FAMily record is used to record marriages, common law marriages, and family unions caused by
 two people becoming the parents of a child. There can be no more than one HUSB/father and one
 WIFE/mother listed in each FAM_RECORD. If, for example, a man participated in more than one
@@ -6,7 +7,7 @@ family union, then he would appear in more than one FAM_RECORD. The family recor
 assumes that the HUSB/father is male and WIFE/mother is female.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **FAM_RECORD**:=
@@ -29,24 +30,24 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
-
-
-NOTE :
+NOTE:
 The preferred order of the CHILdren pointers within a FAMily structure is chronological by birth.
-# Geneweb behavior
+## Geneweb behavior
 
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0  | XREF:FAM | | |
-+1 RESN | RESTRICTION_NOTICE | | |
++0 <a href=Ged.GLOSSARY.md#FAM>FAM</a> | @XREF:FAM@ | | |
++1 <a href=Ged.GLOSSARY.md#RESN>RESN</a> | RESTRICTION_NOTICE | | |
 +1  | FAMILY_EVENT_STRUCTURE | | |
-+1 HUSB | XREF:INDI | | |
-+1 NCHI | COUNT_OF_CHILDREN | | |
-+1 SUBM | XREF:SUBM | | |
++1 <a href=Ged.GLOSSARY.md#HUSB>HUSB</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#WIFE>WIFE</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#CHIL>CHIL</a> | @XREF:INDI@ | | |
++1 <a href=Ged.GLOSSARY.md#NCHI>NCHI</a> | COUNT_OF_CHILDREN | | |
++1 <a href=Ged.GLOSSARY.md#SUBM>SUBM</a> | @XREF:SUBM@ | | |
 +1  | LDS_SPOUSE_SEALING | | |
-+1 REFN | USER_REFERENCE_NUMBER | | |
-+2 TYPE | USER_REFERENCE_TYPE | | |
-+1 RIN | AUTOMATED_RECORD_ID | | |
++1 <a href=Ged.GLOSSARY.md#REFN>REFN</a> | USER_REFERENCE_NUMBER | | |
++2 <a href=Ged.GLOSSARY.md#TYPE>TYPE</a> | USER_REFERENCE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#RIN>RIN</a> | AUTOMATED_RECORD_ID | | |
 +1  | CHANGE_STRUCTURE | | |
 +1  | NOTE_STRUCTURE | | |
 +1  | SOURCE_CITATION | | |

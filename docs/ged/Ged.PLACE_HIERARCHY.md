@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# PLACE_HIERARCHY
+## Abstract
 This shows the jurisdictional entities that are named in a sequence from the lowest to the highest
 jurisdiction. The jurisdictions are separated by commas, and any jurisdiction's name that is missing is
 still accounted for by a comma. When a PLAC.FORM structure is included in the HEADER of a
@@ -9,14 +10,12 @@ structure stated in the HEADER. This usage is not common and, therefore, not enc
 only be used when a system has over-structured its place-names.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **PLACE_HIERARCHY**:={Size=1:120}
 <pre>
 </pre>
-Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

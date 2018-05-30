@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# INDIVIDUAL_EVENT_STRUCTURE
+## Abstract
 As a general rule, events are things that happen on a specific date. Use the date form ‘BET date
 AND date’ to indicate that an event took place at some time between two dates. Resist the
 temptation to use a ‘FROM date TO date’ form in an event structure.  If the subject of your
@@ -35,7 +36,7 @@ It is not proper GEDCOM form to use a N(o) value with an event tag to infer that
 A convention to handle events which never happened may be defined in the future.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **INDIVIDUAL_EVENT_STRUCTURE**:=
@@ -56,10 +57,10 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 FAMC @&lt;<a href=Ged.XREF_FAM.md>XREF:FAM</a>&gt;@{0:1}
     +2 ADOP &lt;<a href=Ged.ADOPTED_BY_WHICH_PARENT.md>ADOPTED_BY_WHICH_PARENT</a>&gt;{0:1}
 |
-<b>n [ BAPM | BARM | BASM | BLES ]{1:1}</b>
+n [ BAPM | BARM | BASM | BLES ]{0:1}
   +1 &lt;&lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;&gt;{0:1} *
 |
-<b>n [ CHRA | CONF | FCOM | ORDN ]{1:1}</b>
+n [ CHRA | CONF | FCOM | ORDN ]{0:1}
   +1 &lt;&lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;&gt;{0:1} *
 |
 <b>n [ NATU | EMIG | IMMI ]{1:1}</b>
@@ -71,20 +72,37 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <b>n [ GRAD | RETI ] {1:1}</b>
   +1 &lt;&lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;&gt; {0:1} *
 |
-<b>n EVEN  {1:1}</b>
+n EVEN [&lt;<a href=Ged.EVENT_DESCRIPTOR.md>EVENT_DESCRIPTOR</a>&gt; | &lt;<a href=Ged.NULL.md>NULL</a>&gt;] {0:1}
   +1 &lt;&lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;&gt; {0:1} *
 ]
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 [ BIRT | CHR ] [Y| | NULL | | |
++0  | BIRT | | |
 +1  | INDIVIDUAL_EVENT_DETAIL | | |
-+1 FAMC | XREF:FAM | | |
-+2 ADOP | ADOPTED_BY_WHICH_PARENT | | |
++1 <a href=Ged.GLOSSARY.md#FAMC>FAMC</a> | @XREF:FAM@ | | |
++0 <a href=Ged.GLOSSARY.md#DEAT>DEAT</a> | [Y|NULL] | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0  | BURI | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0 <a href=Ged.GLOSSARY.md#ADOP>ADOP</a> |  | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++1 <a href=Ged.GLOSSARY.md#FAMC>FAMC</a> | @XREF:FAM@ | | |
++2 <a href=Ged.GLOSSARY.md#ADOP>ADOP</a> | ADOPTED_BY_WHICH_PARENT | | |
++0  | BAPM | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0  | CHRA | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0  | NATU | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0  | CENS | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0  | GRAD | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
++0 <a href=Ged.GLOSSARY.md#EVEN>EVEN</a> | [EVENT_DESCRIPTOR | | |
++1  | INDIVIDUAL_EVENT_DETAIL | | |
 
 :warning: to be continued/checked
 

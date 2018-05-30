@@ -1,7 +1,8 @@
-﻿# Abstract
+﻿# CHILD_TO_FAMILY_LINK
+## Abstract
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **CHILD_TO_FAMILY_LINK**:=
@@ -11,15 +12,13 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 STAT &lt;<a href=Ged.CHILD_LINKAGE_STATUS.md>CHILD_LINKAGE_STATUS</a>&gt;{0:1}
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 FAMC | XREF:FAM | | |
-+1 PEDI | PEDIGREE_LINKAGE_TYPE | | |
-+1 STAT | CHILD_LINKAGE_STATUS | | |
++0 <a href=Ged.GLOSSARY.md#FAMC>FAMC</a> | @XREF:FAM@ | | |
++1 <a href=Ged.GLOSSARY.md#PEDI>PEDI</a> | PEDIGREE_LINKAGE_TYPE | | |
++1 <a href=Ged.GLOSSARY.md#STAT>STAT</a> | CHILD_LINKAGE_STATUS | | |
 +1  | NOTE_STRUCTURE | | |
 
 :warning: to be continued/checked

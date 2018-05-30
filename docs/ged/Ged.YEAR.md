@@ -1,15 +1,14 @@
-﻿# Abstract
+﻿# YEAR
+## Abstract
 A numeric representation of the calendar year in which an event occurred.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **YEAR**:={Size=3:4}
 <pre>
 </pre>
-Used in <a href=Ged.DATE_FREN.md>DATE_FREN</a>, <a href=Ged.DATE_HEBR.md>DATE_HEBR</a>, <a href=Ged.DATE_JULN.md>DATE_JULN</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

@@ -1,9 +1,10 @@
-﻿# Abstract
+﻿# LANGUAGE_ID
+## Abstract
 A table of valid latin language identification codes.
 Other languages not supported until UNICODE
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **LANGUAGE_ID**:={Size=1:15}
@@ -19,9 +20,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 | Rajasthani | Russian | Sanskrit | Serb | Tagalog | Tamil | Telugu | Thai | Tibetan | Ukrainian | Urdu
 | Vietnamese | Yiddish ]
 </pre>
-Used in <a href=Ged.LANGUAGE_OF_TEXT.md>LANGUAGE_OF_TEXT</a>, <a href=Ged.LANGUAGE_PREFERENCE.md>LANGUAGE_PREFERENCE</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

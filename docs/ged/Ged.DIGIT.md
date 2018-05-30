@@ -1,15 +1,14 @@
-﻿# Abstract
+﻿# DIGIT
+## Abstract
 A single digit (0-9).
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **DIGIT**:={Size=1:1}
 <pre>
 </pre>
-Used in <a href=Ged.NUMBER.md>NUMBER</a>, <a href=Ged.YEAR_GREG.md>YEAR_GREG</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

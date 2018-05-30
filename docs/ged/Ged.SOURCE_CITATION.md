@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# SOURCE_CITATION
+## Abstract
 The data provided in the <&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;> structure is source-related information specific
 to the data being cited. Systems that do not use a (SOURCE_RECORD)  must use the non-preferred second SOURce citation structure option.  When systems that support the zero level source record format encounters a source citation that does not
 contain pointers to source records, then that system needs to create a SOURCE_RECORD format
@@ -24,12 +25,12 @@ value used is the event code taken from the table of choices shown in the EVENT_
 -The role of this person in the event is stored in the ".SOUR.EVEN.ROLE" context.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **SOURCE_CITATION**:=
 <pre>
-[/* pointer to source record (preferred)*/
+[ (* pointer to source record (preferred)*)
 <b>n SOUR @&lt;<a href=Ged.XREF_SOUR.md>XREF:SOUR</a>&gt;@   {1:1}</b>
   +1 PAGE &lt;<a href=Ged.WHERE_WITHIN_SOURCE.md>WHERE_WITHIN_SOURCE</a>&gt;{0:1}
   +1 EVEN &lt;<a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>&gt;{0:1}
@@ -41,7 +42,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
   +1 QUAY &lt;<a href=Ged.CERTAINTY_ASSESSMENT.md>CERTAINTY_ASSESSMENT</a>&gt;{0:1}
-|/* Systems not using source records */
+|(* Systems not using source records *)
 <b>n SOUR &lt;<a href=Ged.SOURCE_DESCRIPTION.md>SOURCE_DESCRIPTION</a>&gt;{1:1}</b>
   +1 [CONC|CONT] &lt;<a href=Ged.SOURCE_DESCRIPTION.md>SOURCE_DESCRIPTION</a>&gt;{0:M}
   +1 TEXT &lt;<a href=Ged.TEXT_FROM_SOURCE.md>TEXT_FROM_SOURCE</a>&gt;{0:M}
@@ -51,22 +52,28 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 QUAY &lt;<a href=Ged.CERTAINTY_ASSESSMENT.md>CERTAINTY_ASSESSMENT</a>&gt;{0:1}
 ]
 </pre>
-Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>, <a href=Ged.NOTE_RECORD.md>NOTE_RECORD</a>, <a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>, <a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a>, <a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a>, <a href=Ged.PERSONAL_NAME_PIECES.md>PERSONAL_NAME_PIECES</a><br />
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
-# Geneweb behavior
-
-level+tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 SOUR | XREF:SOUR | | |
-+1 PAGE | WHERE_WITHIN_SOURCE | | |
-+1 EVEN | EVENT_TYPE_CITED_FROM | | |
-+2 ROLE | ROLE_IN_EVENT | | |
-+2 DATE | ENTRY_RECORDING_DATE | | |
-+2 TEXT | TEXT_FROM_SOURCE | | |
++0 <a href=Ged.GLOSSARY.md#SOUR>SOUR</a> | @XREF:SOUR@ | | |
++1 <a href=Ged.GLOSSARY.md#PAGE>PAGE</a> | WHERE_WITHIN_SOURCE | | |
++1 <a href=Ged.GLOSSARY.md#EVEN>EVEN</a> | EVENT_TYPE_CITED_FROM | | |
++2 <a href=Ged.GLOSSARY.md#ROLE>ROLE</a> | ROLE_IN_EVENT | | |
++1 <a href=Ged.GLOSSARY.md#DATA>DATA</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#DATE>DATE</a> | ENTRY_RECORDING_DATE | | |
++2 <a href=Ged.GLOSSARY.md#TEXT>TEXT</a> | TEXT_FROM_SOURCE | | |
++3 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | TEXT_FROM_SOURCE | | |
 +1  | MULTIMEDIA_LINK | | |
 +1  | NOTE_STRUCTURE | | |
-+1 QUAY | CERTAINTY_ASSESSMENT | | |
-+0 SOUR | SOURCE_DESCRIPTION | | |
++1 <a href=Ged.GLOSSARY.md#QUAY>QUAY</a> | CERTAINTY_ASSESSMENT | | |
++0 <a href=Ged.GLOSSARY.md#SOUR>SOUR</a> | SOURCE_DESCRIPTION | | |
++1 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | SOURCE_DESCRIPTION | | |
++1 <a href=Ged.GLOSSARY.md#TEXT>TEXT</a> | TEXT_FROM_SOURCE | | |
++2 <a href=Ged.GLOSSARY.md#CONC>CONC</a>\|<a href=Ged.GLOSSARY.md#CONT>CONT</a> | TEXT_FROM_SOURCE | | |
++1  | MULTIMEDIA_LINK | | |
++1  | NOTE_STRUCTURE | | |
++1 <a href=Ged.GLOSSARY.md#QUAY>QUAY</a> | CERTAINTY_ASSESSMENT | | |
 
 :warning: to be continued/checked
 

@@ -1,17 +1,16 @@
-﻿# Abstract
+﻿# SOURCE_ORIGINATOR
+## Abstract
 The person, agency, or entity who created the record. For a published work, this could be the author,
 compiler, transcriber, abstractor, or editor. For an unpublished source, this may be an individual, a
 government agency, church organization, or private organization, etc.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **SOURCE_ORIGINATOR**:={Size=1:248}
 <pre>
 </pre>
-Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked

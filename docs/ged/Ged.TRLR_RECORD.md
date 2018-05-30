@@ -1,18 +1,20 @@
-﻿# EVENT_TYPE_FAMILY
+﻿# TRLR_RECORD
 ## Abstract
-A code used to indicate the type of family event.  The definition is the same as the corresponding
-event tag defined in Appendix.
+The last record of the GEDCOM at level 0
 
 
 ## GEDCOM syntax and proprietary extensions
 Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
-**EVENT_TYPE_FAMILY**:={Size=3:4}
+**TRLR_RECORD**:=
 <pre>
-[ ANUL | CENS | DIV | DIVF | ENGA | MARR | MARB | MARC | MARL | MARS | EVEN ]
+<b>0 TRLR {1:1}</b>
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
+level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+---------- | ------------- | :---------------: | :-----------------:| -----------
++0 <a href=Ged.GLOSSARY.md#TRLR>TRLR</a> |  | | |
 
 :warning: to be continued/checked
 

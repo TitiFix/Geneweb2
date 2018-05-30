@@ -1,4 +1,5 @@
-﻿# Abstract
+﻿# EVENT_OR_FACT_CLASSIFICATION
+## Abstract
 A descriptive word or phrase used to further classify the parent event or attribute tag. This should be
 used whenever either of  the generic EVEN or FACT tags are used. The value of this primative is
 responsible for classifying the generic event or fact being cited. For example, if the attribute being
@@ -18,14 +19,12 @@ descriptor values might include, for example,`stillborn' as a qualifier to BIRTh
 qualifier to MARRiage.
 
 
-# GEDCOM Syntax (extension included)
+## GEDCOM syntax and proprietary extensions
 
 **EVENT_OR_FACT_CLASSIFICATION**:={Size=1:90}
 <pre>
 </pre>
-Used in <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
-
-# Geneweb behavior
+Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
 
 
 :warning: to be continued/checked
