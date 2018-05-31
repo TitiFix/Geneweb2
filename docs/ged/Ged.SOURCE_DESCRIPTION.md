@@ -13,7 +13,11 @@ reporting bibliographic reference descriptions.
 **SOURCE_DESCRIPTION**:={Size=1:248}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

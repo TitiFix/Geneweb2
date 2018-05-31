@@ -1,11 +1,9 @@
 ﻿# LANGUAGE_ID
 ## Abstract
-A table of valid latin language identification codes.
-Other languages not supported until UNICODE
+A table of valid language identification codes.
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **LANGUAGE_ID**:={Size=1:15}
 <pre>
@@ -13,6 +11,7 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 | Esperanto | Estonian | Faroese | Finnish | French | German | Hawaiian | Hungarian | Icelandic
 | Indonesian | Italian | Latvian | Lithuanian | Navaho | Norwegian | Polish | Portuguese | Romanian
 | Serbo_Croa | Slovak | Slovene | Spanish | Swedish | Turkish | Wendic ]
+|
 [ Amharic | Arabic | Armenian | Assamese | Belorusian | Bengali | Braj | Bulgarian | Burmese
 | Cantonese | Church-Slavic | Dogri | Georgian | Greek | Gujarati | Hebrew | Hindi | Japanese
 | Kannada | Khmer | Konkani | Korean | Lahnda | Lao | Macedonian | Maithili | Malayalam | Mandrin
@@ -20,7 +19,15 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 | Rajasthani | Russian | Sanskrit | Serb | Tagalog | Tamil | Telugu | Thai | Tibetan | Ukrainian | Urdu
 | Vietnamese | Yiddish ]
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.LANGUAGE_OF_TEXT.md>LANGUAGE_OF_TEXT</a>, <a href=Ged.LANGUAGE_PREFERENCE.md>LANGUAGE_PREFERENCE</a><br />
+
+
+NOTE:
+- First list is corresponding to Latin language (all &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt; can be used for import/export).
+- Second list of languages (Amharic, ...) not supported until UNICODE (UNICODE i.e UTF-16 or UTF-8 character set)
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

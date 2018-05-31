@@ -11,7 +11,11 @@ n ame written in kanji, then the &lt;<a href=Ged.PHONETIC_TYPE.md>PHONETIC_TYPE<
 **NAME_PHONETIC_VARIATION**:={Size=1:120}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

@@ -9,7 +9,11 @@ or indexing. Used in most cases to facilitate automatic sorting of mail.
 **ADDRESS_COUNTRY**:={Size=1:60}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

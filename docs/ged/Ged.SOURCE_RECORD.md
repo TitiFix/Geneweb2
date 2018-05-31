@@ -1,9 +1,9 @@
 ﻿# SOURCE_RECORD
 ## Abstract
+Source records are used to provide a bibliographic description of the source cited.
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **SOURCE_RECORD**:=
 <pre>
@@ -32,35 +32,61 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
   +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
-NOTE: Source records are used to provide a bibliographic description of the source cited. (See the
-<&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;> structure, which contains the pointer to this source record.)
+
+
+NOTE: See the &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;> structure, which contains the pointer to this source record.
+
 ## Geneweb behavior
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF:SOUR@ | | |
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | | |
 +1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#even>EVEN</a> | EVENTS_RECORDED | | |
-+3 <a href=Ged.GLOSSARY.md#date>DATE</a> | DATE_PERIOD | | |
-+3 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | SOURCE_JURISDICTION_PLACE | | |
-+2 <a href=Ged.GLOSSARY.md#agnc>AGNC</a> | RESPONSIBLE_AGENCY | | |
-+2  | NOTE_STRUCTURE | | |
-+1 <a href=Ged.GLOSSARY.md#auth>AUTH</a> | SOURCE_ORIGINATOR | | |
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SOURCE_ORIGINATOR | | |
-+1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | SOURCE_DESCRIPTIVE_TITLE | | |
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SOURCE_DESCRIPTIVE_TITLE | | |
-+1 <a href=Ged.GLOSSARY.md#abbr>ABBR</a> | SOURCE_FILED_BY_ENTRY | | |
-+1 <a href=Ged.GLOSSARY.md#publ>PUBL</a> | SOURCE_PUBLICATION_FACTS | | |
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | SOURCE_PUBLICATION_FACTS | | |
-+1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | TEXT_FROM_SOURCE | | |
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | TEXT_FROM_SOURCE | | |
-+1  | SOURCE_REPOSITORY_CITATION | | |
-+1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | USER_REFERENCE_NUMBER | | |
-+2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | USER_REFERENCE_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | AUTOMATED_RECORD_ID | | |
-+1  | CHANGE_STRUCTURE | | |
-+1  | NOTE_STRUCTURE | | |
-+1  | MULTIMEDIA_LINK | | |
++2 <a href=Ged.GLOSSARY.md#even>EVEN</a> | &lt;<a href=Ged.EVENTS_RECORDED.md>EVENTS_RECORDED</a>&gt; | | |
++3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_PERIOD.md>DATE_PERIOD</a>&gt; | | |
++3 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | &lt;<a href=Ged.PLACE_NAME.md>PLACE_NAME</a>&gt; | | |
++2 <a href=Ged.GLOSSARY.md#agnc>AGNC</a> | char{1:120} | | |
++2 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | | |
++2 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248}\|NULL | | |
++3 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++1 <a href=Ged.GLOSSARY.md#auth>AUTH</a> | char{1:248} | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++1 <a href=Ged.GLOSSARY.md#abbr>ABBR</a> | char{ 1:60} | | |
++1 <a href=Ged.GLOSSARY.md#publ>PUBL</a> | char{1:248} | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++1 <a href=Ged.GLOSSARY.md#repo>REPO</a> | [@XREF:REPO@\|NULL] | | |
++2 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | | |
++2 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248}\|NULL | | |
++3 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++2 <a href=Ged.GLOSSARY.md#caln>CALN</a> | char{1:120} | | |
++3 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | | |
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | char{1:20} | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | char{1:40} | | |
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | | |
++1 <a href=Ged.GLOSSARY.md#chan>CHAN</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | | |
++3 <a href=Ged.GLOSSARY.md#time>TIME</a> |  hh:mm:ss.fs  | | |
++2 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | | |
++2 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248}\|NULL | | |
++3 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | | |
++1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248}\|NULL | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++1 <a href=Ged.GLOSSARY.md#obje>OBJE</a> | @XREF{1:22}@ | | |
++1 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | | |
++3 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | | |
++2 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | | |
++4 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | | |
++1 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | | |
++2 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | | |
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | | |
++2 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | | |
++3 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | | |
 
 :warning: to be continued/checked
 

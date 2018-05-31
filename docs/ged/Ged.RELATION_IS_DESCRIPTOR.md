@@ -8,13 +8,15 @@ as "Joe Jacob's great grandson is the submitter pointed to by the @XREF:SUBM@":
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **RELATION_IS_DESCRIPTOR**:={Size=1:25}
 <pre>
 0 INDI
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a><br />
+
+
+## Geneweb behavior
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

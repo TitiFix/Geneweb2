@@ -10,7 +10,11 @@ associated calendar month.
 **DAY**:={Size=1:2}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.DATE_EXACT.md>DATE_EXACT</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

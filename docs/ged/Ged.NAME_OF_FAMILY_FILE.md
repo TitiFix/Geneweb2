@@ -8,7 +8,11 @@ Name under which family names for ordinances are stored in the temple's family f
 **NAME_OF_FAMILY_FILE**:={Size=1:120}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

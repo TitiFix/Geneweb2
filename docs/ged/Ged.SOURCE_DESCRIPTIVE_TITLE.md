@@ -18,7 +18,11 @@ physical description of the book.
 **SOURCE_DESCRIPTIVE_TITLE**:={Size=1:248}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

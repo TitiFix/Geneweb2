@@ -8,7 +8,11 @@ The official name of the archive in which the stated source material is stored.
 **NAME_OF_REPOSITORY**:={Size=1:90}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

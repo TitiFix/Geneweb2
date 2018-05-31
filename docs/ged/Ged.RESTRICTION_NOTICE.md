@@ -5,13 +5,14 @@ may contain this data.
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **RESTRICTION_NOTICE**:={Size=6:7}
 <pre>
 [confidential | locked | privacy ]
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
+Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+
+
 Where:
 confidential =This data was marked as confidential by the user.  In some systems data marked as
 confidential will be treated differently, for example, there might be an option that
@@ -29,7 +30,9 @@ Ancestral File may have individuals marked with ‘privacy’ if they are assume
 that is they were born within the last 110 years and there isn’t a death date.  In certain
 cases family records may also be marked with the RESN tag of privacy if either
 individual acting in the role of HUSB or WIFE is assumed living.
+
 ## Geneweb behavior
+
 
 
 :warning: to be continued/checked

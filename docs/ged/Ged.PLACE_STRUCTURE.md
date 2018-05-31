@@ -1,9 +1,7 @@
 ﻿# PLACE_STRUCTURE
 ## Abstract
 
-
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **PLACE_STRUCTURE**:=
 <pre>
@@ -18,20 +16,25 @@ Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x
 <b>    +2 LONG &lt;<a href=Ged.PLACE_LONGITUDE.md>PLACE_LONGITUDE</a>&gt;{1:1}</b>
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+
+
+## Geneweb behavior
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | PLACE_NAME | | |
-+1 <a href=Ged.GLOSSARY.md#form>FORM</a> | PLACE_HIERARCHY | | |
-+1 <a href=Ged.GLOSSARY.md#fone>FONE</a> | PLACE_PHONETIC_VARIATION | | |
-+2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | PHONETIC_TYPE | | |
-+1 <a href=Ged.GLOSSARY.md#romn>ROMN</a> | PLACE_ROMANIZED_VARIATION | | |
-+2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | ROMANIZED_TYPE | | |
++0 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | &lt;<a href=Ged.PLACE_NAME.md>PLACE_NAME</a>&gt; | | |
++1 <a href=Ged.GLOSSARY.md#form>FORM</a> | char{1:120} | | |
++1 <a href=Ged.GLOSSARY.md#fone>FONE</a> | char{1:120} | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> |  user_defined \| hangul \| kana | | |
++1 <a href=Ged.GLOSSARY.md#romn>ROMN</a> | char{1:120} | | |
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | &lt;<a href=Ged.ROMANIZED_TYPE.md>ROMANIZED_TYPE</a>&gt; | | |
 +1 <a href=Ged.GLOSSARY.md#map>MAP</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#lati>LATI</a> | PLACE_LATITUDE | | |
-+2 <a href=Ged.GLOSSARY.md#long>LONG</a> | PLACE_LONGITUDE | | |
-+1  | NOTE_STRUCTURE | | |
++2 <a href=Ged.GLOSSARY.md#lati>LATI</a> | char{5:8} | | |
++2 <a href=Ged.GLOSSARY.md#long>LONG</a> | char{5:8} | | |
++1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | | |
++1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248}\|NULL | | |
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
 
 :warning: to be continued/checked
 

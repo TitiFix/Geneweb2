@@ -4,13 +4,16 @@ Given name or earned name. Different given names are separated by a comma.
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **NAME_PIECE_GIVEN**:={Size=1:120}
 <pre>
 [ &lt;<a href=Ged.NAME_PIECE.md>NAME_PIECE</a>&gt; | &lt;<a href=Ged.NAME_PIECE_GIVEN.md>NAME_PIECE_GIVEN</a>&gt;, &lt;<a href=Ged.NAME_PIECE.md>NAME_PIECE</a>&gt; ]
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.PERSONAL_NAME_PIECES.md>PERSONAL_NAME_PIECES</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

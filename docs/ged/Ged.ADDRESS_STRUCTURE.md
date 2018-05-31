@@ -8,7 +8,6 @@ these lines are not to be used in lieu of the required ADDR.and CONT line struct
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **ADDRESS_STRUCTURE**:=
 <pre>
@@ -26,23 +25,26 @@ n EMAIL &lt;<a href=Ged.ADDRESS_EMAIL.md>ADDRESS_EMAIL</a>&gt;{0:3}
 n FAX&lt;<a href=Ged.ADDRESS_FAX.md>ADDRESS_FAX</a>&gt;{0:3}
 n WWW &lt;<a href=Ged.ADDRESS_WEB_PAGE.md>ADDRESS_WEB_PAGE</a>&gt;{0:3}
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+
+
+## Geneweb behavior
 
 level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | ADDRESS_LINE | | |
-+1 <a href=Ged.GLOSSARY.md#cont>CONT</a> | ADDRESS_LINE | | |
-+1 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | ADDRESS_LINE1 | | |
-+1 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | ADDRESS_LINE2 | | |
-+1 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | ADDRESS_LINE3 | | |
-+1 <a href=Ged.GLOSSARY.md#city>CITY</a> | ADDRESS_CITY | | |
-+1 <a href=Ged.GLOSSARY.md#stae>STAE</a> | ADDRESS_STATE | | |
-+1 <a href=Ged.GLOSSARY.md#post>POST</a> | ADDRESS_POSTAL_CODE | | |
-+1 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | ADDRESS_COUNTRY | | |
-+0 <a href=Ged.GLOSSARY.md#phon>PHON</a> | PHONE_NUMBER | | |
-+0 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | ADDRESS_EMAIL | | |
-+0 <a href=Ged.GLOSSARY.md#fax>FAX</a> | ADDRESS_FAX | | |
-+0 <a href=Ged.GLOSSARY.md#www>WWW</a> | ADDRESS_WEB_PAGE | | |
++0 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | char{1:60} | | |
++1 <a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:60} | | |
++1 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | char{1:60} | | |
++1 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | char{1:60} | | |
++1 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | char{1:60} | | |
++1 <a href=Ged.GLOSSARY.md#city>CITY</a> | char{1:60} | | |
++1 <a href=Ged.GLOSSARY.md#stae>STAE</a> | char{1:60} | | |
++1 <a href=Ged.GLOSSARY.md#post>POST</a> | char{1:10} | | |
++1 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | char{1:60} | | |
++0 <a href=Ged.GLOSSARY.md#phon>PHON</a> | char{1:25} | | |
++0 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | char{5:120} | | |
++0 <a href=Ged.GLOSSARY.md#fax>FAX</a> | char{5:60} | | |
++0 <a href=Ged.GLOSSARY.md#www>WWW</a> | char{5:120} | | |
 
 :warning: to be continued/checked
 

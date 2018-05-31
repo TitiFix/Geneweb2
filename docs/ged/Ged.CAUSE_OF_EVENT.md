@@ -9,7 +9,11 @@ subordinate to a death event to show cause of death, such as might be listed on 
 **CAUSE_OF_EVENT**:={Size=1:90}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

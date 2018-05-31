@@ -9,7 +9,11 @@ when FamilySearch programs build a GEDCOM file for a patron requesting a downloa
 **GENERATIONS_OF_ANCESTORS**:={Size=1:4}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

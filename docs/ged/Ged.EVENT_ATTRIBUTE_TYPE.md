@@ -6,13 +6,16 @@ is expected and will be generally classified in the category of other.
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **EVENT_ATTRIBUTE_TYPE**:={Size=1:15}
 <pre>
 [ &lt;<a href=Ged.EVENT_TYPE_INDIVIDUAL.md>EVENT_TYPE_INDIVIDUAL</a>&gt; | &lt;<a href=Ged.EVENT_TYPE_FAMILY.md>EVENT_TYPE_FAMILY</a>&gt; | &lt;<a href=Ged.ATTRIBUTE_TYPE.md>ATTRIBUTE_TYPE</a>&gt; ]
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>, <a href=Ged.EVENTS_RECORDED.md>EVENTS_RECORDED</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

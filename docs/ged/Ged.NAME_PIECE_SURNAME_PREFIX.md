@@ -5,13 +5,16 @@ for example in the name "de la Cruz", this value would be "de, la".
 
 
 ## GEDCOM syntax and proprietary extensions
-Convention used : **bold** when mandatory, _italic_ when add by 5.5.1 draft, &#x23E9; indicate proprietary coding commonly used (amendment need to standard)<br />
 
 **NAME_PIECE_SURNAME_PREFIX**:={Size=1:30}
 <pre>
 [ &lt;<a href=Ged.NAME_PIECE.md>NAME_PIECE</a>&gt; | &lt;<a href=Ged.NAME_PIECE_SURNAME_PREFIX.md>NAME_PIECE_SURNAME_PREFIX</a>&gt;, &lt;<a href=Ged.NAME_PIECE.md>NAME_PIECE</a>&gt; ]
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.PERSONAL_NAME_PIECES.md>PERSONAL_NAME_PIECES</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked

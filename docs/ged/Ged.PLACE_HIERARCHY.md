@@ -15,7 +15,11 @@ only be used when a system has over-structured its place-names.
 **PLACE_HIERARCHY**:={Size=1:120}
 <pre>
 </pre>
-Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />## Geneweb behavior
+Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
+
+
+## Geneweb behavior
+
 
 
 :warning: to be continued/checked
