@@ -22,5 +22,5 @@ NOTE: EVENT_DETAIL structure.  For example;
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

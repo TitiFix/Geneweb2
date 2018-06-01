@@ -15,5 +15,5 @@ Used in <a href=Ged.DATE_PERIOD.md>DATE_PERIOD</a>, <a href=Ged.DATE_VALUE.md>DA
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

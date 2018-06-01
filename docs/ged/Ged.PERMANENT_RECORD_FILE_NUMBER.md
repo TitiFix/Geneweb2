@@ -22,5 +22,5 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

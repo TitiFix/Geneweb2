@@ -21,7 +21,7 @@ An external multimedia file. The transfer of the multimedia files are external t
 <b>  +1 FILE &lt;<a href=Ged.MULTIMEDIA_FILE_REF.md>MULTIMEDIA_FILE_REF</a>&gt; {1:1}</b>
     +2 MEDI&lt;<a href=Ged.SOURCE_MEDIA_TYPE.md>SOURCE_MEDIA_TYPE</a>&gt; {0:1}
 </pre>
-Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>, <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
+Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>, <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
 
 NOTE: some systems may have output the following 5.5 structure. The new context above was
@@ -29,19 +29,19 @@ introduced in order to allow a grouping of related multimedia files to a particu
 
 ## Geneweb behavior
 
-level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> | @XREF{1:22}@ | | |
-+0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | | |
-+2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | | |
-+1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | | |
-+3 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | | |
-+0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | | |
-+1 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | | |
-+1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | | |
-+2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | | |
++0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> | @XREF{1:22}@ | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | ? | ? | 
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | ? | ? | 
++3 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | ? | ? | 
++2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | ? | ? | 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

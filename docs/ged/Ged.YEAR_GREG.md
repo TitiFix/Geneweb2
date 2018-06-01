@@ -17,5 +17,5 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

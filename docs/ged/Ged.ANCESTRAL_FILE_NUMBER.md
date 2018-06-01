@@ -2,7 +2,7 @@
 ## Abstract
 A unique permanent record number of an individual record contained in the Family History
 Department's Ancestral File.
-:wastebasket: Since the discontinuation of the GEDCOM standard by familysearch, this record is no longer useful.
+&#x1F5D1; Since the discontinuation of the GEDCOM standard by familysearch, this record is no longer useful.
 
 
 ## GEDCOM syntax and proprietary extensions
@@ -17,5 +17,5 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

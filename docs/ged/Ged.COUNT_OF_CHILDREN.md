@@ -11,12 +11,12 @@ children listed in a family structure.
 **COUNT_OF_CHILDREN**:={Size=1:3}
 <pre>
 </pre>
-Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
+Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
 
 
 ## Geneweb behavior
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

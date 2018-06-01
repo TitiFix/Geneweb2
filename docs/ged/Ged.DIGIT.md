@@ -15,5 +15,5 @@ Used in <a href=Ged.NUMBER.md>NUMBER</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

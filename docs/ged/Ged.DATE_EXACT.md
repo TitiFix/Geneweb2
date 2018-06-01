@@ -14,5 +14,5 @@ Used in <a href=Ged.CHANGE_DATE.md>CHANGE_DATE</a>, <a href=Ged.PUBLICATION_DATE
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

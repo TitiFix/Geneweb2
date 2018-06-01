@@ -12,7 +12,7 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 NOTE:
 - Using a NOTE field is a more universal way of transmitting genealogical data that does not fit into the standard
 GEDCOM structure.
-- Systems that read user-defined tags must consider that they have meaning only with respect to a system contained in the &lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;> context (i.e &lt;<a href=Ged.SYSTEM_ID.md>SYSTEM_ID</a>&gt;).
+- Systems that read user-defined tags must consider that they have meaning only with respect to a system contained in the &lt;&lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;&gt; context (i.e &lt;<a href=Ged.SYSTEM_ID.md>SYSTEM_ID</a>&gt;).
 - Otherwise Escape Sequence Format for the Lineage-Linked Form can be used
 Very few Lineage-Linked GEDCOM compatible systems uses the escape sequence feature provided in the GEDCOM grammar.
 
@@ -20,5 +20,5 @@ Very few Lineage-Linked GEDCOM compatible systems uses the escape sequence featu
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

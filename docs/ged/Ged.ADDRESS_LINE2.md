@@ -16,5 +16,5 @@ Used in <a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

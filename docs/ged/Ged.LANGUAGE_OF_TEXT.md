@@ -18,5 +18,5 @@ Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

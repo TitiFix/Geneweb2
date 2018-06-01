@@ -20,5 +20,5 @@ Used in <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

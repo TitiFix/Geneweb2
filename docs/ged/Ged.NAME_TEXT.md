@@ -15,5 +15,5 @@ Used in <a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

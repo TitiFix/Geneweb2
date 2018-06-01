@@ -24,5 +24,5 @@ Used in <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

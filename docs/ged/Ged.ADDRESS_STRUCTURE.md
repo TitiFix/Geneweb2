@@ -2,20 +2,19 @@
 ## Abstract
 The address structure should be formed as it would appear on a mailing label using the ADDR and
 the CONT lines to form the address structure.  The ADDR and CONT lines are required for any
-address. The additional subordinate address tags such as STAE and CTRY are provided to be used
-by systems that have structured their addresses for indexing and sorting. For backward compatibility
-these lines are not to be used in lieu of the required ADDR.and CONT line structure.
+address. Alternate form introduced in 5.5.1 use ADR1, ADR2, ADR3 and is provided for systems
+that have structured their addresses for indexing and sorting
 
 
 ## GEDCOM syntax and proprietary extensions
 
 **ADDRESS_STRUCTURE**:=
 <pre>
-<b>n ADDR &lt;<a href=Ged.ADDRESS_LINE.md>ADDRESS_LINE</a>&gt;{1:1}</b>
+n ADDR &lt;<a href=Ged.ADDRESS_LINE.md>ADDRESS_LINE</a>&gt;{0:1}
   +1 CONT &lt;<a href=Ged.ADDRESS_LINE.md>ADDRESS_LINE</a>&gt;{0:3}
   +1 ADR1 &lt;<a href=Ged.ADDRESS_LINE1.md>ADDRESS_LINE1</a>&gt;{0:1}
   +1 ADR2 &lt;<a href=Ged.ADDRESS_LINE2.md>ADDRESS_LINE2</a>&gt;{0:1}
-  +1 ADR3 &lt;<a href=Ged.ADDRESS_LINE3.md>ADDRESS_LINE3</a>&gt;{0:1}
+  +1 ADR3 &lt;<a href=Ged.ADDRESS_LINE3.md>ADDRESS_LINE3</a>&gt;{0:1} &#x25B6;
   +1 CITY &lt;<a href=Ged.ADDRESS_CITY.md>ADDRESS_CITY</a>&gt;{0:1}
   +1 STAE &lt;<a href=Ged.ADDRESS_STATE.md>ADDRESS_STATE</a>&gt;{0:1}
   +1 POST &lt;<a href=Ged.ADDRESS_POSTAL_CODE.md>ADDRESS_POSTAL_CODE</a>&gt;{0:1}
@@ -28,23 +27,29 @@ n WWW &lt;<a href=Ged.ADDRESS_WEB_PAGE.md>ADDRESS_WEB_PAGE</a>&gt;{0:3}
 Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
 
 
+NOTE: The additional subordinate address tags such as STAE and CTRY are provided to be used
+by systems that have structured their addresses for indexing and sorting. For backward compatibility
+these lines are not to be used in lieu of the required ADDR.and CONT line structure.
+
 ## Geneweb behavior
 
-level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | char{1:60} | | |
-+1 <a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:60} | | |
-+1 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | char{1:60} | | |
-+1 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | char{1:60} | | |
-+1 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | char{1:60} | | |
-+1 <a href=Ged.GLOSSARY.md#city>CITY</a> | char{1:60} | | |
-+1 <a href=Ged.GLOSSARY.md#stae>STAE</a> | char{1:60} | | |
-+1 <a href=Ged.GLOSSARY.md#post>POST</a> | char{1:10} | | |
-+1 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | char{1:60} | | |
-+0 <a href=Ged.GLOSSARY.md#phon>PHON</a> | char{1:25} | | |
-+0 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | char{5:120} | | |
-+0 <a href=Ged.GLOSSARY.md#fax>FAX</a> | char{5:60} | | |
-+0 <a href=Ged.GLOSSARY.md#www>WWW</a> | char{5:120} | | |
++0 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | char{1:60} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:60} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | char{1:60} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | char{1:60} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | char{1:60} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#city>CITY</a> | char{1:60} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#stae>STAE</a> | char{1:60} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#post>POST</a> | char{1:10} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | char{1:60} | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#phon>PHON</a> | char{1:25} | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | char{5:120} | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#fax>FAX</a> | char{5:60} | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#www>WWW</a> | char{5:120} | ? | ? | 
 
-:warning: to be continued/checked
+ADDR:no,only in &lt;&lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;&gt;
+Geneweb have no address field in database. So ADDR et subsequent tags (PHON, ...) are ignored.
+
 

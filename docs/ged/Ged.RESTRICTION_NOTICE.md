@@ -10,7 +10,7 @@ may contain this data.
 <pre>
 [confidential | locked | privacy ]
 </pre>
-Used in <a href=Ged.FAM_RECORD.md>FAM_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
 
 
 Where:
@@ -35,5 +35,5 @@ individual acting in the role of HUSB or WIFE is assumed living.
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

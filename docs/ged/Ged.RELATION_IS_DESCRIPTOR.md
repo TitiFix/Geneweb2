@@ -18,9 +18,9 @@ Used in <a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a><br />
 
 ## Geneweb behavior
 
-level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#indi>INDI</a> |  | | |
++0 <a href=Ged.GLOSSARY.md#indi>INDI</a> |  | ? | ? | 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

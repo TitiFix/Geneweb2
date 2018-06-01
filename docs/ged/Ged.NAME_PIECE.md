@@ -16,5 +16,5 @@ Used in <a href=Ged.NAME_PIECE_GIVEN.md>NAME_PIECE_GIVEN</a>, <a href=Ged.NAME_P
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

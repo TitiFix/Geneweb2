@@ -7,7 +7,7 @@ published source, or a keeper of personal collections. An example would be the o
 containing unpublished family genealogical entries. More formal repositories, such as the Family History
 Library, should show a call number of the source at that repository. The call number of that source
 should be recorded using a subordinate CALN tag.  Systems which do not use repository name and
-address record, should describe where the information cited is stored in the &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;>
+address record, should describe where the information cited is stored in the &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;
 of the REPOsitory source citation structure.
 
 
@@ -25,14 +25,12 @@ Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
 ## Geneweb behavior
 
-level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#repo>REPO</a> | [@XREF:REPO@\|NULL] | | |
-+1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | | |
-+1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248}\|NULL | | |
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
-+1 <a href=Ged.GLOSSARY.md#caln>CALN</a> | char{1:120} | | |
-+2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | | |
++0 <a href=Ged.GLOSSARY.md#repo>REPO</a> | [@XREF:REPO@\|NULL] | ? | ? | 
++1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#caln>CALN</a> | char{1:120} | ? | ? | 
++2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | ? | ? | 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

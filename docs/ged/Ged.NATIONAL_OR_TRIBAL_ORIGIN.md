@@ -17,5 +17,5 @@ Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUC
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

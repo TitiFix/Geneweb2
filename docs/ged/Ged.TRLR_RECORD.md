@@ -14,9 +14,9 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 ## Geneweb behavior
 
-level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#trlr>TRLR</a> |  | | |
++0 <a href=Ged.GLOSSARY.md#trlr>TRLR</a> |  | ? | ? | 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

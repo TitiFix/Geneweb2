@@ -18,5 +18,5 @@ Used in <a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>, <a href=Ged.MULT
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

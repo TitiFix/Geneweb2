@@ -1,6 +1,6 @@
 ﻿# XREF:FAM
 ## Abstract
-A pointer to, or a cross-reference identifier of, a fam_record.
+A pointer to, or a cross-reference identifier of, a FAMILY_RECORD.
 
 
 ## GEDCOM syntax and proprietary extensions
@@ -13,5 +13,5 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

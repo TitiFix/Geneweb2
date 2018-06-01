@@ -23,5 +23,5 @@ Used in <a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

@@ -17,5 +17,5 @@ Used in <a href=Ged.EVENT_ATTRIBUTE_TYPE.md>EVENT_ATTRIBUTE_TYPE</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

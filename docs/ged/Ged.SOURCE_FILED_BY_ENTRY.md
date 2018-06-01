@@ -15,5 +15,5 @@ Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

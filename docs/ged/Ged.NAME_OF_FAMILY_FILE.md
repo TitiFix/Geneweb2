@@ -15,5 +15,5 @@ Used in <a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

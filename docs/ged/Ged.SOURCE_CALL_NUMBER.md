@@ -16,5 +16,5 @@ Used in <a href=Ged.SOURCE_REPOSITORY_CITATION.md>SOURCE_REPOSITORY_CITATION</a>
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

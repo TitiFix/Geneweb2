@@ -16,5 +16,5 @@ Used in <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

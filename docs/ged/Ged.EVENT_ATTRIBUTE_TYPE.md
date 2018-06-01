@@ -18,5 +18,5 @@ Used in <a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>, <a href=
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

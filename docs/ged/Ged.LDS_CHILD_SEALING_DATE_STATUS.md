@@ -21,5 +21,5 @@ Used in <a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a><br 
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

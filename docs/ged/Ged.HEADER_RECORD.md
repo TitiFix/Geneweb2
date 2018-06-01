@@ -47,47 +47,35 @@ DESTination of ANSTFILE or TempleReady, respectively.
 
 ## Geneweb behavior
 
-level tag  | + Attribut type or value | Import behavior | Export behavior  | Comment 
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#head>HEAD</a> |  | | |
-+1 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | char{1:20} | | |
-+2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | | |
-+2 <a href=Ged.GLOSSARY.md#name>NAME</a> | char{1:90} | | |
-+2 <a href=Ged.GLOSSARY.md#corp>CORP</a> | char{1:90} | | |
-+3 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | char{1:60} | | |
-+4 <a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:60} | | |
-+4 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | char{1:60} | | |
-+4 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | char{1:60} | | |
-+4 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | char{1:60} | | |
-+4 <a href=Ged.GLOSSARY.md#city>CITY</a> | char{1:60} | | |
-+4 <a href=Ged.GLOSSARY.md#stae>STAE</a> | char{1:60} | | |
-+4 <a href=Ged.GLOSSARY.md#post>POST</a> | char{1:10} | | |
-+4 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | char{1:60} | | |
-+3 <a href=Ged.GLOSSARY.md#phon>PHON</a> | char{1:25} | | |
-+3 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | char{5:120} | | |
-+3 <a href=Ged.GLOSSARY.md#fax>FAX</a> | char{5:60} | | |
-+3 <a href=Ged.GLOSSARY.md#www>WWW</a> | char{5:120} | | |
-+2 <a href=Ged.GLOSSARY.md#data>DATA</a> | char{1:90} | | |
-+3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | | |
-+3 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} | | |
-+4 <a href=Ged.GLOSSARY.md#cont>CONT</a>\|<a href=Ged.GLOSSARY.md#conc>CONC</a> | char{1:90} | | |
-+1 <a href=Ged.GLOSSARY.md#dest>DEST</a> | char{1:20} | | |
-+1 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | | |
-+2 <a href=Ged.GLOSSARY.md#time>TIME</a> |  hh:mm:ss.fs  | | |
-+1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF{1:22}@ | | |
-+1 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF{1:22}@ | | |
-+1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:90} | | |
-+1 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} | | |
-+1 <a href=Ged.GLOSSARY.md#gedc>GEDC</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | | |
-+2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  LINEAGE-LINKED  | | |
-+1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| :play: UTF-8 \| UNICODE \| :wastebasket: ASCII \| :ff: ANSI \| :ff: MACINTOSH  | | |
-+2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | | |
-+1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; | | |
-+1 <a href=Ged.GLOSSARY.md#plac>PLAC</a> |  | | |
-+2 <a href=Ged.GLOSSARY.md#form>FORM</a> | char{1:120} | | |
-+1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248} | | |
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | | |
++0 <a href=Ged.GLOSSARY.md#head>HEAD</a> |  | yes | yes | 
++1 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | char{1:20} | record SYSTEM_ID | yes | export with SYSTEM_ID=Geneweb
++2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | ignore &#x26A0; | yes | export geneweb version
++2 <a href=Ged.GLOSSARY.md#name>NAME</a> | char{1:90} | ignore | yes | export name gwb2ged
++2 <a href=Ged.GLOSSARY.md#corp>CORP</a> | char{1:90} | ignore | yes &#x2753; | export INRIA name; "geneweb team" would be better &#x1F4CD;
++3  | &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt; | ignore | partial &#x26A0; | url http://www.geneweb.org export in postal address (ADDR tag). Shall be corrected with WWW tag.
++2 <a href=Ged.GLOSSARY.md#data>DATA</a> | char{1:90} | ignore | yes | export name of gw database
++3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; |  | no | 
++3 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} |  | no | 
++4 <a href=Ged.GLOSSARY.md#cont>CONT</a>\|<a href=Ged.GLOSSARY.md#conc>CONC</a> | char{1:90} |  | no | 
++1 <a href=Ged.GLOSSARY.md#dest>DEST</a> | char{1:20} |  | no | 
++1 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ignore | yes | Creation date
++2 <a href=Ged.GLOSSARY.md#time>TIME</a> |  hh:mm:ss.fs  | ignore | yes | Creation time
++1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF{1:22}@ | ignore | missing &#x26A0; | export SUBM tag to add
++1 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF{1:22}@ |  | no | 
++1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:90} | ignore | yes | name of gedcom file maked
++1 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} |  | no | 
++1 <a href=Ged.GLOSSARY.md#gedc>GEDC</a> |  | ignore &#x1F4CD; | yes | import should check GEDC.VERS and GEDC.Form
++2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | not checked &#x26A0; | 5.5 if non UTF8 and 5.5.1. if UTF8 &#x26A0; | always 5.5.1 must be assumed (some tag 5.5.1)
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  LINEAGE-LINKED  | not checked &#x26A0; | yes | 
++1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| &#x25B6; UTF-8 \| UNICODE \| &#x1F5D1; ASCII \| &#x23E9; ANSI \| &#x23E9; MACINTOSH  | plus MSDOS charset | ANSI mission &#x26A0; | ANSI and MACINTOSH charset missing &#x26A0; - <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>
++2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} |  | no | 
++1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; |  | no | 
++1 <a href=Ged.GLOSSARY.md#plac>PLAC</a> |  | ignore | no | &#x1F4CD; must be used for correct import of subdivision field (lieux dits)
++2 <a href=Ged.GLOSSARY.md#form>FORM</a> | char{1:120} | ignore | no &#x1F4CD; | can be used to detect subdivision position in place.
++1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248} | record | optional (-nn gwb2ged option) | only the first page of chronicles/notes. &#x1F4CD; export all pages would be better.
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | record | optional (-nn gwb2ged option) | 
 
-:warning: to be continued/checked
+
 

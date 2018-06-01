@@ -14,5 +14,5 @@ Used in <a href=Ged.YEAR_GREG.md>YEAR_GREG</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

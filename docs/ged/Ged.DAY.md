@@ -17,5 +17,5 @@ Used in <a href=Ged.DATE_EXACT.md>DATE_EXACT</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

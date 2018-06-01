@@ -15,5 +15,5 @@ Used in <a href=Ged.NOTE_RECORD.md>NOTE_RECORD</a>, <a href=Ged.NOTE_STRUCTURE.m
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

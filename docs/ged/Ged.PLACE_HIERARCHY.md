@@ -22,5 +22,5 @@ Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.PLACE_STRUCT
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 

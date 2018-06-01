@@ -16,5 +16,5 @@ Used in <a href=Ged.DATE_CALENDAR.md>DATE_CALENDAR</a><br />
 
 
 
-:warning: to be continued/checked
+🚧 to be continued/checked
 
