@@ -20,7 +20,7 @@ in 5.5.1, the &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;
   +1 &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt; (* &#x25B6; remove in 5.5.1, don't use &#x1F6AB; *)
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
 </pre>
-Used in <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
 
 
 ## Geneweb behavior

@@ -10,7 +10,7 @@ that administered rites or events, or an organization responsible for creating a
 **RESPONSIBLE_AGENCY**:={Size=1:120}
 <pre>
 </pre>
-Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
 
 
 ## Geneweb behavior

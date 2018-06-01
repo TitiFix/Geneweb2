@@ -24,5 +24,9 @@ NOTE:
 
 
 
-🚧 to be continued/checked
+- ANSI and MACINTOSH character set missing in gw2ged (export GEDCOM), see GHI#627
+- ASCII must be used (override charset with gw2ged) for import GEDCOM with ANSI character set
+- UTF-8 with BOM is not supported, see GHI#637
+- UNICODE are not supported.
+
 

@@ -21,7 +21,7 @@ An external multimedia file. The transfer of the multimedia files are external t
 <b>  +1 FILE &lt;<a href=Ged.MULTIMEDIA_FILE_REF.md>MULTIMEDIA_FILE_REF</a>&gt; {1:1}</b>
     +2 MEDI&lt;<a href=Ged.SOURCE_MEDIA_TYPE.md>SOURCE_MEDIA_TYPE</a>&gt; {0:1}
 </pre>
-Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>, <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
+Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>, <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>, <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
 
 NOTE: some systems may have output the following 5.5 structure. The new context above was

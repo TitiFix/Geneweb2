@@ -28,7 +28,7 @@ information, a repository, a business, a school, or a company.
 <br />Used by &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;
 ## AGNC
  {AGENCY} := The institution or individual having authority and/or responsibility to manage or govern.
-<br />Used by &lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;, &lt;<a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>&gt;
+<br />Used by &lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;, &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;
 ## ALIA
  {ALIAS} := An indicator to link different record descriptions of a person who may be the same person.
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;
@@ -79,7 +79,7 @@ differences, or differences in wealth, inherited  rank, profession, occupation, 
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a>&gt;
 ## CAUS
  {CAUSE} := A description of the cause of the associated event or fact, such as the cause of death.
-<br />Used by &lt;<a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>&gt;
+<br />Used by &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;
 ## CENS
  {CENSUS} := The event of the periodic count of the population for a designated locality, such as a national or state
 Census.
@@ -143,7 +143,7 @@ tag. Assume that the rest of the leading spaces are to be a part of the value.
 <br />Used by &lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;, &lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;, &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;
 ## DATE
  {DATE} := The time of an event in a calendar format.
-<br />Used by &lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;, &lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;, &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;, &lt;<a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a>&gt;, &lt;<a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a>&gt;, &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;
+<br />Used by &lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;, &lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;, &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;, &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a>&gt;, &lt;<a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a>&gt;, &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;
 ## DEAT
  {DEATH} := The event when mortal life terminates.
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_EVENT_STRUCTURE.md>INDIVIDUAL_EVENT_STRUCTURE</a>&gt;
@@ -359,7 +359,7 @@ over several dates.
 <br />Used by &lt;<a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a>&gt;
 ## RELI
  {RELIGION} := A religious denomination to which a person is affiliated or for which a record applies.
-<br />Used by &lt;<a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a>&gt;
+<br />Used by &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;
 ## REPO
  {REPOSITORY} := An institution or person that has the specified item as part of their collection(s).
 <br />Used by &lt;<a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>&gt;, &lt;<a href=Ged.SOURCE_REPOSITORY_CITATION.md>SOURCE_REPOSITORY_CITATION</a>&gt;
@@ -368,7 +368,7 @@ over several dates.
 <br />Used by &lt;<a href=Ged.FAMILY_EVENT_STRUCTURE.md>FAMILY_EVENT_STRUCTURE</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a>&gt;
 ## RESN
  {RESTRICTION} := A processing indicator signifying access to information has been denied or otherwise restricted.
-<br />Used by &lt;<a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;, &lt;<a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>&gt;
+<br />Used by &lt;<a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;, &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;
 ## RETI
  {RETIREMENT} := An event of exiting an occupational relationship with an employer after a qualifying time period.
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_EVENT_STRUCTURE.md>INDIVIDUAL_EVENT_STRUCTURE</a>&gt;
@@ -442,7 +442,7 @@ social status, such as Grand Duke.
  {TYPE} := A further qualification to the meaning of the associated superior tag. The value does not have any
 computer processing reliability. It is more in the form of a short one or two word note that should be
 displayed any time the associated data is displayed.
-<br />Used by &lt;<a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;, &lt;<a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>&gt;, &lt;<a href=Ged.NOTE_RECORD.md>NOTE_RECORD</a>&gt;, &lt;<a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>&gt;, &lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;, &lt;<a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a>&gt;, &lt;<a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a>&gt;, &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
+<br />Used by &lt;<a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;, &lt;<a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>&gt;, &lt;<a href=Ged.NOTE_RECORD.md>NOTE_RECORD</a>&gt;, &lt;<a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>&gt;, &lt;<a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a>&gt;, &lt;<a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a>&gt;, &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt;, &lt;<a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a>&gt;, &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
 ## VERS
  {VERSION} := Indicates which version of a product, item, or publication is being used or referenced.
 <br />Used by &lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;

@@ -24,10 +24,10 @@ The normal lineage links are shown through the use of pointers from the individu
   +1 ALIA @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:M}
   +1 ANCI @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{0:M}
   +1 DESI @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{0:M}
-  +1 RFN &lt;<a href=Ged.PERMANENT_RECORD_FILE_NUMBER.md>PERMANENT_RECORD_FILE_NUMBER</a>&gt;{0:1}
-  +1 AFN &lt;<a href=Ged.ANCESTRAL_FILE_NUMBER.md>ANCESTRAL_FILE_NUMBER</a>&gt;{0:1}
-  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER.md>USER_REFERENCE_NUMBER</a>&gt;{0:M}
-    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE.md>USER_REFERENCE_TYPE</a>&gt;{0:1}
+  +1 RFN &lt;<a href=Ged.PERMANENT_RECORD_FILE_NUMBER.md>PERMANENT_RECORD_FILE_NUMBER</a>&gt;{0:1} &#x1F5D1;
+  +1 AFN &lt;<a href=Ged.ANCESTRAL_FILE_NUMBER.md>ANCESTRAL_FILE_NUMBER</a>&gt;{0:1} &#x1F5D1;
+  +1 REFN &lt;<a href=Ged.USER_REFERENCE_NUMBER.md>USER_REFERENCE_NUMBER</a>&gt;{0:M} &#x1F5D1;
+    +2 TYPE &lt;<a href=Ged.USER_REFERENCE_TYPE.md>USER_REFERENCE_TYPE</a>&gt;{0:1} &#x1F5D1;
   +1 RIN &lt;<a href=Ged.AUTOMATED_RECORD_ID.md>AUTOMATED_RECORD_ID</a>&gt;{0:1}
   +1 &lt;&lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt;&gt;{0:1}
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
@@ -71,8 +71,8 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#desi>DESI</a> | @XREF{1:22}@ | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#rfn>RFN</a> | &lt;<a href=Ged.PERMANENT_RECORD_FILE_NUMBER.md>PERMANENT_RECORD_FILE_NUMBER</a>&gt; | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#afn>AFN</a> | char{1:12} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | char{1:20} | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | char{1:40} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | 🗑 deprecated | ? | ? | 
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | 🗑 deprecated | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ? | ? | 
 +1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 

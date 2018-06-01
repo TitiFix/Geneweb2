@@ -11,7 +11,7 @@ occurrences of the EVENt tag is indicated by the use of a subordinate TYPE tag s
 <pre>
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
-NOTE: EVENT_DETAIL structure.  For example;
+NOTE: For example;
 1 EVEN Appointed Zoning Committee Chairperson
 2 TYPE Civic Appointments
 2 DATE FROM JAN 1952 TO JAN 1956

@@ -24,7 +24,7 @@ n EMAIL &lt;<a href=Ged.ADDRESS_EMAIL.md>ADDRESS_EMAIL</a>&gt;{0:3} &#x25B6;
 n FAX&lt;<a href=Ged.ADDRESS_FAX.md>ADDRESS_FAX</a>&gt;{0:3} &#x25B6;
 n WWW &lt;<a href=Ged.ADDRESS_WEB_PAGE.md>ADDRESS_WEB_PAGE</a>&gt;{0:3} &#x25B6;
 </pre>
-Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
 
 
 NOTE: The additional subordinate address tags such as STAE and CTRY are provided to be used

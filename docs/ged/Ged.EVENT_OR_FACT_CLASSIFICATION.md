@@ -24,7 +24,7 @@ qualifier to MARRiage.
 **EVENT_OR_FACT_CLASSIFICATION**:={Size=1:90}
 <pre>
 </pre>
-Used in <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
+Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
 
 
 ## Geneweb behavior
