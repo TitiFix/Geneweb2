@@ -14,10 +14,3 @@ or the city and state of residence of the writer of a letter.
 </pre>
 Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

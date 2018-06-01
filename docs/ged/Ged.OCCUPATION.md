@@ -10,10 +10,3 @@ The kind of activity that an individual does for a job, profession, or principal
 </pre>
 Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

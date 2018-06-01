@@ -15,10 +15,3 @@ reporting bibliographic reference descriptions.
 </pre>
 Used in <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

@@ -10,10 +10,3 @@ This entry is to provide a short title used for sorting, filing, and retrieving 
 </pre>
 Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

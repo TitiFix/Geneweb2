@@ -12,10 +12,3 @@ associated calendar month.
 </pre>
 Used in <a href=Ged.DATE_EXACT.md>DATE_EXACT</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

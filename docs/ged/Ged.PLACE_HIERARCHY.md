@@ -17,10 +17,3 @@ only be used when a system has over-structured its place-names.
 </pre>
 Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

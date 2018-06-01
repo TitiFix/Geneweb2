@@ -11,10 +11,3 @@ parent, regardless of whether the associated families are represented in the GED
 </pre>
 Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

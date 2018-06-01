@@ -1,5 +1,6 @@
 ﻿# NOTE_RECORD
 ## Abstract
+Additional information provided by the submitter for understanding the enclosing data.
 
 ## GEDCOM syntax and proprietary extensions
 

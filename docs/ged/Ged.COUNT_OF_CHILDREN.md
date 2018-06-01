@@ -13,10 +13,3 @@ children listed in a family structure.
 </pre>
 Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

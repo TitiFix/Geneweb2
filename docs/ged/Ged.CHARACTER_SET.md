@@ -5,7 +5,7 @@ A code value that represents the character set to be used for read/write with th
 
 ## GEDCOM syntax and proprietary extensions
 
-**CHARACTER_SET**:={Size=1:8}
+**CHARACTER_SET**:={Size=1:9}
 <pre>
 [ ANSEL | &#x25B6; UTF-8 | UNICODE | &#x1F5D1; ASCII | &#x23E9; ANSI | &#x23E9; MACINTOSH ]
 </pre>
@@ -24,9 +24,9 @@ NOTE:
 
 
 
-- ANSI and MACINTOSH character set missing in gw2ged (export GEDCOM), see GHI#627
+- ANSI and MACINTOSH character set missing in gw2ged (export GEDCOM), see <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>
 - ASCII must be used (override charset with gw2ged) for import GEDCOM with ANSI character set
-- UTF-8 with BOM is not supported, see GHI#637
+- UTF-8 with BOM is not supported, see <a href=https://github.com/geneweb/geneweb/issues/637>Issue #637</a>
 - UNICODE are not supported.
 
 

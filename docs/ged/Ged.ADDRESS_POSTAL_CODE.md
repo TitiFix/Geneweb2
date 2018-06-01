@@ -10,10 +10,3 @@ The ZIP or postal code used by the various localities in handling of mail.  Isol
 </pre>
 Used in <a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

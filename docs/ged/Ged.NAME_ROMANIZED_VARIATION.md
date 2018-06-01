@@ -13,10 +13,3 @@ reading of a name written in kanji, then the ROMANIZED_TYPE subordinate to the R
 </pre>
 Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

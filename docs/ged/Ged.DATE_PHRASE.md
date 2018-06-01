@@ -10,9 +10,3 @@ information about when an event occurred.
 <pre>
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

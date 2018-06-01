@@ -17,10 +17,3 @@ as Label1: value, Label2: value, with each pair being separated by a comma. For 
 </pre>
 Used in <a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

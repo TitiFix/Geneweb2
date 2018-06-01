@@ -2,7 +2,18 @@
 ## Abstract
 A descriptive word or phrase used to further classify the parent event or attribute tag. This should be
 used whenever either of  the generic EVEN or FACT tags are used. The value of this primative is
-responsible for classifying the generic event or fact being cited. For example, if the attribute being
+responsible for classifying the generic event or fact being cited.
+
+
+## GEDCOM syntax and proprietary extensions
+
+**EVENT_OR_FACT_CLASSIFICATION**:={Size=1:90}
+<pre>
+</pre>
+Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
+
+
+NOTE: For example, if the attribute being
 defined was one of the persons skills, such as woodworking, the FACT tag would have the value of
 `Woodworking', followed by a subordinate TYPE tag with the value `Skills.'
 1 FACT Woodworking
@@ -17,19 +28,3 @@ TYPE tag with an EVENT_DESCRIPTOR value of `Common Law.'
 This classifies the entry as a common law marriage but the event is still a marriage event. Other
 descriptor values might include, for example,`stillborn' as a qualifier to BIRTh or `Tribal Custom' as a
 qualifier to MARRiage.
-
-
-## GEDCOM syntax and proprietary extensions
-
-**EVENT_OR_FACT_CLASSIFICATION**:={Size=1:90}
-<pre>
-</pre>
-Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
-
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

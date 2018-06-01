@@ -17,10 +17,3 @@ NOTE: For example;
 2 DATE FROM JAN 1952 TO JAN 1956
 2 PLAC Cove, Cache, Utah
 2 AGNC Cove City Redevelopment
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

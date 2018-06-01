@@ -12,10 +12,3 @@ copyright statement to indicate that the data came from a copyrighted source.
 </pre>
 Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

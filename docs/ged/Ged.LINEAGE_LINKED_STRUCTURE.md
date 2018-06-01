@@ -9,7 +9,7 @@ The lineage-linked GEDCOM structure is the main structure of GEDCOM files. A hea
 **LINEAGE_LINKED_STRUCTURE**:=
 <pre>
 <b>0 &lt;&lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;&gt;{1:1}</b>
-0 &lt;&lt;<a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a>&gt;&gt;{0:1}
+0 &lt;&lt;<a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a>&gt;&gt;{0:1} &#x1F5D1;
 <b>0 &lt;&lt;<a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>&gt;&gt;{1:1}</b>
 0 &lt;&lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;&gt;{0:M}
 0 &lt;&lt;<a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>&gt;&gt;{0:M}

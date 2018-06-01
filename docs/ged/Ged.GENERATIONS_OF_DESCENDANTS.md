@@ -1,20 +1,13 @@
-﻿# GENERATIONS_OF_DESCENDANTS
+﻿# GENERATIONS_OF_DESCENDANTS 🗑 (Deprecated)
 ## Abstract
-The number of generations of descendants included in this transmission. This value is usually provided
+&#x1F5D1; The number of generations of descendants included in this transmission. This value is usually provided
 when FamilySearch programs build a GEDCOM file for a patron requesting a download of descendants.
 
 
 ## GEDCOM syntax and proprietary extensions
 
-**GENERATIONS_OF_DESCENDANTS**:={Size=1:4}
+**GENERATIONS_OF_DESCENDANTS**:=
 <pre>
 </pre>
 Used in <a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a><br />
-
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
 

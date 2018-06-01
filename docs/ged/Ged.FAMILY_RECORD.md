@@ -1,10 +1,7 @@
 ﻿# FAMILY_RECORD
 ## Abstract
 The FAMILY record is used to record marriages, common law marriages, and family unions caused by
-two people becoming the parents of a child. There can be no more than one HUSB/father and one
-WIFE/mother listed in each FAMILY_RECORD. If, for example, a man participated in more than one
-family union, then he would appear in more than one FAMILY_RECORD. The family record structure
-assumes that the HUSB/father is male and WIFE/mother is female.
+two people becoming the parents of a child.
 
 
 ## GEDCOM syntax and proprietary extensions
@@ -16,7 +13,7 @@ assumes that the HUSB/father is male and WIFE/mother is female.
   +1 &lt;&lt;<a href=Ged.FAMILY_EVENT_STRUCTURE.md>FAMILY_EVENT_STRUCTURE</a>&gt;&gt;{0:M}
   +1 HUSB @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:1}
   +1 WIFE @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:1}
-  +1 CHIL @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:M}*
+  +1 CHIL @&lt;<a href=Ged.XREF_INDI.md>XREF:INDI</a>&gt;@{0:M} (* The preferred order of the CHILdren is chronological by birth *)
   +1 NCHI &lt;<a href=Ged.COUNT_OF_CHILDREN.md>COUNT_OF_CHILDREN</a>&gt;{0:1}
   +1 SUBM @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{0:M}
   +1 &lt;&lt;<a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a>&gt;&gt;{0:M}
@@ -31,8 +28,7 @@ assumes that the HUSB/father is male and WIFE/mother is female.
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 
-NOTE:
-The preferred order of the CHILdren pointers within a FAMily structure is chronological by birth.
+NOTE: There can be no more than one HUSB/father and one WIFE/mother listed in each FAMILY_RECORD. If, for example, a man participated in more than one family union, then he would appear in more than one FAMILY_RECORD. The family record structure assumes that the HUSB/father is male and WIFE/mother is female.
 
 ## Geneweb behavior
 

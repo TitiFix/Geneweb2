@@ -11,10 +11,3 @@ or indexing. Used in most cases to facilitate automatic sorting of mail.
 </pre>
 Used in <a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

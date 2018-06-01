@@ -10,10 +10,3 @@ The official name of the archive in which the stated source material is stored.
 </pre>
 Used in <a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

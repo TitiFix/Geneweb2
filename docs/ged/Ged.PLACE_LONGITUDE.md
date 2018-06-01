@@ -12,10 +12,3 @@ Degrees and fraction of degrees east or west of the zero or base meridian coordi
 </pre>
 Used in <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

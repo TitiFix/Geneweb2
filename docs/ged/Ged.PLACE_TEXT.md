@@ -10,10 +10,3 @@ Text excluding the comma(s).
 </pre>
 Used in <a href=Ged.PLACE_NAME.md>PLACE_NAME</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

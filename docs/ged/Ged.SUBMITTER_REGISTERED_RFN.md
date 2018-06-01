@@ -11,10 +11,3 @@ submissions or inquiries by the submitter for identification purposes.
 </pre>
 Used in <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

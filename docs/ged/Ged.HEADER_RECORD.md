@@ -20,7 +20,7 @@ The &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt; value is mandatory an
       +3 DATE &lt;<a href=Ged.PUBLICATION_DATE.md>PUBLICATION_DATE</a>&gt;{0:1}
       +3 COPR &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA.md>COPYRIGHT_SOURCE_DATA</a>&gt;{0:1}
         +4 [CONT|CONC] &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA.md>COPYRIGHT_SOURCE_DATA</a>&gt;{0:M} &#x25B6;
-  +1 DEST &lt;<a href=Ged.RECEIVING_SYSTEM_NAME.md>RECEIVING_SYSTEM_NAME</a>&gt;{0:1}*
+  +1 DEST &lt;<a href=Ged.RECEIVING_SYSTEM_NAME.md>RECEIVING_SYSTEM_NAME</a>&gt;{0:1} &#x1F5D1;
   +1 DATE &lt;<a href=Ged.CREATION_DATE.md>CREATION_DATE</a>&gt;{0:1}
     +2 TIME &lt;<a href=Ged.TIME_VALUE.md>TIME_VALUE</a>&gt;{0:1}
 <b>  +1 SUBM @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{1:1}</b>
@@ -59,7 +59,7 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ignore | no | 
 +3 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} | ignore | no | 
 +4 <a href=Ged.GLOSSARY.md#cont>CONT</a>\|<a href=Ged.GLOSSARY.md#conc>CONC</a> | char{1:90} | ignore | no | 
-+1 <a href=Ged.GLOSSARY.md#dest>DEST</a> | char{1:20} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#dest>DEST</a> | 🗑 deprecated | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ignore | yes | Creation date
 +2 <a href=Ged.GLOSSARY.md#time>TIME</a> |  hh:mm:ss.fs  | ignore | yes | Creation time
 +1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF{1:22}@ | ignore | missing &#x26A0; | export SUBM tag to add
@@ -69,7 +69,7 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#gedc>GEDC</a> |  | ignore &#x1F4CD; | yes | import should check GEDC.VERS and GEDC.Form
 +2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | not checked &#x26A0; | 5.5 if non UTF8 and 5.5.1. if UTF8 &#x26A0; | always 5.5.1 must be assumed (some tag 5.5.1)
 +2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  LINEAGE-LINKED  | not checked &#x26A0; | yes | 
-+1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| &#x25B6; UTF-8 \| UNICODE \| &#x1F5D1; ASCII \| &#x23E9; ANSI \| &#x23E9; MACINTOSH  | plus MSDOS charset | ANSI missing &#x26A0; | ANSI and MACINTOSH charset missing &#x26A0; - <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>,UTF-8 with BOM is not suppored see -<a href=https://github.com/geneweb/geneweb/issues/637>Issue #637</a>
++1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| &#x25B6; UTF-8 \| UNICODE \| &#x1F5D1; ASCII \| &#x23E9; ANSI \| &#x23E9; MACINTOSH  | plus MSDOS charset | ANSI missing &#x26A0; | ANSI and MACINTOSH charset missing &#x26A0; - <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>,UTF-8 with BOM is not supported see -<a href=https://github.com/geneweb/geneweb/issues/637>Issue #637</a>
 +2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#plac>PLAC</a> |  | ignore | no | &#x1F4CD; must be used for correct import of subdivision field (lieux dits)

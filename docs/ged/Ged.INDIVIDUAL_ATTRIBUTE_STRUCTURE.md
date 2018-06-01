@@ -1,5 +1,7 @@
 ﻿# INDIVIDUAL_ATTRIBUTE_STRUCTURE
 ## Abstract
+The name of an individual's rank or status in society which is sometimes based on racial or religious
+differences, or differences in wealth, inherited  rank, profession, occupation, etc.
 
 ## GEDCOM syntax and proprietary extensions
 

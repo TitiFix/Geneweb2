@@ -15,10 +15,3 @@ value.
 </pre>
 Used in <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

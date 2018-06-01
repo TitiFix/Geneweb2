@@ -10,10 +10,3 @@ A single digit (0-9).
 </pre>
 Used in <a href=Ged.NUMBER.md>NUMBER</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

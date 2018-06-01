@@ -14,10 +14,3 @@ the ROMN tag would indicate ‘romaji’. (See &lt;<a href=Ged.ROMANIZED_TYPE.md
 </pre>
 Used in <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

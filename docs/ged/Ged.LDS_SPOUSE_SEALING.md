@@ -1,5 +1,6 @@
 ﻿# LDS_SPOUSE_SEALING
 ## Abstract
+A religious event pertaining to the sealing of a husband and wife in an LDS temple ceremony.
 
 ## GEDCOM syntax and proprietary extensions
 

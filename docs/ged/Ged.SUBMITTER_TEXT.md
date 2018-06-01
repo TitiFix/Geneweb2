@@ -10,10 +10,3 @@ Comments or opinions from the submitter.
 </pre>
 Used in <a href=Ged.NOTE_RECORD.md>NOTE_RECORD</a>, <a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

@@ -13,10 +13,3 @@ n ame written in kanji, then the &lt;<a href=Ged.PHONETIC_TYPE.md>PHONETIC_TYPE<
 </pre>
 Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

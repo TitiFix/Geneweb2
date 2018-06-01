@@ -12,10 +12,3 @@ government agency, church organization, or private organization, etc.
 </pre>
 Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

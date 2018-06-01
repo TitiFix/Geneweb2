@@ -11,10 +11,3 @@ repository.
 </pre>
 Used in <a href=Ged.SOURCE_REPOSITORY_CITATION.md>SOURCE_REPOSITORY_CITATION</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

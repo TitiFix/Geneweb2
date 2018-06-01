@@ -1,6 +1,6 @@
 ﻿# ORDINANCE_PROCESS_FLAG
 ## Abstract
-A flag that indicates whether submission should be processed for clearing temple ordinances.
+&#x1F5D1; A flag that indicates whether submission should be processed for clearing temple ordinances.
 
 
 ## GEDCOM syntax and proprietary extensions

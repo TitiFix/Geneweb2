@@ -1,5 +1,6 @@
 ﻿# CHILD_TO_FAMILY_LINK
 ## Abstract
+Identifies the family in which an individual appears as a child.
 
 ## GEDCOM syntax and proprietary extensions
 

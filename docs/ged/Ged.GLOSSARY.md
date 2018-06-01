@@ -21,7 +21,7 @@ information, a repository, a business, a school, or a company.
  {ADOPTION} := Pertaining to creation of a legally approved child-parent relationship that does not exist biologically.
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_EVENT_STRUCTURE.md>INDIVIDUAL_EVENT_STRUCTURE</a>&gt;
 ## AFN
- {AFN} := A unique permanent record file number of an individual record stored in Ancestral File.
+ {AFN} := :deprecated: A unique permanent record file number of an individual record stored in Ancestral File.
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;
 ## AGE
  {AGE} := The age of the individual at the time an event occurred, or the age listed in the document.

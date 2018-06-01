@@ -36,8 +36,8 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF{1:22}@ | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#famf>FAMF</a> | char{1:120} | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#temp>TEMP</a> | char{4:5} | ignore | no | 
-+1 <a href=Ged.GLOSSARY.md#ance>ANCE</a> | char{1:4} | ignore | no | 
-+1 <a href=Ged.GLOSSARY.md#desc>DESC</a> | char{1:4} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#ance>ANCE</a> | 🗑 deprecated | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#desc>DESC</a> | 🗑 deprecated | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#ordi>ORDI</a> |  yes \| no  | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ignore | no | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ignore | no | 

@@ -15,10 +15,3 @@ GEDCOM structure.
 - Systems that read user-defined tags must consider that they have meaning only with respect to a system contained in the &lt;&lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;&gt; context (i.e &lt;<a href=Ged.SYSTEM_ID.md>SYSTEM_ID</a>&gt;).
 - Otherwise Escape Sequence Format for the Lineage-Linked Form can be used
 Very few Lineage-Linked GEDCOM compatible systems uses the escape sequence feature provided in the GEDCOM grammar.
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

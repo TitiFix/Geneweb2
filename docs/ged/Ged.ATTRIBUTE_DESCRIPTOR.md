@@ -14,10 +14,3 @@ of the subordinate TYPE tag selected from the &lt;<a href=Ged.INDIVIDUAL_EVENT_D
 </pre>
 Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

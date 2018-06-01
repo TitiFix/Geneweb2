@@ -1,5 +1,8 @@
 ﻿# PERSONAL_NAME_PIECES
 ## Abstract
+Text which appears on a name line before the given and surname parts of a name.
+i.e. (Lt. Cmndr.) Joseph /Allen/ jr.
+In this example Lt. Cmndr. is considered as the name prefix portion.
 
 ## GEDCOM syntax and proprietary extensions
 

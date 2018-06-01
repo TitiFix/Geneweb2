@@ -1,5 +1,8 @@
 ﻿# MULTIMEDIA_RECORD
 ## Abstract
+Pertaining to a grouping of attributes used in describing something.  Usually referring to the data
+required to represent a multimedia object, such an audio recording, a photograph of a person, or an
+image of a document.
 
 ## GEDCOM syntax and proprietary extensions
 

@@ -10,10 +10,3 @@ Text excluding commas, numbers, special characters not considered diacritics.
 </pre>
 Used in <a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

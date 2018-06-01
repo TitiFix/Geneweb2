@@ -11,10 +11,3 @@ subordinate to a death event to show cause of death, such as might be listed on 
 </pre>
 Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

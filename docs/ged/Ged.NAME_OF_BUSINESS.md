@@ -10,10 +10,3 @@ Name of the business, corporation, or person that produced or commissioned the p
 </pre>
 Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-

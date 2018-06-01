@@ -10,10 +10,3 @@ The title of a work, record, item, or object.
 </pre>
 Used in <a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>, <a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a><br />
 
-
-## Geneweb behavior
-
-
-
-🚧 to be continued/checked
-
