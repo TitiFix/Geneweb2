@@ -15,7 +15,7 @@ information, a repository, a business, a school, or a company.
  {ADDRESS2} := The second line of an address.
 <br />Used by &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt;
 ## ADR3
- {ADDRESS3} := The third line of an address.
+ {ADDRESS3} := :ged551: The third line of an address.
 <br />Used by &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt;
 ## ADOP
  {ADOPTION} := Pertaining to creation of a legally approved child-parent relationship that does not exist biologically.
@@ -169,7 +169,7 @@ tag. Assume that the rest of the leading spaces are to be a part of the value.
  {EDUCATION} := Indicator of a level of education attained.
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUCTURE</a>&gt;
 ## EMAIL
- {EMAIL} := An electronic mail address.
+ {EMAIL} := :ged551: An electronic mail address.
 <br />Used by &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt;
 ## EMIG
  {EMIGRATION} := An event of leaving one's homeland with the intent of residing elsewhere.
@@ -204,7 +204,7 @@ temple ordinance work.
  {FAMILY_SPOUSE} := Identifies the family in which an individual appears as a spouse.
 <br />Used by &lt;<a href=Ged.SPOUSE_TO_FAMILY_LINK.md>SPOUSE_TO_FAMILY_LINK</a>&gt;
 ## FAX
- {FACIMILIE} := Electronic facimilie transmission.
+ {FACIMILIE} := :ged551: Electronic facimilie transmission.
 <br />Used by &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt;
 ## FCOM
  {FIRST_COMMUNION} := A religious rite, the first act of sharing in the Lord's supper as part of church worship.
@@ -216,7 +216,7 @@ temple ordinance work.
  {FORMAT} := An assigned name given to a consistent format in which information can be conveyed.
 <br />Used by &lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;, &lt;<a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>&gt;, &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;, &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
 ## FONE
- {PHONETIC} := A phonetic variation of a superior text string
+ {PHONETIC} := :ged551: A phonetic variation of a superior text string
 <br />Used by &lt;<a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a>&gt;, &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
 ## GEDC
  {GEDCOM} := Information about the use of GEDCOM in a transmission.
@@ -246,13 +246,13 @@ temple ordinance work.
  {LANGUAGE} := The name of the language used in a communication or file of information.
 <br />Used by &lt;<a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>&gt;, &lt;<a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>&gt;
 ## LATI
- {LATITUDE} := A value indicating a coordinate position on a line, plane, or space.
+ {LATITUDE} := :ged551: A value indicating a coordinate position on a line, plane, or space.
 <br />Used by &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
 ## LONG
- {LONGITUDE} := A value indicating a coordinate position on a line, plane, or space.
+ {LONGITUDE} := :ged551: A value indicating a coordinate position on a line, plane, or space.
 <br />Used by &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
 ## MAP
- {MAP} := Pertains to a representation of  measurements usually presented in a graphical form.
+ {MAP} := :ged551: Pertains to a representation of  measurements usually presented in a graphical form see <LATI>, <LONG>.
 <br />Used by &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
 ## MARB
  {MARRIAGE_BANN} := An event of an official public notice given that two people intend to marry.
@@ -383,7 +383,7 @@ system to report results pertaining to that record.
  {ROLE} := A name given to a role played by an individual in connection with an event.
 <br />Used by &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;
 ## ROMN
- {ROMANIZED} := A romanized variation of a superior text string.
+ {ROMANIZED} := :ged551: A romanized variation of a superior text string.
 <br />Used by &lt;<a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a>&gt;, &lt;<a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>&gt;
 ## SEX
  {SEX} := Indicates the sex of an individual--male or female.
@@ -455,6 +455,6 @@ after death. The event date is the date the will was signed while the person was
 PROBate)
 <br />Used by &lt;<a href=Ged.INDIVIDUAL_EVENT_STRUCTURE.md>INDIVIDUAL_EVENT_STRUCTURE</a>&gt;
 ## WWW
- {WEB} := World Wide Web home page.
+ {WEB} := :ged551: World Wide Web home page.
 
 <br />Used by &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt;

@@ -3,8 +3,7 @@
 As a general rule, events are things that happen on a specific date. Use the date form ‘BET date
 AND date’ to indicate that an event took place at some time between two dates. Resist the
 temptation to use a ‘FROM date TO date’ form in an event structure.  If the subject of your
-recording occurred over a period of time, then it is probably not an event, but rather an attribute or
-fact.
+recording occurred over a period of time, then it is probably not an event, but rather an attribute or fact.
 The EVEN tag in this structure is for recording general events that are not shown in the above
 &lt;&lt;<a href=Ged.INDIVIDUAL_EVENT_STRUCTURE.md>INDIVIDUAL_EVENT_STRUCTURE</a>&gt;&gt;.  The event indicated by this general EVEN tag is
 defined by the value of the subordinate TYPE tag. For example, a person that signed a lease for land

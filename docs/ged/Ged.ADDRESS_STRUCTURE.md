@@ -20,9 +20,9 @@ n ADDR &lt;<a href=Ged.ADDRESS_LINE.md>ADDRESS_LINE</a>&gt;{0:1}
   +1 POST &lt;<a href=Ged.ADDRESS_POSTAL_CODE.md>ADDRESS_POSTAL_CODE</a>&gt;{0:1}
   +1 CTRY &lt;<a href=Ged.ADDRESS_COUNTRY.md>ADDRESS_COUNTRY</a>&gt;{0:1}
 n PHON &lt;<a href=Ged.PHONE_NUMBER.md>PHONE_NUMBER</a>&gt;{0:3}
-n EMAIL &lt;<a href=Ged.ADDRESS_EMAIL.md>ADDRESS_EMAIL</a>&gt;{0:3}
-n FAX&lt;<a href=Ged.ADDRESS_FAX.md>ADDRESS_FAX</a>&gt;{0:3}
-n WWW &lt;<a href=Ged.ADDRESS_WEB_PAGE.md>ADDRESS_WEB_PAGE</a>&gt;{0:3}
+n EMAIL &lt;<a href=Ged.ADDRESS_EMAIL.md>ADDRESS_EMAIL</a>&gt;{0:3} &#x25B6;
+n FAX&lt;<a href=Ged.ADDRESS_FAX.md>ADDRESS_FAX</a>&gt;{0:3} &#x25B6;
+n WWW &lt;<a href=Ged.ADDRESS_WEB_PAGE.md>ADDRESS_WEB_PAGE</a>&gt;{0:3} &#x25B6;
 </pre>
 Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.REPOSITORY_RECORD.md>REPOSITORY_RECORD</a>, <a href=Ged.SUBMITTER_RECORD.md>SUBMITTER_RECORD</a>, <a href=Ged.EVENT_DETAIL.md>EVENT_DETAIL</a><br />
 

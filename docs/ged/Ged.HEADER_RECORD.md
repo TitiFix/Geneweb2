@@ -19,8 +19,8 @@ The &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt; value is mandatory an
     +2 DATA &lt;<a href=Ged.NAME_OF_SOURCE_DATA.md>NAME_OF_SOURCE_DATA</a>&gt;{0:1}
       +3 DATE &lt;<a href=Ged.PUBLICATION_DATE.md>PUBLICATION_DATE</a>&gt;{0:1}
       +3 COPR &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA.md>COPYRIGHT_SOURCE_DATA</a>&gt;{0:1}
-        +4 [CONT|CONC] &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA.md>COPYRIGHT_SOURCE_DATA</a>&gt;{0:M}
-  +1 DEST &lt;<a href=Ged.RECEIVING_SYSTEM_NAME.md>RECEIVING_SYSTEM_NAME</a>&gt;{0:1} *
+        +4 [CONT|CONC] &lt;<a href=Ged.COPYRIGHT_SOURCE_DATA.md>COPYRIGHT_SOURCE_DATA</a>&gt;{0:M} &#x25B6;
+  +1 DEST &lt;<a href=Ged.RECEIVING_SYSTEM_NAME.md>RECEIVING_SYSTEM_NAME</a>&gt;{0:1}*
   +1 DATE &lt;<a href=Ged.CREATION_DATE.md>CREATION_DATE</a>&gt;{0:1}
     +2 TIME &lt;<a href=Ged.TIME_VALUE.md>TIME_VALUE</a>&gt;{0:1}
 <b>  +1 SUBM @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{1:1}</b>
@@ -36,7 +36,7 @@ The &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt; value is mandatory an
   +1 PLAC{0:1}
 <b>    +2 FORM &lt;<a href=Ged.PLACE_HIERARCHY.md>PLACE_HIERARCHY</a>&gt;{1:1}</b>
   +1 NOTE &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION.md>GEDCOM_CONTENT_DESCRIPTION</a>&gt;{0:1}
-    +2 [CONC|CONT] &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION.md>GEDCOM_CONTENT_DESCRIPTION</a>&gt;{0:M}
+    +2 [CONC|CONT] &lt;<a href=Ged.GEDCOM_CONTENT_DESCRIPTION.md>GEDCOM_CONTENT_DESCRIPTION</a>&gt;
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 

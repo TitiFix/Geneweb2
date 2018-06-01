@@ -1,6 +1,6 @@
 ﻿# ADDRESS_EMAIL
 ## Abstract
-An electronic address that can be used for contact such as an email address.
+&#x25B6; An electronic address that can be used for contact such as an email address.
 
 
 ## GEDCOM syntax and proprietary extensions

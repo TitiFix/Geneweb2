@@ -1,6 +1,6 @@
 ﻿# ADDRESS_FAX
 ## Abstract
-A FAX telephone number appropriate for sending data facsimiles.
+&#x25B6; A FAX telephone number appropriate for sending data facsimiles.
 
 
 ## GEDCOM syntax and proprietary extensions

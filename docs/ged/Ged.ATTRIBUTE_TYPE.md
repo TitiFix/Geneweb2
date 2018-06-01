@@ -8,7 +8,7 @@ Its application is in helping to classify sources used for information.
 
 **ATTRIBUTE_TYPE**:={Size=1:4}
 <pre>
-[ CAST | EDUC | NATI | OCCU | PROP | RELI | RESI | TITL | FACT ]
+[ CAST | EDUC | NATI | OCCU | PROP | RELI | RESI | TITL | &#x25B6; FACT ]
 </pre>
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 ## Geneweb behavior

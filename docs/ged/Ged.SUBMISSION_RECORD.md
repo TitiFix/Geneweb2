@@ -32,7 +32,7 @@ NOTE: &#x1F5D1; Since the discontinuation of the GEDCOM standard by familysearch
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF{1:22}@ | ignore | no | 
++0 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF{1:22}@ | ignore | no | not used by geneweb
 +1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF{1:22}@ | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#famf>FAMF</a> | char{1:120} | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#temp>TEMP</a> | char{4:5} | ignore | no | 
