@@ -1,5 +1,7 @@
 ﻿# REPOSITORY_RECORD
 ## Abstract
+An institution or person that has the specified item as part of their collection(s).
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -21,14 +23,14 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#repo>REPO</a> | @XREF{1:22}@ | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#name>NAME</a> | char{1:90} | ? | ? | 
-+1  | &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt; | ? | ? | 
-+1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | char{1:20} | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | char{1:40} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ? | ? | 
-+1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#repo>REPO</a> | @XREF{1:22}@ | ignore | no | not used by Geneweb
++1 <a href=Ged.GLOSSARY.md#name>NAME</a> | char{1:90} | ignore | no | 
++1  | &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt; | ignore | no | 
++1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | char{1:20} | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | char{1:40} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ignore | no | 
++1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ignore | no | 
 
-🚧 to be continued/checked
+
 

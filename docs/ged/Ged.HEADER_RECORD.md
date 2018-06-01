@@ -56,22 +56,22 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +2 <a href=Ged.GLOSSARY.md#corp>CORP</a> | char{1:90} | ignore | yes &#x2753; | export INRIA name; "geneweb team" would be better &#x1F4CD;
 +3  | &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt; | ignore | partial &#x26A0; | url http://www.geneweb.org export in postal address (ADDR tag). Shall be corrected with WWW tag.
 +2 <a href=Ged.GLOSSARY.md#data>DATA</a> | char{1:90} | ignore | yes | export name of gw database
-+3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; |  | no | 
-+3 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} |  | no | 
-+4 <a href=Ged.GLOSSARY.md#cont>CONT</a>\|<a href=Ged.GLOSSARY.md#conc>CONC</a> | char{1:90} |  | no | 
-+1 <a href=Ged.GLOSSARY.md#dest>DEST</a> | char{1:20} |  | no | 
++3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ignore | no | 
++3 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} | ignore | no | 
++4 <a href=Ged.GLOSSARY.md#cont>CONT</a>\|<a href=Ged.GLOSSARY.md#conc>CONC</a> | char{1:90} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#dest>DEST</a> | char{1:20} | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ignore | yes | Creation date
 +2 <a href=Ged.GLOSSARY.md#time>TIME</a> |  hh:mm:ss.fs  | ignore | yes | Creation time
 +1 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF{1:22}@ | ignore | missing &#x26A0; | export SUBM tag to add
-+1 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF{1:22}@ |  | no | 
++1 <a href=Ged.GLOSSARY.md#subn>SUBN</a> | @XREF{1:22}@ | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:90} | ignore | yes | name of gedcom file maked
-+1 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} |  | no | 
++1 <a href=Ged.GLOSSARY.md#copr>COPR</a> | char{1:90} | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#gedc>GEDC</a> |  | ignore &#x1F4CD; | yes | import should check GEDC.VERS and GEDC.Form
 +2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | not checked &#x26A0; | 5.5 if non UTF8 and 5.5.1. if UTF8 &#x26A0; | always 5.5.1 must be assumed (some tag 5.5.1)
 +2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  LINEAGE-LINKED  | not checked &#x26A0; | yes | 
-+1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| &#x25B6; UTF-8 \| UNICODE \| &#x1F5D1; ASCII \| &#x23E9; ANSI \| &#x23E9; MACINTOSH  | plus MSDOS charset | ANSI mission &#x26A0; | ANSI and MACINTOSH charset missing &#x26A0; - <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>
-+2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} |  | no | 
-+1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; |  | no | 
++1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| &#x25B6; UTF-8 \| UNICODE \| &#x1F5D1; ASCII \| &#x23E9; ANSI \| &#x23E9; MACINTOSH  | plus MSDOS charset | ANSI missing &#x26A0; | ANSI and MACINTOSH charset missing &#x26A0; - <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>
++2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#plac>PLAC</a> |  | ignore | no | &#x1F4CD; must be used for correct import of subdivision field (lieux dits)
 +2 <a href=Ged.GLOSSARY.md#form>FORM</a> | char{1:120} | ignore | no &#x1F4CD; | can be used to detect subdivision position in place.
 +1 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248} | record | optional (-nn gwb2ged option) | only the first page of chronicles/notes. &#x1F4CD; export all pages would be better.
