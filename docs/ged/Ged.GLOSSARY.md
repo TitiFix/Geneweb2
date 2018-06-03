@@ -301,7 +301,7 @@ temple ordinance work.
 ## INDI
  {INDIVIDUAL} := A person.
 
-<br />used by &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;, &lt;<a href=Ged.RELATION_IS_DESCRIPTOR.md>RELATION_IS_DESCRIPTOR</a>&gt;
+<br />used by &lt;<a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a>&gt;
 ## LANG
  {LANGUAGE} := The name of the language used in a communication or file of information.
 

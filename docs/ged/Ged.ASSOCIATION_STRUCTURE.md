@@ -28,6 +28,6 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#asso>ASSO</a> | @XREF{1:22}@ | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#type>TYPE</a> |  FAM \| INDI \| NOTE \| OBJE \| REPO \| SOUR \| SUBM \| SUBN  | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#rela>RELA</a> | 0 INDI | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#rela>RELA</a> | char{1:25} | ? | ? | 
 +1  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
