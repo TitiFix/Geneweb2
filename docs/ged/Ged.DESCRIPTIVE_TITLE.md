@@ -1,4 +1,5 @@
-﻿# DESCRIPTIVE_TITLE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DESCRIPTIVE_TITLE
 ## Abstract
 The title of a work, record, item, or object.
 

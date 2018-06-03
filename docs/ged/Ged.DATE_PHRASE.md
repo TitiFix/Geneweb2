@@ -1,4 +1,5 @@
-﻿# DATE_PHRASE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_PHRASE
 ## Abstract
 Any statement offered as a date when the year is not recognizable to a date parser, but which gives
 information about when an event occurred.

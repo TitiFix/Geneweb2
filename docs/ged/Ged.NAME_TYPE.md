@@ -1,4 +1,5 @@
-﻿# NAME_TYPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_TYPE
 ## Abstract
 Indicates the name type, for example the name issued or assumed as an immigrant.
 aka=also known as, alias, etc.

@@ -1,4 +1,5 @@
-﻿# CHILD_LINKAGE_STATUS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CHILD_LINKAGE_STATUS
 ## Abstract
 A status code that allows passing on the users opinion of the status of a child to family link.
 

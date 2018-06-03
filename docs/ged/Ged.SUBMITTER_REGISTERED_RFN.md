@@ -1,4 +1,5 @@
-﻿# SUBMITTER_REGISTERED_RFN 🗑 (Deprecated)
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SUBMITTER_REGISTERED_RFN 🗑 (Deprecated)
 ## Abstract
 A registered number of a submitter of Ancestral File data.  This number is used in subsequent
 submissions or inquiries by the submitter for identification purposes.

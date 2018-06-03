@@ -1,4 +1,5 @@
-﻿# HEADER_RECORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# HEADER_RECORD
 ## Abstract
 The header structure provides information about the entire transmission. The SOURce system name
 identifies which system sent the data. The DESTination system name identifies the intended receiving
@@ -24,7 +25,7 @@ The &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt; value is mandatory an
   +1 DATE &lt;<a href=Ged.CREATION_DATE.md>CREATION_DATE</a>&gt;{0:1}
     +2 TIME &lt;<a href=Ged.TIME_VALUE.md>TIME_VALUE</a>&gt;{0:1}
 <b>  +1 SUBM @&lt;<a href=Ged.XREF_SUBM.md>XREF:SUBM</a>&gt;@{1:1}</b>
-  +1 SUBN @&lt;<a href=Ged.XREF_SUBN.md>XREF:SUBN</a>&gt;@{0:1}
+  +1 SUBN @&lt;<a href=Ged.XREF_SUBN.md>XREF:SUBN</a>&gt;@{0:1} &#x1F5D1;
   +1 FILE &lt;<a href=Ged.FILE_NAME.md>FILE_NAME</a>&gt;{0:1}
   +1 COPR &lt;<a href=Ged.COPYRIGHT_GEDCOM_FILE.md>COPYRIGHT_GEDCOM_FILE</a>&gt;{0:1}
 <b>  +1 GEDC{1:1}</b>
@@ -41,11 +42,9 @@ The &lt;<a href=Ged.CHARACTER_SET.md>CHARACTER_SET</a>&gt; value is mandatory an
 Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br />
 
 
-NOTE:
-Submissions to the Family History Department for Ancestral File submission or for clearing temple ordinances  must use a
-DESTination of ANSTFILE or TempleReady, respectively.
-
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -69,7 +68,7 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#gedc>GEDC</a> |  | ignore &#x1F4CD; | yes | import should check GEDC.VERS and GEDC.Form
 +2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | not checked &#x26A0; | 5.5 if non UTF8 and 5.5.1. if UTF8 &#x26A0; | always 5.5.1 must be assumed (some tag 5.5.1)
 +2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  LINEAGE-LINKED  | not checked &#x26A0; | yes | 
-+1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| &#x25B6; UTF-8 \| UNICODE \| &#x1F5D1; ASCII \| &#x23E9; ANSI \| &#x23E9; MACINTOSH  | plus MSDOS charset | ANSI missing &#x26A0; | ANSI and MACINTOSH charset missing &#x26A0; - <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>,UTF-8 with BOM is not supported see -<a href=https://github.com/geneweb/geneweb/issues/637>Issue #637</a>
++1 <a href=Ged.GLOSSARY.md#char>CHAR</a> |  ANSEL \| &#x25B6; UTF-8 \| UNICODE \| &#x1F5D1; ASCII \| &#x23E9; ANSI \| &#x23E9; MACINTOSH  | ANSI missing and additional MSDOS charset | MACINTOSH and ANSI missing &#x26A0; | ANSI and MACINTOSH charset missing &#x26A0; - <a href=https://github.com/geneweb/geneweb/issues/627>Issue #627</a>,UTF-8 with BOM is not supported see -<a href=https://github.com/geneweb/geneweb/issues/637>Issue #637</a>
 +2 <a href=Ged.GLOSSARY.md#vers>VERS</a> | char{1:15} | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; | ignore | no | 
 +1 <a href=Ged.GLOSSARY.md#plac>PLAC</a> |  | ignore | no | &#x1F4CD; must be used for correct import of subdivision field (lieux dits)

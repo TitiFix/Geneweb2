@@ -1,4 +1,5 @@
-﻿# GEDCOM_CONTENT_DESCRIPTION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# GEDCOM_CONTENT_DESCRIPTION
 ## Abstract
 A note that a user enters to describe the contents of the lineage-linked file in terms of "ancestors or
 descendants of" so that the person receiving the data knows what genealogical information the

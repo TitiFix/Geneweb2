@@ -1,8 +1,10 @@
-﻿# PERSONAL_NAME_PIECES
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PERSONAL_NAME_PIECES
 ## Abstract
 Text which appears on a name line before the given and surname parts of a name.
 i.e. (Lt. Cmndr.) Joseph /Allen/ jr.
 In this example Lt. Cmndr. is considered as the name prefix portion.
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -21,6 +23,8 @@ Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

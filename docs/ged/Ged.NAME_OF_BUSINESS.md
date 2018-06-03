@@ -1,4 +1,5 @@
-﻿# NAME_OF_BUSINESS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_OF_BUSINESS
 ## Abstract
 Name of the business, corporation, or person that produced or commissioned the product.
 

@@ -1,4 +1,5 @@
-﻿# LDS_CHILD_SEALING_DATE_STATUS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LDS_CHILD_SEALING_DATE_STATUS
 ## Abstract
 BIC=Born in the covenant receiving blessing of child to parent sealing.
 EXCLUDED=Patron excluded this ordinance from being cleared in this submission.

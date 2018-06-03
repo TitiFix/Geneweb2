@@ -1,4 +1,5 @@
-﻿# OCCUPATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# OCCUPATION
 ## Abstract
 The kind of activity that an individual does for a job, profession, or principal activity.
 

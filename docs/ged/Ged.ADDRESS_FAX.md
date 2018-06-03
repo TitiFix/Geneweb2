@@ -1,4 +1,5 @@
-﻿# ADDRESS_FAX
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADDRESS_FAX
 ## Abstract
 &#x25B6; A FAX telephone number appropriate for sending data facsimiles.
 

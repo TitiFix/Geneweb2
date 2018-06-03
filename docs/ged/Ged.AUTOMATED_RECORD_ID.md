@@ -1,4 +1,5 @@
-﻿# AUTOMATED_RECORD_ID
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# AUTOMATED_RECORD_ID
 ## Abstract
 A unique record identification number assigned to the record by the source system.  This number is
 intended to serve as a more sure means of identification of a record for reconciling differences in data

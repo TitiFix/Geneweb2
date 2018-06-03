@@ -1,4 +1,5 @@
-﻿# ANCESTRAL_FILE_NUMBER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ANCESTRAL_FILE_NUMBER
 ## Abstract
 A unique permanent record number of an individual record contained in the Family History
 Department's Ancestral File.

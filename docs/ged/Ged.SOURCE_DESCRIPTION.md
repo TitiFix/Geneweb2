@@ -1,4 +1,5 @@
-﻿# SOURCE_DESCRIPTION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_DESCRIPTION
 ## Abstract
 A free form text block used to describe the source from which information was obtained.  This text
 block is used by those systems which cannot use a pointer to a source record. It must contain a

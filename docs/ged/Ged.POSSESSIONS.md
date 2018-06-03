@@ -1,4 +1,5 @@
-﻿# POSSESSIONS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# POSSESSIONS
 ## Abstract
 A list of possessions (real estate or other property) belonging to this individual.
 

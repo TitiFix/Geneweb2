@@ -1,4 +1,5 @@
-﻿# ATTRIBUTE_TYPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ATTRIBUTE_TYPE
 ## Abstract
 An attribute which may have caused name, addresses, phone numbers, family listings to be recorded.
 Its application is in helping to classify sources used for information.

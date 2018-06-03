@@ -1,4 +1,5 @@
-﻿# AGE_AT_EVENT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# AGE_AT_EVENT
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

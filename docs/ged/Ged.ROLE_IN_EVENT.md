@@ -1,4 +1,5 @@
-﻿# ROLE_IN_EVENT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ROLE_IN_EVENT
 ## Abstract
 Indicates what role this person played in the event that is being cited in this context. For example, if
 you cite a child's birth record as the source of the mother's name, the value for this field is "MOTH." If

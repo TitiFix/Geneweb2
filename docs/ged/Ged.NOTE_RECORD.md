@@ -1,6 +1,8 @@
-﻿# NOTE_RECORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NOTE_RECORD
 ## Abstract
 Additional information provided by the submitter for understanding the enclosing data.
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -18,6 +20,8 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

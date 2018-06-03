@@ -1,4 +1,5 @@
-﻿# CHARACTER_SET
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CHARACTER_SET
 ## Abstract
 A code value that represents the character set to be used for read/write with the GEDCOM file.
 

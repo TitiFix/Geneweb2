@@ -1,4 +1,5 @@
-﻿# EVENT_OR_FACT_CLASSIFICATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# EVENT_OR_FACT_CLASSIFICATION
 ## Abstract
 A descriptive word or phrase used to further classify the parent event or attribute tag. This should be
 used whenever either of  the generic EVEN or FACT tags are used. The value of this primative is

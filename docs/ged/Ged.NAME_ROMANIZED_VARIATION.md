@@ -1,4 +1,5 @@
-﻿# NAME_ROMANIZED_VARIATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_ROMANIZED_VARIATION
 ## Abstract
 The romanized variation of the name is written in the same form prescribed for the name used in the
 superior &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt; context. &#x25B6; The method used to romanize the name is indicated by the

@@ -1,4 +1,5 @@
-﻿# ADDRESS_EMAIL
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADDRESS_EMAIL
 ## Abstract
 &#x25B6; An electronic address that can be used for contact such as an email address.
 

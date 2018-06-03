@@ -1,4 +1,5 @@
-﻿# SEX_VALUE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SEX_VALUE
 ## Abstract
 A code that indicates the sex of the individual:
 M=Male

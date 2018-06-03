@@ -1,8 +1,8 @@
-﻿# MULTIMEDIA_RECORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# MULTIMEDIA_RECORD
 ## Abstract
-Pertaining to a grouping of attributes used in describing something.  Usually referring to the data
-required to represent a multimedia object, such an audio recording, a photograph of a person, or an
-image of a document.
+Pertaining to a grouping of attributes used in describing something.  Usually referring to the data required to represent a multimedia object, such an audio recording, a photograph of a person, or an image of a document.
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -30,6 +30,8 @@ sound clip and a photo, you would reference each multimedia file and indicate th
 FORM tag subordinate to each file reference.
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

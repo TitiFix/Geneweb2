@@ -1,4 +1,5 @@
-﻿# XREF:SUBM
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# XREF:SUBM
 ## Abstract
 A pointer to, or a cross-reference identifier of, a SUBMitter record.
 

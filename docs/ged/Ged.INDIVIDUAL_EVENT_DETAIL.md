@@ -1,4 +1,5 @@
-﻿# INDIVIDUAL_EVENT_DETAIL
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# INDIVIDUAL_EVENT_DETAIL
 ## Abstract
 In 5.5.1,  a generic FACT tag was added to the individual attribute structure. Previously, the generic EVEN
 tag was used. The FACT was added to give a semantic difference between generic events and
@@ -26,6 +27,8 @@ Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUC
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

@@ -1,4 +1,5 @@
-﻿# ADDRESS_CITY
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADDRESS_CITY
 ## Abstract
 The name of the city used in the address. Isolated for sorting or indexing.
 

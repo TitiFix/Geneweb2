@@ -1,4 +1,5 @@
-﻿# NATIONAL_ID_NUMBER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NATIONAL_ID_NUMBER
 ## Abstract
 A nationally-controlled number assigned to an individual. Commonly known national numbers should
 be assigned their own tag, such as SSN for U.S. Social Security Number. The use of the IDNO tag

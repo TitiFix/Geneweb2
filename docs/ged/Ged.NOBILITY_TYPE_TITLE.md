@@ -1,4 +1,5 @@
-﻿# NOBILITY_TYPE_TITLE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NOBILITY_TYPE_TITLE
 ## Abstract
 The title given to or used by a person, especially of royalty or other noble class within a locality.
 

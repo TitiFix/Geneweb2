@@ -1,7 +1,8 @@
-﻿# INDIVIDUAL_ATTRIBUTE_STRUCTURE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# INDIVIDUAL_ATTRIBUTE_STRUCTURE
 ## Abstract
-The name of an individual's rank or status in society which is sometimes based on racial or religious
-differences, or differences in wealth, inherited  rank, profession, occupation, etc.
+The name of an individual's rank or status in society which is sometimes based on racial or religious differences, or differences in wealth, inherited  rank, profession, occupation, etc.
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -60,6 +61,8 @@ what kind of identification number or fact classification is being defined.  The
 with each of the above tags used in this structure.
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

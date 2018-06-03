@@ -1,4 +1,5 @@
-﻿# CERTAINTY_ASSESSMENT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CERTAINTY_ASSESSMENT
 ## Abstract
 The QUAY tag's value conveys the submitter's quantitative evaluation of the credibility of a piece of
 information, based upon its supporting evidence. Some systems use this feature to rank multiple

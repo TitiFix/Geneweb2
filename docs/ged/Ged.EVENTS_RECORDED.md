@@ -1,4 +1,5 @@
-﻿# EVENTS_RECORDED
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# EVENTS_RECORDED
 ## Abstract
 An enumeration of the different kinds of events that were recorded in a particular source. Each
 enumeration is separated by a comma. Such as a parish register of births, deaths, and marriages would

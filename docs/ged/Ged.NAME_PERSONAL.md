@@ -1,4 +1,5 @@
-﻿# NAME_PERSONAL
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PERSONAL
 ## Abstract
 The surname of an individual, if known, is enclosed between two slash (/) characters. The order of the
 n ame parts should be the order that the person would, by custom of their culture, have used when ®

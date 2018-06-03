@@ -1,4 +1,5 @@
-﻿# SOURCE_REPOSITORY_CITATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_REPOSITORY_CITATION
 ## Abstract
 This structure is used within a source record to point to a name and address record of the holder of the
 source document.  Formal and informal repository name and addresses are stored in the
@@ -24,6 +25,8 @@ Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

@@ -1,4 +1,5 @@
-﻿# MULTIMEDIA_FORMAT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# MULTIMEDIA_FORMAT
 ## Abstract
 Indicates the format of the multimedia data associated with the specific GEDCOM context. This
 allows processors to determine whether they can process the data object. Any linked files should

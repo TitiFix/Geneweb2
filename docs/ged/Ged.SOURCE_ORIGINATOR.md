@@ -1,4 +1,5 @@
-﻿# SOURCE_ORIGINATOR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_ORIGINATOR
 ## Abstract
 The person, agency, or entity who created the record. For a published work, this could be the author,
 compiler, transcriber, abstractor, or editor. For an unpublished source, this may be an individual, a

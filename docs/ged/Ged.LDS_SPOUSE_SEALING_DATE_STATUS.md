@@ -1,4 +1,5 @@
-﻿# LDS_SPOUSE_SEALING_DATE_STATUS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LDS_SPOUSE_SEALING_DATE_STATUS
 ## Abstract
 CANCELED=Canceled and considered invalid.
 COMPLETED=Completed but the date is not known.

@@ -1,4 +1,5 @@
-﻿# USER_REFERENCE_TYPE 🗑 (Deprecated)
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# USER_REFERENCE_TYPE 🗑 (Deprecated)
 ## Abstract
 A user-defined definition of the USER_REFERENCE_NUMBER.
 

@@ -1,4 +1,5 @@
-﻿# SUBMITTER_TEXT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SUBMITTER_TEXT
 ## Abstract
 Comments or opinions from the submitter.
 

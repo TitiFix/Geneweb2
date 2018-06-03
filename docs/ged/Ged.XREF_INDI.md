@@ -1,4 +1,5 @@
-﻿# XREF:INDI
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# XREF:INDI
 ## Abstract
 A pointer to, or a cross-reference identifier of, an individual record.
 

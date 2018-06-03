@@ -1,4 +1,5 @@
-﻿# DATE_CALENDAR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_CALENDAR
 ## Abstract
 The selection is based on the &lt;<a href=Ged.DATE_CALENDAR_ESCAPE.md>DATE_CALENDAR_ESCAPE</a>&gt; that precedes the &lt;<a href=Ged.DATE_CALENDAR.md>DATE_CALENDAR</a>&gt; value immediately to the left.  If &lt;<a href=Ged.DATE_CALENDAR_ESCAPE.md>DATE_CALENDAR_ESCAPE</a>&gt; doesn't appear at this point, then @#DGREGORIAN@ is assumed.  No future calendar types will use words (e.g., month names) from this list: FROM, TO, BEF, AFT, BET, AND, ABT, EST, CAL, or INT.
 

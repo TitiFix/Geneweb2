@@ -1,4 +1,5 @@
-﻿# NAME_OF_PRODUCT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_OF_PRODUCT
 ## Abstract
 The name of the software product that produced this transmission.
 

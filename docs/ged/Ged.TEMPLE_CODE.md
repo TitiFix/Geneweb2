@@ -1,4 +1,5 @@
-﻿# TEMPLE_CODE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# TEMPLE_CODE
 ## Abstract
 An abbreviation of the temple in which LDS temple ordinances were performed. see
 https://www.lds.org/temples/list and https://ldschurchtemples.org/

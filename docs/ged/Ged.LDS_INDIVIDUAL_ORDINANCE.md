@@ -1,4 +1,5 @@
-﻿# LDS_INDIVIDUAL_ORDINANCE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LDS_INDIVIDUAL_ORDINANCE
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions
@@ -39,6 +40,8 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

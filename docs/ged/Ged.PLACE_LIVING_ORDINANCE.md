@@ -1,4 +1,5 @@
-﻿# PLACE_LIVING_ORDINANCE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_LIVING_ORDINANCE
 ## Abstract
 The locality of the place where a living LDS ordinance took place.  Typically, a living LDS baptism
 place would be recorded in this field.

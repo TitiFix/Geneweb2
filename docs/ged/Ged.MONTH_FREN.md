@@ -1,4 +1,5 @@
-﻿# MONTH_FREN
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# MONTH_FREN
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

@@ -1,4 +1,5 @@
-﻿# SOURCE_CALL_NUMBER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_CALL_NUMBER
 ## Abstract
 An identification or reference description used to file and retrieve items from the holdings of a
 repository.

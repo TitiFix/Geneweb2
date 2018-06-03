@@ -1,4 +1,5 @@
-﻿# USER_DEFINED_TAG
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# USER_DEFINED_TAG
 ## Abstract
 A user-defined tag that is contained in the GEDCOM current transmission. This tag must begin with an underscore (_) and should only be interpreted in the context of the sending system.
 

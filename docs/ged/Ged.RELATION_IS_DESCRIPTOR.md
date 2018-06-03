@@ -1,4 +1,5 @@
-﻿# RELATION_IS_DESCRIPTOR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# RELATION_IS_DESCRIPTOR
 ## Abstract
 A word or phrase that states object 1's relation is object 2. For example you would read the following
 as "Joe Jacob's great grandson is the submitter pointed to by the @XREF:SUBM@":
@@ -17,6 +18,8 @@ Used in <a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

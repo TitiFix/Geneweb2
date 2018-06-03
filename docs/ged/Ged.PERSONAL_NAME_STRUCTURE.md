@@ -1,4 +1,5 @@
-﻿# PERSONAL_NAME_STRUCTURE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PERSONAL_NAME_STRUCTURE
 ## Abstract
 The name value is formed in the manner the name is normally spoken, with the given name and family
 n ame (surname) separated by slashes (/). (See &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt;) Based on the
@@ -32,6 +33,8 @@ NOTE:
 - Systems using the subordinate name parts must still provide the name structure formed in the same way specified for &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt;.
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

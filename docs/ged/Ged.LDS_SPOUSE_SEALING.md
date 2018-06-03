@@ -1,6 +1,8 @@
-﻿# LDS_SPOUSE_SEALING
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LDS_SPOUSE_SEALING
 ## Abstract
 A religious event pertaining to the sealing of a husband and wife in an LDS temple ceremony.
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -19,6 +21,8 @@ Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

@@ -1,4 +1,5 @@
-﻿# CHANGE_DATE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CHANGE_DATE
 ## Abstract
 The date that this data was changed.
 

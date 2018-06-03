@@ -1,4 +1,5 @@
-﻿# DATE_HEBR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_HEBR
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

@@ -1,4 +1,5 @@
-﻿# NAME_PIECE_SURNAME
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PIECE_SURNAME
 ## Abstract
 Surname or family name. Different surnames are separated by a comma.
 

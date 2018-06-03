@@ -1,4 +1,5 @@
-﻿# NAME_OF_SOURCE_DATA
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_OF_SOURCE_DATA
 ## Abstract
 The name of the electronic data source that was used to obtain the data in this transmission. For
 example, the data may have been obtained from a CD-ROM disc that was named "U.S. 1880

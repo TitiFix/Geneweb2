@@ -1,4 +1,5 @@
-﻿# NULL
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NULL
 ## Abstract
 A convention that indicates the absence of any character in the value.
 

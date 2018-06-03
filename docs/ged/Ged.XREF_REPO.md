@@ -1,4 +1,5 @@
-﻿# XREF:REPO
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# XREF:REPO
 ## Abstract
 A pointer to, or a cross-reference identifier of, a repository record.
 

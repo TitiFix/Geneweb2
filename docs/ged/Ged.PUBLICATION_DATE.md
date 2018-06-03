@@ -1,4 +1,5 @@
-﻿# PUBLICATION_DATE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PUBLICATION_DATE
 ## Abstract
 The date this source was published or created.
 

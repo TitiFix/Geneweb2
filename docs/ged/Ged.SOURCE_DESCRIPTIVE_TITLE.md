@@ -1,4 +1,5 @@
-﻿# SOURCE_DESCRIPTIVE_TITLE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_DESCRIPTIVE_TITLE
 ## Abstract
 The title of the work, record, or item and, when appropriate, the title of the larger work or series of
 which it is a part.

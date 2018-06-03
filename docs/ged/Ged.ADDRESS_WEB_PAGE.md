@@ -1,4 +1,5 @@
-﻿# ADDRESS_WEB_PAGE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADDRESS_WEB_PAGE
 ## Abstract
 &#x25B6; The world wide web page address.
 

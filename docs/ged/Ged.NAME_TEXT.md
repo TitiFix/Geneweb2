@@ -1,4 +1,5 @@
-﻿# NAME_TEXT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_TEXT
 ## Abstract
 Text excluding commas, numbers, special characters not considered diacritics.
 

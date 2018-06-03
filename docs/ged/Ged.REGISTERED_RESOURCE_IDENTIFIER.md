@@ -1,4 +1,5 @@
-﻿# REGISTERED_RESOURCE_IDENTIFIER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# REGISTERED_RESOURCE_IDENTIFIER
 ## Abstract
 This is an identifier assigned to a resource database that is available through access to a network. This
 is for future GEDCOM releases.

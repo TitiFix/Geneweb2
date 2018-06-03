@@ -1,4 +1,5 @@
-﻿# XREF:NOTE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# XREF:NOTE
 ## Abstract
 A pointer to, or a cross-reference identifier of, a note record.
 

@@ -1,4 +1,5 @@
-﻿# SOURCE_PUBLICATION_FACTS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_PUBLICATION_FACTS
 ## Abstract
 When and where the record was created. For published works, this includes information such as the
 city of publication, name of the publisher, and year of publication.

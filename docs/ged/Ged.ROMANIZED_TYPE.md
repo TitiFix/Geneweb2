@@ -1,4 +1,5 @@
-﻿# ROMANIZED_TYPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ROMANIZED_TYPE
 ## Abstract
 Indicates the method used in transforming the text to a romanized variation.
 

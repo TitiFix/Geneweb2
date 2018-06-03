@@ -1,4 +1,5 @@
-﻿# PHONETIC_TYPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PHONETIC_TYPE
 ## Abstract
 Indicates the method used in transforming the text to the phonetic variation.
 user_defined (free text defined by user) record method used to arrive at the phonetic variation of the name.

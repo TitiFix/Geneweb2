@@ -1,4 +1,5 @@
-﻿# NAME_PIECE_PREFIX
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PIECE_PREFIX
 ## Abstract
 Non indexing name piece that appears preceding the given name and surname parts. Different name
 prefix parts are separated by a comma.

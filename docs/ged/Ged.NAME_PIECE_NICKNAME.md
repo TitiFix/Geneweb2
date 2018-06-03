@@ -1,4 +1,5 @@
-﻿# NAME_PIECE_NICKNAME
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PIECE_NICKNAME
 ## Abstract
 A descriptive or familiar name used in connection with one's proper name.
 

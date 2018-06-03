@@ -1,4 +1,5 @@
-﻿# GENERATIONS_OF_DESCENDANTS 🗑 (Deprecated)
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# GENERATIONS_OF_DESCENDANTS 🗑 (Deprecated)
 ## Abstract
 &#x1F5D1; The number of generations of descendants included in this transmission. This value is usually provided
 when FamilySearch programs build a GEDCOM file for a patron requesting a download of descendants.

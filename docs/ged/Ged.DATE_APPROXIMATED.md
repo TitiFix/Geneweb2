@@ -1,4 +1,5 @@
-﻿# DATE_APPROXIMATED
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_APPROXIMATED
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

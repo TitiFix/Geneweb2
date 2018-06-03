@@ -1,4 +1,5 @@
-﻿# PLACE_LONGITUDE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_LONGITUDE
 ## Abstract
 The value specifying the longitudinal coordinate of the place name. The longitude coordinate is
 Degrees and fraction of degrees east or west of the zero or base meridian coordinate. For example:

@@ -1,4 +1,5 @@
-﻿# EVENT_TYPE_INDIVIDUAL
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# EVENT_TYPE_INDIVIDUAL
 ## Abstract
 A code used to indicate the type of family event.  The definition is the same as the corresponding
 event tag defined in Appendix.

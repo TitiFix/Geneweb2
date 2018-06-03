@@ -1,4 +1,5 @@
-﻿# FAMILY_EVENT_STRUCTURE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# FAMILY_EVENT_STRUCTURE
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions
@@ -29,6 +30,8 @@ Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

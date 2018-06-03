@@ -1,4 +1,5 @@
-﻿# NAME_OF_REPOSITORY
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_OF_REPOSITORY
 ## Abstract
 The official name of the archive in which the stated source material is stored.
 

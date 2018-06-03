@@ -1,4 +1,5 @@
-﻿# NUMBER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NUMBER
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

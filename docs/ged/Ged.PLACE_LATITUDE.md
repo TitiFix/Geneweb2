@@ -1,4 +1,5 @@
-﻿# PLACE_LATITUDE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_LATITUDE
 ## Abstract
 The value specifying the latitudinal coordinate of the place name. The latitude coordinate is the
 direction North or South from the equator in degrees and fraction of degrees carried out to give the

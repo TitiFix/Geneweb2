@@ -1,4 +1,5 @@
-﻿# DATE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

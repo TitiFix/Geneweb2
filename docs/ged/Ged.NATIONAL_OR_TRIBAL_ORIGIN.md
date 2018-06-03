@@ -1,4 +1,5 @@
-﻿# NATIONAL_OR_TRIBAL_ORIGIN
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NATIONAL_OR_TRIBAL_ORIGIN
 ## Abstract
 The person's division of national origin or other folk, house, kindred, lineage, or tribal interest.
 Examples: Irish, Swede, Egyptian Coptic, Sioux Dakota Rosebud, Apache Chiricawa, Navajo Bitter

@@ -1,4 +1,5 @@
-﻿# SOURCE_MEDIA_TYPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_MEDIA_TYPE
 ## Abstract
 A code, selected from one of the media classifications choices above, that indicates the type of
 material in which the referenced source is stored.

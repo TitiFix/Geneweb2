@@ -1,4 +1,5 @@
-﻿# PHONE_NUMBER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PHONE_NUMBER
 ## Abstract
 A phone number.
 

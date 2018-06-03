@@ -1,4 +1,5 @@
-﻿# COPYRIGHT_SOURCE_DATA
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# COPYRIGHT_SOURCE_DATA
 ## Abstract
 A copyright statement required by the owner of data from which this information was down- loaded.
 For example, when a GEDCOM down-load is requested from the Ancestral File, this would be the

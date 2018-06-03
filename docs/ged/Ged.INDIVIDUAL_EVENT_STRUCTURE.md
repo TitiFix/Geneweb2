@@ -1,4 +1,5 @@
-﻿# INDIVIDUAL_EVENT_STRUCTURE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# INDIVIDUAL_EVENT_STRUCTURE
 ## Abstract
 As a general rule, events are things that happen on a specific date. Use the date form ‘BET date
 AND date’ to indicate that an event took place at some time between two dates. Resist the
@@ -80,6 +81,8 @@ It is not proper GEDCOM form to use a N(o) value with an event tag to infer that
 A convention to handle events which never happened may be defined in the future.
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

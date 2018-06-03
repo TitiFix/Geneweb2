@@ -1,4 +1,5 @@
-﻿# PHYSICAL_DESCRIPTION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PHYSICAL_DESCRIPTION
 ## Abstract
 An unstructured list of the attributes that describe the physical characteristics of a person, place, or
 object. Commas separate each attribute.

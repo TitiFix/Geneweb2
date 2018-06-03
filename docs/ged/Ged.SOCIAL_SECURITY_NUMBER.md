@@ -1,4 +1,5 @@
-﻿# SOCIAL_SECURITY_NUMBER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOCIAL_SECURITY_NUMBER
 ## Abstract
 A number assigned to a person in the United States for identification purposes.
 

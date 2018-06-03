@@ -1,4 +1,5 @@
-﻿# ORDINANCE_PROCESS_FLAG
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ORDINANCE_PROCESS_FLAG
 ## Abstract
 &#x1F5D1; A flag that indicates whether submission should be processed for clearing temple ordinances.
 

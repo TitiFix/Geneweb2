@@ -1,4 +1,5 @@
-﻿# LDS_ENDOWMENT_DATE_STATUS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LDS_ENDOWMENT_DATE_STATUS
 ## Abstract
 A code indicating the status of an LDS endowment ordinance where:
 CHILD=Died before eight years old.

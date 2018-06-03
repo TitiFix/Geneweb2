@@ -1,4 +1,5 @@
-﻿# YEAR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# YEAR
 ## Abstract
 A numeric representation of the calendar year in which an event occurred.
 

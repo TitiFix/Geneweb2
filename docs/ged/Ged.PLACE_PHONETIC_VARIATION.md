@@ -1,4 +1,5 @@
-﻿# PLACE_PHONETIC_VARIATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_PHONETIC_VARIATION
 ## Abstract
 The phonetic variation of the place name is written in the same form as  was the place name used in
 the superior &lt;<a href=Ged.PLACE_NAME.md>PLACE_NAME</a>&gt; primitive, but phonetically written using the method indicated by the

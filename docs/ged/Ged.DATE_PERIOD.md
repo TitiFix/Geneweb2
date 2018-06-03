@@ -1,4 +1,5 @@
-﻿# DATE_PERIOD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_PERIOD
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

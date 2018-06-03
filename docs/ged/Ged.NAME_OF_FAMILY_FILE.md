@@ -1,4 +1,5 @@
-﻿# NAME_OF_FAMILY_FILE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_OF_FAMILY_FILE
 ## Abstract
 Name under which family names for ordinances are stored in the temple's family file.
 

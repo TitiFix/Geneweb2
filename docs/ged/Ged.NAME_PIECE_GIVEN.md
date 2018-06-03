@@ -1,4 +1,5 @@
-﻿# NAME_PIECE_GIVEN
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PIECE_GIVEN
 ## Abstract
 Given name or earned name. Different given names are separated by a comma.
 

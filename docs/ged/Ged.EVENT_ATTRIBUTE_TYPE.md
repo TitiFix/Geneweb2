@@ -1,4 +1,5 @@
-﻿# EVENT_ATTRIBUTE_TYPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# EVENT_ATTRIBUTE_TYPE
 ## Abstract
 A code that classifies the principal event or happening that caused the source record entry to be
 created.  If the event or attribute doesn't translate to one of these tag codes, then a user supplied value

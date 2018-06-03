@@ -1,4 +1,5 @@
-﻿# EVENT_DESCRIPTOR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# EVENT_DESCRIPTOR
 ## Abstract
 Text describing a particular event pertaining to the individual or family. This event value is usually
 assigned to the EVEN tag.  The classification as to the difference between this specific event and other

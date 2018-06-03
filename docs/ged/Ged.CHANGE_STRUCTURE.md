@@ -1,4 +1,5 @@
-﻿# CHANGE_STRUCTURE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CHANGE_STRUCTURE
 ## Abstract
 The change date is intended to only record the last change to a record.  Some systems may want to
 manage the change process with more detail, but it is sufficient for GEDCOM purposes to indicate
@@ -19,12 +20,14 @@ Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_R
 
 ## Geneweb behavior
 
+
+
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#chan>CHAN</a> |  | ignore | no | &#x1F4CD; import / export change date,see <a href=https://github.com/geneweb/geneweb/issues/605>Issue #605</a>
-+1 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ignore | no | 
-+2 <a href=Ged.GLOSSARY.md#time>TIME</a> |  hh:mm:ss.fs  | ignore | no | 
-+1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ? | ? | 
++2 <a href=Ged.GLOSSARY.md#time>TIME</a> |  hh:mm:ss.fs  | ? | ? | 
++1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 
 
 

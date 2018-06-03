@@ -1,4 +1,5 @@
-﻿# MONTH_HEBR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# MONTH_HEBR
 ## Abstract
 
 ## GEDCOM syntax and proprietary extensions

@@ -1,4 +1,5 @@
-﻿# SOURCE_CITATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_CITATION
 ## Abstract
 The data provided in the &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt; structure is source-related information specific to the data being cited. Systems that do not use a (SOURCE_RECORD)  must use the non-preferred second SOURce citation structure option.
 
@@ -19,7 +20,7 @@ The data provided in the &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION<
   +1 &lt;&lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt;&gt;{0:M}
   +1 &lt;&lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt;&gt;{0:M}
   +1 QUAY &lt;<a href=Ged.CERTAINTY_ASSESSMENT.md>CERTAINTY_ASSESSMENT</a>&gt;{0:1}
-|(* Systems not using source records *)
+| (* Systems not using source records *)
 <b>n SOUR &lt;<a href=Ged.SOURCE_DESCRIPTION.md>SOURCE_DESCRIPTION</a>&gt;{1:1}</b>
   +1 [CONC|CONT] &lt;<a href=Ged.SOURCE_DESCRIPTION.md>SOURCE_DESCRIPTION</a>&gt;{0:M}
   +1 TEXT &lt;<a href=Ged.TEXT_FROM_SOURCE.md>TEXT_FROM_SOURCE</a>&gt;{0:M}
@@ -49,17 +50,18 @@ recorded assertions (primary or secondary source, etc.).  Data needed for this a
 that would help determine  how much time from the date of the asserted fact and when the source
 was actually recorded, what type of event was cited, and what type of role did this person have in
 the cited source.
--Date when the entry was recorded in source document is stored in the
-".SOUR.DATA.DATE" tag context.
+-Date when the entry was recorded in source document is stored in the ".SOUR.DATA.DATE" tag context.
 -The type of event that initiated the recording is stored in the “SOUR.EVEN” tag context. The
 value used is the event code taken from the table of choices shown in the EVENT_TYPE_CITED_FROM primitive
 -The role of this person in the event is stored in the ".SOUR.EVEN.ROLE" context.
 
 ## Geneweb behavior
 
+
+
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | ignore | no | not support by GENEWEB &#x1F4CD; should read indirect &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE.md>SOURCE_DESCRIPTIVE_TITLE</a>&gt; (at least)
 +1 <a href=Ged.GLOSSARY.md#page>PAGE</a> | char{1:248} | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#even>EVEN</a> | &lt;<a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>&gt; | ? | ? | 
 +2 <a href=Ged.GLOSSARY.md#role>ROLE</a> | &lt;<a href=Ged.ROLE_IN_EVENT.md>ROLE_IN_EVENT</a>&gt; | ? | ? | 
@@ -70,13 +72,18 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> |  0 \| 1 \| 2 \| 3  | ? | ? | 
-+0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | char{1:248} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
+
+
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
+---------- | ------------- | :---------------: | :-----------------:| -----------
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | char{1:248} | yes | yes | 
++1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | yes | yes | 
 +1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | ? | ? | 
 +2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
 +1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> |  0 \| 1 \| 2 \| 3  | ? | ? | 
 
-🚧 to be continued/checked
+&lt;<a href=Ged.XREF_SOUR.md>XREF:SOUR</a>&gt; is readed and write into individual/family note is -iun ged2gwb option is used. Others datas are discard.
+
 

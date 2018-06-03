@@ -1,4 +1,5 @@
-﻿# EVENT_TYPE_CITED_FROM
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# EVENT_TYPE_CITED_FROM
 ## Abstract
 A code that indicates the type of event which was responsible for the source entry being recorded. For
 example, if the entry was created to record a birth of a child, then the type would be BIRT regardless

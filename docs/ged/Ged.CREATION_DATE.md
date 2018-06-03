@@ -1,4 +1,5 @@
-﻿# CREATION_DATE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CREATION_DATE
 ## Abstract
 The date when the GEDCOM file was created.
 

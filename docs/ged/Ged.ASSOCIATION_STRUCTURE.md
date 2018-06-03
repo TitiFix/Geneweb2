@@ -1,4 +1,5 @@
-﻿# ASSOCIATION_STRUCTURE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ASSOCIATION_STRUCTURE
 ## Abstract
 The association pointer only associates INDIvidual records to INDIvidual records. These structure may not be used for familial connections already expressed by the family tree (RELA value is not a father, mother, etc...)
 
@@ -17,6 +18,8 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

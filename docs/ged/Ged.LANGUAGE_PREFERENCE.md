@@ -1,4 +1,5 @@
-﻿# LANGUAGE_PREFERENCE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LANGUAGE_PREFERENCE
 ## Abstract
 The language in which a person prefers to communicate.  Multiple language preference is shown by using multiple occurrences in order of priority.
 

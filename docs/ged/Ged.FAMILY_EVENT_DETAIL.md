@@ -1,8 +1,10 @@
-﻿# FAMILY_EVENT_DETAIL
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# FAMILY_EVENT_DETAIL
 ## Abstract
 A further qualification to the meaning of the associated superior tag. The value does not have any
 computer processing reliability. It is more in the form of a short one or two word note that should be
 displayed any time the associated data is displayed.
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -28,6 +30,8 @@ Used in <a href=Ged.FAMILY_EVENT_STRUCTURE.md>FAMILY_EVENT_STRUCTURE</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

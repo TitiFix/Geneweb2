@@ -1,4 +1,5 @@
-﻿# DATE_VALUE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_VALUE
 ## Abstract
 The DATE_VALUE represents the date of an activity, attribute, or event where:
 INT=Interpreted from knowledge about the associated date phrase included in parentheses.

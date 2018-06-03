@@ -1,4 +1,5 @@
-﻿# ADDRESS_LINE2
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADDRESS_LINE2
 ## Abstract
 The second line of the address used for indexing.  This is the value of the first CONT line subordinate
 to the ADDR tag in the address structure.

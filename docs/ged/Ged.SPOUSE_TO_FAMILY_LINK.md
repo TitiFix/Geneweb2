@@ -1,4 +1,5 @@
-﻿# SPOUSE_TO_FAMILY_LINK
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SPOUSE_TO_FAMILY_LINK
 ## Abstract
 Primitive Elements of the Lineage-Linked Form
 The field sizes show the minimum recommended field length within a database that is constrained to fixed
@@ -21,6 +22,8 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

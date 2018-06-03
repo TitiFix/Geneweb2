@@ -1,4 +1,5 @@
-﻿# PERMANENT_RECORD_FILE_NUMBER 🗑 (Deprecated record)
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PERMANENT_RECORD_FILE_NUMBER 🗑 (Deprecated record)
 ## Abstract
 it is a user identifier for Ancestral File. Ancestral File is obsolete now, so RFN is obsolete too.
 

@@ -1,4 +1,5 @@
-﻿# XREF:FAM
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# XREF:FAM
 ## Abstract
 A pointer to, or a cross-reference identifier of, a FAMILY_RECORD.
 

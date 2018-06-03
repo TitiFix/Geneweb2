@@ -1,4 +1,5 @@
-﻿# ENTRY_RECORDING_DATE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ENTRY_RECORDING_DATE
 ## Abstract
 The date that this event data was entered into the original source document.
 

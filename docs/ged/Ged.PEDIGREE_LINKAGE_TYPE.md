@@ -1,4 +1,5 @@
-﻿# PEDIGREE_LINKAGE_TYPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PEDIGREE_LINKAGE_TYPE
 ## Abstract
 A code used to indicate the child to family relationship for pedigree navigation purposes.
 

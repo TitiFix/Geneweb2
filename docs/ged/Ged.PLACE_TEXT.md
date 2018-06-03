@@ -1,4 +1,5 @@
-﻿# PLACE_TEXT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_TEXT
 ## Abstract
 Text excluding the comma(s).
 

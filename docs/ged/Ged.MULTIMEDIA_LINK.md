@@ -1,4 +1,5 @@
-﻿# MULTIMEDIA_LINK
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# MULTIMEDIA_LINK
 ## Abstract
 An external multimedia file. The transfer of the multimedia files are external to GEDCOM. The 5.5 form with embedded objects are deprecated (BLOB Tag)
 
@@ -29,14 +30,24 @@ introduced in order to allow a grouping of related multimedia files to a particu
 
 ## Geneweb behavior
 
+
+
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> | @XREF{1:22}@ | ? | ? | 
+
+
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
+---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | ? | ? | 
 +2 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | ? | ? | 
 +3 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | ? | ? | 
+
+
+level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
+---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> |  | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | ? | ? | 

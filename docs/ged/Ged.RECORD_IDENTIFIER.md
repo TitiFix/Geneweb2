@@ -1,4 +1,5 @@
-﻿# RECORD_IDENTIFIER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# RECORD_IDENTIFIER
 ## Abstract
 An identification number assigned to each record within a specific database. The database to which the
 RECORD_IDENTIFIER pertains is indicated by the REGISTERED_RESOURCE_NUMBER which

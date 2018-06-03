@@ -1,4 +1,5 @@
-﻿# SUBMITTER_RECORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SUBMITTER_RECORD
 ## Abstract
 The submitter record identifies an individual or organization that contributed information contained
 in the GEDCOM transmission.
@@ -27,17 +28,19 @@ NOTE:
 
 ## Geneweb behavior
 
+
+
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#subm>SUBM</a> | @XREF{1:22}@ | ignore | missing &#x26A0; | Must be add to the header.
-+1 <a href=Ged.GLOSSARY.md#name>NAME</a> | char{1:60} | ignore | no | 
-+1  | &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt; | ignore | no | 
-+1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ignore | no | 
-+1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; | ignore | no | 
-+1 <a href=Ged.GLOSSARY.md#rfn>RFN</a> | 🗑 deprecated | ignore | no | 
-+1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ignore | no | 
-+1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ignore | no | 
-+1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#name>NAME</a> | char{1:60} | ? | ? | 
++1  | &lt;<a href=Ged.ADDRESS_STRUCTURE.md>ADDRESS_STRUCTURE</a>&gt; | ? | ? | 
++1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#lang>LANG</a> | &lt;<a href=Ged.LANGUAGE_ID.md>LANGUAGE_ID</a>&gt; | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#rfn>RFN</a> | 🗑 deprecated | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ? | ? | 
++1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
++1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ? | ? | 
 
 
 

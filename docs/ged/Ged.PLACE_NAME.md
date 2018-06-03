@@ -1,4 +1,5 @@
-﻿# PLACE_NAME
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_NAME
 ## Abstract
 The jurisdictional name of the place where the event took place. Jurisdictions are separated by
 commas, for example, "Cove, Cache, Utah, USA." If the actual jurisdictional names of these places

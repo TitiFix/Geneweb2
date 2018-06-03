@@ -1,4 +1,5 @@
-﻿# WHERE_WITHIN_SOURCE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# WHERE_WITHIN_SOURCE
 ## Abstract
 Specific location with in the information referenced. For a published work, this could include the
 volume of a multi-volume work and the page number(s). For a periodical, it could include volume,

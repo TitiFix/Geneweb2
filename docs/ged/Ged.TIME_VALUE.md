@@ -1,4 +1,5 @@
-﻿# TIME_VALUE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# TIME_VALUE
 ## Abstract
 The time of a specific event, usually a computer-timed event, where:
 hh=hours on a 24-hour clock

@@ -1,4 +1,5 @@
-﻿# ATTRIBUTE_DESCRIPTOR
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ATTRIBUTE_DESCRIPTOR
 ## Abstract
 Text describing a particular characteristic or attribute assigned to an individual. This attribute value is
 assigned to the FACT tag.  The classification of this specific attribute or fact is specified by the value

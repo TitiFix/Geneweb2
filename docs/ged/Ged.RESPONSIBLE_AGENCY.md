@@ -1,4 +1,5 @@
-﻿# RESPONSIBLE_AGENCY
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# RESPONSIBLE_AGENCY
 ## Abstract
 The organization, institution, corporation, person, or other entity that has responsibility for the
 associated context. For example, an employer of a person of an associated occupation, or a church

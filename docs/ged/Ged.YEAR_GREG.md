@@ -1,4 +1,5 @@
-﻿# YEAR_GREG
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# YEAR_GREG
 ## Abstract
 The slash "/" &lt;<a href=Ged.DIGIT.md>DIGIT</a>&gt;&lt;<a href=Ged.DIGIT.md>DIGIT</a>&gt; a year modifier which shows the possible date alternatives for pre-
 1752 date brought about by a changing the beginning of the year from MAR to JAN in the English

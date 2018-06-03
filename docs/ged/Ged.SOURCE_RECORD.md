@@ -1,4 +1,5 @@
-﻿# SOURCE_RECORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_RECORD
 ## Abstract
 Source records are used to provide a bibliographic description of the source cited.
 
@@ -38,9 +39,11 @@ NOTE: See the &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;
 
 ## Geneweb behavior
 
+
+
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | no | no | not support by GENEWEB &#x1F4CD; should read &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE.md>SOURCE_DESCRIPTIVE_TITLE</a>&gt; (at least)
 +1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | ? | ? | 
 +2 <a href=Ged.GLOSSARY.md#even>EVEN</a> | &lt;<a href=Ged.EVENTS_RECORDED.md>EVENTS_RECORDED</a>&gt; | ? | ? | 
 +3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_PERIOD.md>DATE_PERIOD</a>&gt; | ? | ? | 
@@ -64,5 +67,6 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
 
-🚧 to be continued/checked
+&lt;<a href=Ged.XREF_SOUR.md>XREF:SOUR</a>&gt; is readed and write into individual/family note is -iun ged2gwb option is used. Others datas are discard.
+
 

@@ -1,4 +1,5 @@
-﻿# RELIGIOUS_AFFILIATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# RELIGIOUS_AFFILIATION
 ## Abstract
 A name of the religion with which this person, event, or record was affiliated.
 

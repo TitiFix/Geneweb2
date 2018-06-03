@@ -1,4 +1,5 @@
-﻿# TEXT_FROM_SOURCE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# TEXT_FROM_SOURCE
 ## Abstract
 A verbatim copy of any description contained within the source. This indicates notes or text that are
 actually contained in the source document, not the submitter's opinion about the source. This should

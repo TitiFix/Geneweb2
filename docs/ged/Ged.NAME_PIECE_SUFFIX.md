@@ -1,4 +1,5 @@
-﻿# NAME_PIECE_SUFFIX
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PIECE_SUFFIX
 ## Abstract
 Non-indexing name piece that appears after the given name and surname parts. Different name suffix
 parts are separated by a comma.

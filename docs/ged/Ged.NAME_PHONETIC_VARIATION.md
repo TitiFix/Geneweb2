@@ -1,4 +1,5 @@
-﻿# NAME_PHONETIC_VARIATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PHONETIC_VARIATION
 ## Abstract
 The phonetic variation of the name is written in the same form as the was the name used in the
 superior &lt;<a href=Ged.NAME_PERSONAL.md>NAME_PERSONAL</a>&gt; primitive, but phonetically written using the method indicated by the

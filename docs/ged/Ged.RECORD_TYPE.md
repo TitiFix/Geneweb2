@@ -1,4 +1,5 @@
-﻿# RECORD_TYPE 🗑 (Deprecated record)
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# RECORD_TYPE 🗑 (Deprecated record)
 ## Abstract
 An indicator of the record type being pointed to or used. For example if in an ASSOciation.
 The record was suppressed in 5.5.1. Associations linking only individuals to each other. &#x1F6AB; do not use

@@ -1,4 +1,5 @@
-﻿# INDIVIDUAL_RECORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# INDIVIDUAL_RECORD
 ## Abstract
 The individual record is a compilation of facts, known or discovered, about an individual.  Sometimes
 these facts are from different sources.  This form allows documentation of the source where each of
@@ -52,6 +53,8 @@ For example:
 ' 2 RELA Godfather
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

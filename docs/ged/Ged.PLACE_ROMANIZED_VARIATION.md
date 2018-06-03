@@ -1,4 +1,5 @@
-﻿# PLACE_ROMANIZED_VARIATION
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_ROMANIZED_VARIATION
 ## Abstract
 The romanized variation of the place name is written in the same form prescribed for the place name
 used in the superior &lt;<a href=Ged.PLACE_NAME.md>PLACE_NAME</a>&gt; context. The method used to romanize the name is indicated

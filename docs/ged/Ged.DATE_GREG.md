@@ -1,4 +1,5 @@
-﻿# DATE_GREG
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_GREG
 ## Abstract
 See &lt;<a href=Ged.YEAR_GREG.md>YEAR_GREG</a>&gt; page 65.
 

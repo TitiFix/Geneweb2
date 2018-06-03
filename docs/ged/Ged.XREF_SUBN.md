@@ -1,6 +1,7 @@
-﻿# XREF:SUBN
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# XREF:SUBN 🗑 (Deprecated)
 ## Abstract
-A pointer to, or a cross-reference identifier of, a SUBmissioN record.
+&#x1F5D1; A pointer to, or a cross-reference identifier of, a SUBmissioN record.
 
 
 ## GEDCOM syntax and proprietary extensions

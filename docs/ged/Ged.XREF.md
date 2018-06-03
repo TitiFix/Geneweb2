@@ -1,4 +1,5 @@
-﻿# XREF
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# XREF
 ## Abstract
 Either a pointer or an unique cross-reference identifier. If this element appears before the tag in a
 GEDCOM line, then it is a cross-reference identifier. If it appears after the tag in a GEDCOM line,

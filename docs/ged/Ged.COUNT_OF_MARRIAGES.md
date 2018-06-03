@@ -1,4 +1,5 @@
-﻿# COUNT_OF_MARRIAGES
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# COUNT_OF_MARRIAGES
 ## Abstract
 The number of different families that this person was known to have been a member of as a spouse or
 parent, regardless of whether the associated families are represented in the GEDCOM file.

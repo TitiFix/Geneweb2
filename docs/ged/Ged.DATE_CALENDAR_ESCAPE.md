@@ -1,4 +1,5 @@
-﻿# DATE_CALENDAR_ESCAPE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_CALENDAR_ESCAPE
 ## Abstract
 The date escape determines the date interpretation by signifying which &lt;<a href=Ged.DATE_CALENDAR.md>DATE_CALENDAR</a>&gt; to use.
 The default calendar is the Gregorian calendar.

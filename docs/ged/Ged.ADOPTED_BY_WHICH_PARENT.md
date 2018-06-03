@@ -1,4 +1,5 @@
-﻿# ADOPTED_BY_WHICH_PARENT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADOPTED_BY_WHICH_PARENT
 ## Abstract
 A code which shows which parent in the associated family record adopted this person.
 

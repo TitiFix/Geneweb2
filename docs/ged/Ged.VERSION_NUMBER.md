@@ -1,4 +1,5 @@
-﻿# VERSION_NUMBER
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# VERSION_NUMBER
 ## Abstract
 An identifier that represents the version level assigned to the associated product. It is defined and
 changed by the creators of the product.

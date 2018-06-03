@@ -1,4 +1,5 @@
-﻿# CASTE_NAME
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CASTE_NAME
 ## Abstract
 A name assigned to a particular group that this person was associated with, such as a particular racial
 group, religious group, or a group with an inherited status.

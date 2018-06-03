@@ -1,4 +1,5 @@
-﻿# ADDRESS_STATE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADDRESS_STATE
 ## Abstract
 The name of the state used in the address. Isolated for sorting or indexing.
 

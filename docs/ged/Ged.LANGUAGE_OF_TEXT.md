@@ -1,4 +1,5 @@
-﻿# LANGUAGE_OF_TEXT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LANGUAGE_OF_TEXT
 ## Abstract
 The human language in which the data in the file is normally read or written.  It is used
 primarily by programs to select language-specific sorting sequences and phonetic name matching

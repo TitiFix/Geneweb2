@@ -1,4 +1,5 @@
-﻿# ADDRESS_POSTAL_CODE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# ADDRESS_POSTAL_CODE
 ## Abstract
 The ZIP or postal code used by the various localities in handling of mail.  Isolated for sorting or indexing.
 

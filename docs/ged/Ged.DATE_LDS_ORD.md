@@ -1,4 +1,5 @@
-﻿# DATE_LDS_ORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DATE_LDS_ORD
 ## Abstract
 LDS ordinance dates use only the Gregorian date and most often use the form of day, month, and
 year. Only in rare instances is there a partial date. The temple tag and code should always accompany

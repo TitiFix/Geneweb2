@@ -1,4 +1,5 @@
-﻿# NAME_PIECE_SURNAME_PREFIX
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PIECE_SURNAME_PREFIX
 ## Abstract
 Surname prefix or article used in a family name. Different surname articles are separated by a comma,
 for example in the name "de la Cruz", this value would be "de, la".

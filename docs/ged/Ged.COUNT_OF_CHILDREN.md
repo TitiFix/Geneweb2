@@ -1,4 +1,5 @@
-﻿# COUNT_OF_CHILDREN
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# COUNT_OF_CHILDREN
 ## Abstract
 The known number of children of this individual from all marriages or, if subordinate to a family
 record, the reported number of children known to belong to this family, regardless of whether the

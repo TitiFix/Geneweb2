@@ -1,4 +1,5 @@
-﻿# NAME_PIECE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# NAME_PIECE
 ## Abstract
 The piece of the name pertaining to the name part of interest. The surname part, the given name part,
 the name prefix part, or the name suffix part.

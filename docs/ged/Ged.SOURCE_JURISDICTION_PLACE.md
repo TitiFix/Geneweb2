@@ -1,4 +1,5 @@
-﻿# SOURCE_JURISDICTION_PLACE
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SOURCE_JURISDICTION_PLACE
 ## Abstract
 The name of the lowest jurisdiction that encompasses all lower-level places named in this source.  For
 example, "Oneida, Idaho" would be used as a source jurisdiction place for events occurring in the

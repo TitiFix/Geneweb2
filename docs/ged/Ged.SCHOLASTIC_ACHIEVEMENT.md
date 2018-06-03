@@ -1,4 +1,5 @@
-﻿# SCHOLASTIC_ACHIEVEMENT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# SCHOLASTIC_ACHIEVEMENT
 ## Abstract
 A description of a scholastic or educational achievement or pursuit.
 

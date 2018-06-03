@@ -1,4 +1,5 @@
-﻿# DIGIT
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# DIGIT
 ## Abstract
 A single digit (0-9).
 

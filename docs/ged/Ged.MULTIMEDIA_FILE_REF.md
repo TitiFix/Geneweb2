@@ -1,4 +1,5 @@
-﻿# MULTIMEDIA_FILE_REF
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# MULTIMEDIA_FILE_REF
 ## Abstract
 A complete local or remote file reference to the auxiliary data to be linked to the GEDCOM context.
 Remote reference would include a network address where the multimedia data may be obtained.

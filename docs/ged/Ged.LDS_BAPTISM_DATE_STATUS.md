@@ -1,4 +1,5 @@
-﻿# LDS_BAPTISM_DATE_STATUS
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LDS_BAPTISM_DATE_STATUS
 ## Abstract
 A code indicating the status of an LDS baptism and confirmation date
 

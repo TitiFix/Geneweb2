@@ -1,4 +1,5 @@
-﻿# FAMILY_RECORD
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# FAMILY_RECORD
 ## Abstract
 The FAMILY record is used to record marriages, common law marriages, and family unions caused by
 two people becoming the parents of a child.
@@ -31,6 +32,8 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 NOTE: There can be no more than one HUSB/father and one WIFE/mother listed in each FAMILY_RECORD. If, for example, a man participated in more than one family union, then he would appear in more than one FAMILY_RECORD. The family record structure assumes that the HUSB/father is male and WIFE/mother is female.
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

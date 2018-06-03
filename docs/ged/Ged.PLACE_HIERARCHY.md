@@ -1,4 +1,5 @@
-﻿# PLACE_HIERARCHY
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# PLACE_HIERARCHY
 ## Abstract
 This shows the jurisdictional entities that are named in a sequence from the lowest to the highest
 jurisdiction. The jurisdictions are separated by commas, and any jurisdiction's name that is missing is

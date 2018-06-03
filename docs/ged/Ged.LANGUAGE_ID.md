@@ -1,4 +1,5 @@
-﻿# LANGUAGE_ID
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# LANGUAGE_ID
 ## Abstract
 A table of valid language identification codes.
 

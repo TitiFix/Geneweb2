@@ -1,6 +1,8 @@
-﻿# CHILD_TO_FAMILY_LINK
+﻿<!-- licence GPL V2, cf https://github.com/TitiFix/geneweb -->
+# CHILD_TO_FAMILY_LINK
 ## Abstract
 Identifies the family in which an individual appears as a child.
+
 
 ## GEDCOM syntax and proprietary extensions
 
@@ -15,6 +17,8 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 
 
 ## Geneweb behavior
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
