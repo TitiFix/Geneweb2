@@ -23,6 +23,9 @@ Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a><br />
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -34,6 +37,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +2 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_EXACT.md>DATE_EXACT</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

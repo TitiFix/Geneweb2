@@ -32,6 +32,9 @@ Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a><br />
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -47,6 +50,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1  | &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt; | ? | ? | 
 +0 <a href=Ged.GLOSSARY.md#even>EVEN</a> | char{1:90}\|NULL | ? | ? | 
 +1  | &lt;<a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

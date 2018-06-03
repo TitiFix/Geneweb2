@@ -29,6 +29,3 @@ associated event. Any labels must come after their corresponding number, for exa
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

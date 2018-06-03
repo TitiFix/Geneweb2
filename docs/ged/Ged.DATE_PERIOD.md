@@ -25,6 +25,3 @@ TO 1915
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

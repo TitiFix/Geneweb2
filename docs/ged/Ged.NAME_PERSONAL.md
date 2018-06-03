@@ -34,6 +34,3 @@ William Lee /Pa.../
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

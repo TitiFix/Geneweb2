@@ -28,6 +28,3 @@ JAN 1920BET 1 JAN 1920 AND 31 JAN 1920
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

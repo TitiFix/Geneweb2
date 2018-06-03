@@ -29,6 +29,9 @@ Used in <a href=Ged.INDIVIDUAL_ATTRIBUTE_STRUCTURE.md>INDIVIDUAL_ATTRIBUTE_STRUC
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -44,6 +47,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +0  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ? | ? | 
 +0  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
 +0 <a href=Ged.GLOSSARY.md#age>AGE</a> | &lt;<a href=Ged.AGE_AT_EVENT.md>AGE_AT_EVENT</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

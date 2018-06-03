@@ -14,6 +14,3 @@ Used in <a href=Ged.CHANGE_DATE.md>CHANGE_DATE</a>, <a href=Ged.PUBLICATION_DATE
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

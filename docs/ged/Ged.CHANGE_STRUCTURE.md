@@ -21,6 +21,9 @@ Used in <a href=Ged.FAMILY_RECORD.md>FAMILY_RECORD</a>, <a href=Ged.INDIVIDUAL_R
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

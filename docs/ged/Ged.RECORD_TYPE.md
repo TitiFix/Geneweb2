@@ -17,6 +17,3 @@ Used in <a href=Ged.ASSOCIATION_STRUCTURE.md>ASSOCIATION_STRUCTURE</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

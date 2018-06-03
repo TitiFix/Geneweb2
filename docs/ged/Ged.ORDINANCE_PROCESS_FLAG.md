@@ -16,6 +16,3 @@ Used in <a href=Ged.SUBMISSION_RECORD.md>SUBMISSION_RECORD</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

@@ -18,6 +18,3 @@ Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

@@ -25,6 +25,9 @@ Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -36,6 +39,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +0 <a href=Ged.GLOSSARY.md#nsfx>NSFX</a> | &lt;<a href=Ged.NAME_PIECE_SUFFIX.md>NAME_PIECE_SUFFIX</a>&gt; | ? | ? | 
 +0  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 +0  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

@@ -58,6 +58,9 @@ value used is the event code taken from the table of choices shown in the EVENT_
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -72,6 +75,9 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> |  0 \| 1 \| 2 \| 3  | ? | ? | 
+
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
 
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 

@@ -17,6 +17,3 @@ EST=Estimated based on an algorithm using some other event date.
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

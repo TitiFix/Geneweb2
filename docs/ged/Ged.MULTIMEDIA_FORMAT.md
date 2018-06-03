@@ -18,6 +18,3 @@ Used in <a href=Ged.MULTIMEDIA_RECORD.md>MULTIMEDIA_RECORD</a>, <a href=Ged.MULT
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

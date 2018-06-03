@@ -30,6 +30,3 @@ NOTE:
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

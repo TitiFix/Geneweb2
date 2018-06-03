@@ -14,6 +14,3 @@ Used in <a href=Ged.YEAR_GREG.md>YEAR_GREG</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

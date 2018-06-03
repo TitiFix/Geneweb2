@@ -27,6 +27,3 @@ COMP=JOUR_COMPLEMENTAIRS
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

@@ -25,6 +25,3 @@ Date EscapeSyntax Selected
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

@@ -25,6 +25,3 @@ Where:
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

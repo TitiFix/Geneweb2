@@ -21,6 +21,3 @@ BOTH=Both HUSBand and WIFE adopted this person.
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

@@ -24,6 +24,3 @@ Used in <a href=Ged.LDS_INDIVIDUAL_ORDINANCE.md>LDS_INDIVIDUAL_ORDINANCE</a><br 
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

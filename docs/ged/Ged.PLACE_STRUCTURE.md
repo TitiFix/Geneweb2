@@ -27,6 +27,9 @@ Used in <a href=Ged.FAMILY_EVENT_DETAIL.md>FAMILY_EVENT_DETAIL</a>, <a href=Ged.
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -41,6 +44,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +2 <a href=Ged.GLOSSARY.md#long>LONG</a> | char{5:8} | ? | ? | 
 +1  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

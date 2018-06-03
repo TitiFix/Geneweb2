@@ -16,6 +16,3 @@ Used in <a href=Ged.PERSONAL_NAME_PIECES.md>PERSONAL_NAME_PIECES</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

@@ -19,6 +19,3 @@ Used in <a href=Ged.PLACE_STRUCTURE.md>PLACE_STRUCTURE</a>, <a href=Ged.PLACE_LI
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

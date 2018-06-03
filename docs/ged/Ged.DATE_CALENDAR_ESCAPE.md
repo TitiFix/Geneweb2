@@ -17,6 +17,3 @@ Used in <a href=Ged.DATE.md>DATE</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

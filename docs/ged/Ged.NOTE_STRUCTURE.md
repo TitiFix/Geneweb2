@@ -23,6 +23,9 @@ NOTE: see special considerations required when using the &lt;<a href=Ged.GLOSSAR
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------

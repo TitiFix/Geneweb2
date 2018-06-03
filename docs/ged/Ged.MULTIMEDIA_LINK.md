@@ -31,10 +31,16 @@ introduced in order to allow a grouping of related multimedia files to a particu
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#obje>OBJE</a> | @XREF{1:22}@ | ? | ? | 
+
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
 
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
@@ -45,6 +51,9 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | ? | ? | 
 +3 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | ? | ? | 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -53,6 +62,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#form>FORM</a> |  bmp \| gif \| jpg \| ole \| pcx \| tif \| wav  | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#file>FILE</a> | char{1:30} | ? | ? | 
 +2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | ? | ? | 
-
-🚧 to be continued/checked
-

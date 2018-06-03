@@ -20,6 +20,9 @@ Used in <a href=Ged.INDIVIDUAL_RECORD.md>INDIVIDUAL_RECORD</a><br />
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -28,6 +31,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#rela>RELA</a> | 0 INDI | ? | ? | 
 +1  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ? | ? | 
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

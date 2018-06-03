@@ -27,6 +27,3 @@ ELL=Elul
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

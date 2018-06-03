@@ -26,6 +26,3 @@ DEC=December
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

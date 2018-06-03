@@ -23,6 +23,3 @@ Used in <a href=Ged.LDS_SPOUSE_SEALING.md>LDS_SPOUSE_SEALING</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

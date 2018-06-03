@@ -27,6 +27,9 @@ Used in <a href=Ged.SOURCE_RECORD.md>SOURCE_RECORD</a><br />
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -34,6 +37,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
 +1 <a href=Ged.GLOSSARY.md#caln>CALN</a> | char{1:120} | ? | ? | 
 +2 <a href=Ged.GLOSSARY.md#medi>MEDI</a> |  audio \| book \| card \| electronic \| fiche \| film \| magazine \| manuscript \| map \| newspaper \| photo \| tombstone \| video  | ? | ? | 
-
-🚧 to be continued/checked
-

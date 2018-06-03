@@ -18,6 +18,3 @@ Used in <a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>, <a href=
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

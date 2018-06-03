@@ -22,6 +22,3 @@ Used in <a href=Ged.PERSONAL_NAME_STRUCTURE.md>PERSONAL_NAME_STRUCTURE</a><br />
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

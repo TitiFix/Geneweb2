@@ -16,6 +16,3 @@ Used in <a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>, <a href=Ged.LDS_IN
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

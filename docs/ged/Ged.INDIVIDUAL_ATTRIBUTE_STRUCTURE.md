@@ -63,6 +63,9 @@ with each of the above tags used in this structure.
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -95,6 +98,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1  | &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt; | ? | ? | 
 +0 <a href=Ged.GLOSSARY.md#fact>FACT</a> | char{1:90} | ? | ? | 
 +1  | &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

@@ -35,6 +35,9 @@ NOTE:
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -47,6 +50,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1 <a href=Ged.GLOSSARY.md#romn>ROMN</a> | char{1:120} | ? | ? | 
 +2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | &lt;<a href=Ged.ROMANIZED_TYPE.md>ROMANIZED_TYPE</a>&gt; | ? | ? | 
 +2  | &lt;<a href=Ged.PERSONAL_NAME_PIECES.md>PERSONAL_NAME_PIECES</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

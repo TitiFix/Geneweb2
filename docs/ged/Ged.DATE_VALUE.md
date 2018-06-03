@@ -25,6 +25,3 @@ been assigned to the precision of the prefixes such as ABT or EST.
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

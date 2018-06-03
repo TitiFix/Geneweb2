@@ -83,6 +83,9 @@ A convention to handle events which never happened may be defined in the future.
 ## Geneweb behavior
 
 
+🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
+
+
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
@@ -109,6 +112,3 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 +1  | &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt; | ? | ? | 
 +0 <a href=Ged.GLOSSARY.md#even>EVEN</a> | char{1:90}\|NULL | ? | ? | 
 +1  | &lt;<a href=Ged.INDIVIDUAL_EVENT_DETAIL.md>INDIVIDUAL_EVENT_DETAIL</a>&gt; | ? | ? | 
-
-🚧 to be continued/checked
-

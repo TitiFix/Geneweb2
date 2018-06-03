@@ -23,6 +23,3 @@ would find it in the indicated database within a network. .
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-

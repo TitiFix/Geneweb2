@@ -20,6 +20,3 @@ Used in <a href=Ged.HEADER_RECORD.md>HEADER_RECORD</a>, <a href=Ged.CHANGE_STRUC
 ## Geneweb behavior
 
 
-
-🚧 to be continued/checked
-
