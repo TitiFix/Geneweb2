@@ -22,16 +22,16 @@ Used in <a href=Ged.LINEAGE_LINKED_STRUCTURE.md>LINEAGE_LINKED_STRUCTURE</a><br 
 ## Geneweb behavior
 
 
-🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
-
-
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | 🗑 deprecated | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | 🗑 deprecated | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ? | ? | 
-+1  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ? | ? | 
-+1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | yes | no &#x1F4CD; | It's must be useful to separate multi notes for note sharing
++1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | yes | no &#x1F4CD; | 
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | 🗑 deprecated | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | 🗑 deprecated | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ignore | no | 
++1  | &lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt; | ignore | no | 
++1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ignore | no | 
+
+
+

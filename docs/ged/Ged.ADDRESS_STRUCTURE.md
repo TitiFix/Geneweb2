@@ -35,25 +35,22 @@ these lines are not to be used in lieu of the required ADDR.and CONT line struct
 ## Geneweb behavior
 
 
-🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
-
-
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | char{1:60} | no | only in HEADER_RECORD | 
-+1 <a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:60} | no | only in HEADER_RECORD | 
-+1 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | char{1:60} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | char{1:60} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | char{1:60} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#city>CITY</a> | char{1:60} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#stae>STAE</a> | char{1:60} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#post>POST</a> | char{1:10} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | char{1:60} | ? | ? | 
-+0 <a href=Ged.GLOSSARY.md#phon>PHON</a> | char{1:25} | ? | ? | 
-+0 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | char{5:120} | ? | ? | 
-+0 <a href=Ged.GLOSSARY.md#fax>FAX</a> | char{5:60} | ? | ? | 
-+0 <a href=Ged.GLOSSARY.md#www>WWW</a> | char{5:120} | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#addr>ADDR</a> | char{1:60} | ignore | only in HEADER_RECORD | geneweb address
++1 <a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:60} | ignore | only in HEADER_RECORD | 
++1 <a href=Ged.GLOSSARY.md#adr1>ADR1</a> | char{1:60} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#adr2>ADR2</a> | char{1:60} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#adr3>ADR3</a> | char{1:60} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#city>CITY</a> | char{1:60} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#stae>STAE</a> | char{1:60} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#post>POST</a> | char{1:10} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#ctry>CTRY</a> | char{1:60} | ignore | no | 
++0 <a href=Ged.GLOSSARY.md#phon>PHON</a> | char{1:25} | ignore | no | 
++0 <a href=Ged.GLOSSARY.md#email>EMAIL</a> | char{5:120} | ignore | no | 
++0 <a href=Ged.GLOSSARY.md#fax>FAX</a> | char{5:60} | ignore | no | 
++0 <a href=Ged.GLOSSARY.md#www>WWW</a> | char{5:120} | ignore | no | 
 
 Geneweb have no address field in database. So ADDR et subsequent tags (PHON, ...) are ignored.
 

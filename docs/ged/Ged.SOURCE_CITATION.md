@@ -65,16 +65,16 @@ value used is the event code taken from the table of choices shown in the EVENT_
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | ignore | no | not support by GENEWEB &#x1F4CD; should read indirect &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE.md>SOURCE_DESCRIPTIVE_TITLE</a>&gt; (at least)
-+1 <a href=Ged.GLOSSARY.md#page>PAGE</a> | char{1:248} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#even>EVEN</a> | &lt;<a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>&gt; | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#role>ROLE</a> | &lt;<a href=Ged.ROLE_IN_EVENT.md>ROLE_IN_EVENT</a>&gt; | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_VALUE.md>DATE_VALUE</a>&gt; | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#page>PAGE</a> | char{1:248} | ? | ? | ged2gw to check
++1 <a href=Ged.GLOSSARY.md#even>EVEN</a> | &lt;<a href=Ged.EVENT_TYPE_CITED_FROM.md>EVENT_TYPE_CITED_FROM</a>&gt; | ? | ? | ged2gw to check
++2 <a href=Ged.GLOSSARY.md#role>ROLE</a> | &lt;<a href=Ged.ROLE_IN_EVENT.md>ROLE_IN_EVENT</a>&gt; | ? | ? | ged2gw to check
++1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | ? | ? | ged2gw to check
++2 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_VALUE.md>DATE_VALUE</a>&gt; | ? | ? | ged2gw to check
++2 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | ? | ? | ged2gw to check
 +3 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
-+1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
-+1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> |  0 \| 1 \| 2 \| 3  | ? | ? | 
++1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | ged2gw to check
++1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | ged2gw to check
++1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> |  0 \| 1 \| 2 \| 3  | ? | ? | ged2gw to check
 
 🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
 
@@ -84,11 +84,11 @@ level tag  | Attribut type or value | Import behavior | Export behavior  | Comme
 ---------- | ------------- | :---------------: | :-----------------:| -----------
 +0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | char{1:248} | yes | yes | 
 +1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | yes | yes | 
-+1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | ? | ? | 
++1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | ? | ? | ged2gw to check
 +2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
-+1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
-+1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> |  0 \| 1 \| 2 \| 3  | ? | ? | 
++1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | ged2gw to check
++1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | ged2gw to check
++1 <a href=Ged.GLOSSARY.md#quay>QUAY</a> |  0 \| 1 \| 2 \| 3  | ? | ? | ged2gw to check
 
 &lt;<a href=Ged.XREF_SOUR.md>XREF:SOUR</a>&gt; is readed and write into individual/family note is -iun ged2gwb option is used. Others datas are discard.
 

@@ -23,13 +23,10 @@ NOTE: see special considerations required when using the &lt;<a href=Ged.GLOSSAR
 ## Geneweb behavior
 
 
-🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
-
-
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | yes | no &#x1F4CD; | It's must be useful to separate multi notes by &lt;hr&gt; tag separate note durant export.
++0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | @XREF{1:22}@ | yes | no &#x1F4CD; | It's must be useful to separate multi notes for note sharing
 +0 <a href=Ged.GLOSSARY.md#note>NOTE</a> | char{1:248}\|NULL | yes | yes | export with text cut to 78 characters each CONC tag needed.
 +1 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | yes | yes | 
 

@@ -40,35 +40,32 @@ NOTE: See the &lt;&lt;<a href=Ged.SOURCE_CITATION.md>SOURCE_CITATION</a>&gt;&gt;
 ## Geneweb behavior
 
 
-🚧 UNDER CONSTRUCTION : to be continued/checked 🚧 
-
-
 
 level tag  | Attribut type or value | Import behavior | Export behavior  | Comment 
 ---------- | ------------- | :---------------: | :-----------------:| -----------
-+0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | no | no | not support by GENEWEB &#x1F4CD; should read &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE.md>SOURCE_DESCRIPTIVE_TITLE</a>&gt; (at least)
-+1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#even>EVEN</a> | &lt;<a href=Ged.EVENTS_RECORDED.md>EVENTS_RECORDED</a>&gt; | ? | ? | 
-+3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_PERIOD.md>DATE_PERIOD</a>&gt; | ? | ? | 
-+3 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | &lt;<a href=Ged.PLACE_NAME.md>PLACE_NAME</a>&gt; | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#agnc>AGNC</a> | char{1:120} | ? | ? | 
-+2  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#auth>AUTH</a> | char{1:248} | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#abbr>ABBR</a> | char{ 1:60} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#publ>PUBL</a> | char{1:248} | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ? | ? | 
-+1  | &lt;<a href=Ged.SOURCE_REPOSITORY_CITATION.md>SOURCE_REPOSITORY_CITATION</a>&gt; | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | 🗑 deprecated | ? | ? | 
-+2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | 🗑 deprecated | ? | ? | 
-+1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ? | ? | 
-+1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ? | ? | 
-+1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ? | ? | 
-+1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ? | ? | 
++0 <a href=Ged.GLOSSARY.md#sour>SOUR</a> | @XREF{1:22}@ | ignore | no | not support by GENEWEB &#x1F4CD; should read &lt;<a href=Ged.SOURCE_DESCRIPTIVE_TITLE.md>SOURCE_DESCRIPTIVE_TITLE</a>&gt; (at least)
++1 <a href=Ged.GLOSSARY.md#data>DATA</a> |  | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#even>EVEN</a> | &lt;<a href=Ged.EVENTS_RECORDED.md>EVENTS_RECORDED</a>&gt; | ignore | no | 
++3 <a href=Ged.GLOSSARY.md#date>DATE</a> | &lt;<a href=Ged.DATE_PERIOD.md>DATE_PERIOD</a>&gt; | ignore | no | 
++3 <a href=Ged.GLOSSARY.md#plac>PLAC</a> | &lt;<a href=Ged.PLACE_NAME.md>PLACE_NAME</a>&gt; | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#agnc>AGNC</a> | char{1:120} | ignore | no | 
++2  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#auth>AUTH</a> | char{1:248} | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#titl>TITL</a> | char{1:248} | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#abbr>ABBR</a> | char{ 1:60} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#publ>PUBL</a> | char{1:248} | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#text>TEXT</a> | char{1:248} | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#conc>CONC</a>\|<a href=Ged.GLOSSARY.md#cont>CONT</a> | char{1:248} | ignore | no | 
++1  | &lt;<a href=Ged.SOURCE_REPOSITORY_CITATION.md>SOURCE_REPOSITORY_CITATION</a>&gt; | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#refn>REFN</a> | 🗑 deprecated | ignore | no | 
++2 <a href=Ged.GLOSSARY.md#type>TYPE</a> | 🗑 deprecated | ignore | no | 
++1 <a href=Ged.GLOSSARY.md#rin>RIN</a> | char{1:12} | ignore | no | 
++1  | &lt;<a href=Ged.CHANGE_STRUCTURE.md>CHANGE_STRUCTURE</a>&gt; | ignore | no | 
++1  | &lt;<a href=Ged.NOTE_STRUCTURE.md>NOTE_STRUCTURE</a>&gt; | ignore | no | 
++1  | &lt;<a href=Ged.MULTIMEDIA_LINK.md>MULTIMEDIA_LINK</a>&gt; | ignore | no | 
 
 &lt;<a href=Ged.XREF_SOUR.md>XREF:SOUR</a>&gt; is readed and write into individual/family note is -iun ged2gwb option is used. Others datas are discard.
 
