@@ -1,6 +1,6 @@
-# GeneWeb
+# Documentation import/export GENEWEB
 
-GeneWeb is an open source genealogy software written in OCaml. It comes
-with a Web interface and can be used off-line or as a Web service.
+> Description de version et problème connus : [VERSION_DESCRIPTION](VERSION_DESCRIPTION.md)
 
-## Documentation
+> Syntaxe GEDCOM et implémentation par GENEWEB : [Ged.LINEAGE_LINKED_STRUCTURE](ged/Ged.LINEAGE_LINKED_STRUCTURE.md)
+
